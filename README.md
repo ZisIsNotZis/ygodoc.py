@@ -2,7 +2,7 @@
 
 ## Usage
 ```
-git clone https://github.com/Fluorohydride/ygodoc
+git clone https://github.com/ZisIsNotZis/ygodoc
 git clone https://github.com/Fluorohydride/ygopro
 cd ygopro
 ../ygodoc/ygodoc.py > ../ygodoc/ygodoc.h
