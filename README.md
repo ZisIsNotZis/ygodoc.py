@@ -1,12 +1,16 @@
 # ygodoc.py: Generate Ygopro/ocgcore Lua skeleton by parsing ocgcore/lib*.cpp
 
 ## Usage
-```
+```sh
 git clone https://github.com/ZisIsNotZis/ygodoc
 git clone https://github.com/Fluorohydride/ygopro
 cd ygopro
-../ygodoc/ygodoc.py > ../ygodoc/ygodoc.h
+../ygodoc/ygodoc.py > ygodoc.h
+
+cat ygodoc.h #c++ stype lua skeleton
+cat ygo.sublime-completions #sublime text completion file
 ```
+
 ## Notation
 * `obj`: `card` | `group` | `effect`
 * `val`: `int` | `bool` | `str` | `table`
