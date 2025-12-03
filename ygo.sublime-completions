@@ -2,2216 +2,2216 @@
   "scope": "source.lua",
   "completions": [
     {
-      "trigger": "Card.GetCode",
-      "contents": "Card.GetCode(${1:pcard})",
+      "trigger": "GetCode",
+      "contents": "GetCode()",
       "description": "int Card.GetCode(card pcard)",
       "details": "int Card.GetCode(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginCode",
-      "contents": "Card.GetOriginCode(${1:pcard})",
+      "trigger": "GetOriginCode",
+      "contents": "GetOriginCode()",
       "description": "int Card.GetOriginCode(card pcard)",
       "details": "int Card.GetOriginCode(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginCodeRule",
-      "contents": "Card.GetOriginCodeRule(${1:pcard})",
+      "trigger": "GetOriginCodeRule",
+      "contents": "GetOriginCodeRule()",
       "description": "int Card.GetOriginCodeRule(card pcard)",
       "details": "int Card.GetOriginCodeRule(card pcard)"
     },
     {
-      "trigger": "Card.GetFusionCode",
-      "contents": "Card.GetFusionCode(${1:pcard})",
+      "trigger": "GetFusionCode",
+      "contents": "GetFusionCode()",
       "description": "int Card.GetFusionCode(card pcard)",
       "details": "int Card.GetFusionCode(card pcard)"
     },
     {
-      "trigger": "Card.GetLinkCode",
-      "contents": "Card.GetLinkCode(${1:pcard})",
+      "trigger": "GetLinkCode",
+      "contents": "GetLinkCode()",
       "description": "int Card.GetLinkCode(card pcard)",
       "details": "int Card.GetLinkCode(card pcard)"
     },
     {
-      "trigger": "Card.IsFusionCode",
-      "contents": "Card.IsFusionCode(${1:pcard}, ${2:tcode})",
+      "trigger": "IsFusionCode",
+      "contents": "IsFusionCode(${1:tcode})",
       "description": "bool Card.IsFusionCode(card pcard, nil|int tcode)",
       "details": "bool Card.IsFusionCode(card pcard, nil|int tcode)"
     },
     {
-      "trigger": "Card.IsLinkCode",
-      "contents": "Card.IsLinkCode(${1:pcard}, ${2:tcode})",
+      "trigger": "IsLinkCode",
+      "contents": "IsLinkCode(${1:tcode})",
       "description": "bool Card.IsLinkCode(card pcard, nil|int tcode)",
       "details": "bool Card.IsLinkCode(card pcard, nil|int tcode)"
     },
     {
-      "trigger": "Card.IsSetCard",
-      "contents": "Card.IsSetCard(${1:pcard}, ${2:set_code})",
+      "trigger": "IsSetCard",
+      "contents": "IsSetCard(${1:set_code})",
       "description": "bool Card.IsSetCard(card pcard, nil|int set_code)",
       "details": "bool Card.IsSetCard(card pcard, nil|int set_code)"
     },
     {
-      "trigger": "Card.IsOriginSetCard",
-      "contents": "Card.IsOriginSetCard(${1:pcard}, ${2:set_code})",
+      "trigger": "IsOriginSetCard",
+      "contents": "IsOriginSetCard(${1:set_code})",
       "description": "bool Card.IsOriginSetCard(card pcard, nil|int set_code)",
       "details": "bool Card.IsOriginSetCard(card pcard, nil|int set_code)"
     },
     {
-      "trigger": "Card.IsPreSetCard",
-      "contents": "Card.IsPreSetCard(${1:pcard}, ${2:set_code})",
+      "trigger": "IsPreSetCard",
+      "contents": "IsPreSetCard(${1:set_code})",
       "description": "bool Card.IsPreSetCard(card pcard, nil|int set_code)",
       "details": "bool Card.IsPreSetCard(card pcard, nil|int set_code)"
     },
     {
-      "trigger": "Card.IsFusionSetCard",
-      "contents": "Card.IsFusionSetCard(${1:pcard}, ${2:set_code})",
+      "trigger": "IsFusionSetCard",
+      "contents": "IsFusionSetCard(${1:set_code})",
       "description": "bool Card.IsFusionSetCard(card pcard, nil|int set_code)",
       "details": "bool Card.IsFusionSetCard(card pcard, nil|int set_code)"
     },
     {
-      "trigger": "Card.IsLinkSetCard",
-      "contents": "Card.IsLinkSetCard(${1:pcard}, ${2:set_code})",
+      "trigger": "IsLinkSetCard",
+      "contents": "IsLinkSetCard(${1:set_code})",
       "description": "bool Card.IsLinkSetCard(card pcard, nil|int set_code)",
       "details": "bool Card.IsLinkSetCard(card pcard, nil|int set_code)"
     },
     {
-      "trigger": "Card.IsSpecialSummonSetCard",
-      "contents": "Card.IsSpecialSummonSetCard(${1:pcard}, ${2:set_code})",
+      "trigger": "IsSpecialSummonSetCard",
+      "contents": "IsSpecialSummonSetCard(${1:set_code})",
       "description": "bool Card.IsSpecialSummonSetCard(card pcard, nil|int set_code)",
       "details": "bool Card.IsSpecialSummonSetCard(card pcard, nil|int set_code)"
     },
     {
-      "trigger": "Card.GetType",
-      "contents": "Card.GetType(${1:pcard})",
+      "trigger": "GetType",
+      "contents": "GetType()",
       "description": "int Card.GetType(card pcard)",
       "details": "int Card.GetType(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginType",
-      "contents": "Card.GetOriginType(${1:pcard})",
+      "trigger": "GetOriginType",
+      "contents": "GetOriginType()",
       "description": "int Card.GetOriginType(card pcard)",
       "details": "int Card.GetOriginType(card pcard)"
     },
     {
-      "trigger": "Card.GetFusionType",
-      "contents": "Card.GetFusionType(${1:pcard})",
+      "trigger": "GetFusionType",
+      "contents": "GetFusionType()",
       "description": "int Card.GetFusionType(card pcard)",
       "details": "int Card.GetFusionType(card pcard)"
     },
     {
-      "trigger": "Card.GetSynchroType",
-      "contents": "Card.GetSynchroType(${1:pcard})",
+      "trigger": "GetSynchroType",
+      "contents": "GetSynchroType()",
       "description": "int Card.GetSynchroType(card pcard)",
       "details": "int Card.GetSynchroType(card pcard)"
     },
     {
-      "trigger": "Card.GetXyzType",
-      "contents": "Card.GetXyzType(${1:pcard})",
+      "trigger": "GetXyzType",
+      "contents": "GetXyzType()",
       "description": "int Card.GetXyzType(card pcard)",
       "details": "int Card.GetXyzType(card pcard)"
     },
     {
-      "trigger": "Card.GetLinkType",
-      "contents": "Card.GetLinkType(${1:pcard})",
+      "trigger": "GetLinkType",
+      "contents": "GetLinkType()",
       "description": "int Card.GetLinkType(card pcard)",
       "details": "int Card.GetLinkType(card pcard)"
     },
     {
-      "trigger": "Card.GetLevel",
-      "contents": "Card.GetLevel(${1:pcard})",
+      "trigger": "GetLevel",
+      "contents": "GetLevel()",
       "description": "int Card.GetLevel(card pcard)",
       "details": "int Card.GetLevel(card pcard)"
     },
     {
-      "trigger": "Card.GetRank",
-      "contents": "Card.GetRank(${1:pcard})",
+      "trigger": "GetRank",
+      "contents": "GetRank()",
       "description": "int Card.GetRank(card pcard)",
       "details": "int Card.GetRank(card pcard)"
     },
     {
-      "trigger": "Card.GetLink",
-      "contents": "Card.GetLink(${1:pcard})",
+      "trigger": "GetLink",
+      "contents": "GetLink()",
       "description": "int Card.GetLink(card pcard)",
       "details": "int Card.GetLink(card pcard)"
     },
     {
-      "trigger": "Card.GetSynchroLevel",
-      "contents": "Card.GetSynchroLevel(${1:pcard}, ${2:scard})",
+      "trigger": "GetSynchroLevel",
+      "contents": "GetSynchroLevel(${1:scard})",
       "description": "int Card.GetSynchroLevel(card pcard, card scard)",
       "details": "int Card.GetSynchroLevel(card pcard, card scard)"
     },
     {
-      "trigger": "Card.GetRitualLevel",
-      "contents": "Card.GetRitualLevel(${1:pcard}, ${2:scard})",
+      "trigger": "GetRitualLevel",
+      "contents": "GetRitualLevel(${1:scard})",
       "description": "int Card.GetRitualLevel(card pcard, card scard)",
       "details": "int Card.GetRitualLevel(card pcard, card scard)"
     },
     {
-      "trigger": "Card.GetOriginLevel",
-      "contents": "Card.GetOriginLevel(${1:pcard})",
+      "trigger": "GetOriginLevel",
+      "contents": "GetOriginLevel()",
       "description": "int Card.GetOriginLevel(card pcard)",
       "details": "int Card.GetOriginLevel(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginRank",
-      "contents": "Card.GetOriginRank(${1:pcard})",
+      "trigger": "GetOriginRank",
+      "contents": "GetOriginRank()",
       "description": "int Card.GetOriginRank(card pcard)",
       "details": "int Card.GetOriginRank(card pcard)"
     },
     {
-      "trigger": "Card.IsXyzLevel",
-      "contents": "Card.IsXyzLevel(${1:pcard}, ${2:xyzcard}, ${3:lv})",
+      "trigger": "IsXyzLevel",
+      "contents": "IsXyzLevel(${1:xyzcard}, ${2:lv})",
       "description": "bool Card.IsXyzLevel(card pcard, card xyzcard, int lv)",
       "details": "bool Card.IsXyzLevel(card pcard, card xyzcard, int lv)"
     },
     {
-      "trigger": "Card.GetLscale",
-      "contents": "Card.GetLscale(${1:pcard})",
+      "trigger": "GetLscale",
+      "contents": "GetLscale()",
       "description": "int Card.GetLscale(card pcard)",
       "details": "int Card.GetLscale(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginLscale",
-      "contents": "Card.GetOriginLscale(${1:pcard})",
+      "trigger": "GetOriginLscale",
+      "contents": "GetOriginLscale()",
       "description": "int Card.GetOriginLscale(card pcard)",
       "details": "int Card.GetOriginLscale(card pcard)"
     },
     {
-      "trigger": "Card.GetRscale",
-      "contents": "Card.GetRscale(${1:pcard})",
+      "trigger": "GetRscale",
+      "contents": "GetRscale()",
       "description": "int Card.GetRscale(card pcard)",
       "details": "int Card.GetRscale(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginRscale",
-      "contents": "Card.GetOriginRscale(${1:pcard})",
+      "trigger": "GetOriginRscale",
+      "contents": "GetOriginRscale()",
       "description": "int Card.GetOriginRscale(card pcard)",
       "details": "int Card.GetOriginRscale(card pcard)"
     },
     {
-      "trigger": "Card.GetCurrentScale",
-      "contents": "Card.GetCurrentScale(${1:pcard})",
+      "trigger": "GetCurrentScale",
+      "contents": "GetCurrentScale()",
       "description": "int Card.GetCurrentScale(card pcard)",
       "details": "int Card.GetCurrentScale(card pcard)"
     },
     {
-      "trigger": "Card.IsLinkMarker",
-      "contents": "Card.IsLinkMarker(${1:pcard}, ${2:dir})",
+      "trigger": "IsLinkMarker",
+      "contents": "IsLinkMarker(${1:dir})",
       "description": "bool Card.IsLinkMarker(card pcard, int dir)",
       "details": "bool Card.IsLinkMarker(card pcard, int dir)"
     },
     {
-      "trigger": "Card.GetLinkedGroup",
-      "contents": "Card.GetLinkedGroup(${1:pcard})",
+      "trigger": "GetLinkedGroup",
+      "contents": "GetLinkedGroup()",
       "description": "card Card.GetLinkedGroup(card pcard)",
       "details": "card Card.GetLinkedGroup(card pcard)"
     },
     {
-      "trigger": "Card.GetLinkedGroupCount",
-      "contents": "Card.GetLinkedGroupCount(${1:pcard})",
+      "trigger": "GetLinkedGroupCount",
+      "contents": "GetLinkedGroupCount()",
       "description": "int Card.GetLinkedGroupCount(card pcard)",
       "details": "int Card.GetLinkedGroupCount(card pcard)"
     },
     {
-      "trigger": "Card.GetLinkedZone",
-      "contents": "Card.GetLinkedZone(${1:pcard}, ${2:cp})",
+      "trigger": "GetLinkedZone",
+      "contents": "GetLinkedZone()",
       "description": "int Card.GetLinkedZone(card pcard/*, nil|int cp*/)",
       "details": "int Card.GetLinkedZone(card pcard/*, nil|int cp*/)"
     },
     {
-      "trigger": "Card.GetMutualLinkedGroup",
-      "contents": "Card.GetMutualLinkedGroup(${1:pcard})",
+      "trigger": "GetMutualLinkedGroup",
+      "contents": "GetMutualLinkedGroup()",
       "description": "card Card.GetMutualLinkedGroup(card pcard)",
       "details": "card Card.GetMutualLinkedGroup(card pcard)"
     },
     {
-      "trigger": "Card.GetMutualLinkedGroupCount",
-      "contents": "Card.GetMutualLinkedGroupCount(${1:pcard})",
+      "trigger": "GetMutualLinkedGroupCount",
+      "contents": "GetMutualLinkedGroupCount()",
       "description": "int Card.GetMutualLinkedGroupCount(card pcard)",
       "details": "int Card.GetMutualLinkedGroupCount(card pcard)"
     },
     {
-      "trigger": "Card.GetMutualLinkedZone",
-      "contents": "Card.GetMutualLinkedZone(${1:pcard}, ${2:cp})",
+      "trigger": "GetMutualLinkedZone",
+      "contents": "GetMutualLinkedZone()",
       "description": "int Card.GetMutualLinkedZone(card pcard/*, nil|int cp*/)",
       "details": "int Card.GetMutualLinkedZone(card pcard/*, nil|int cp*/)"
     },
     {
-      "trigger": "Card.IsLinkState",
-      "contents": "Card.IsLinkState(${1:pcard})",
+      "trigger": "IsLinkState",
+      "contents": "IsLinkState()",
       "description": "bool Card.IsLinkState(card pcard)",
       "details": "bool Card.IsLinkState(card pcard)"
     },
     {
-      "trigger": "Card.IsExtraLinkState",
-      "contents": "Card.IsExtraLinkState(${1:pcard})",
+      "trigger": "IsExtraLinkState",
+      "contents": "IsExtraLinkState()",
       "description": "bool Card.IsExtraLinkState(card pcard)",
       "details": "bool Card.IsExtraLinkState(card pcard)"
     },
     {
-      "trigger": "Card.GetColumnGroup",
-      "contents": "Card.GetColumnGroup(${1:pcard})",
+      "trigger": "GetColumnGroup",
+      "contents": "GetColumnGroup()",
       "description": "card Card.GetColumnGroup(card pcard)",
       "details": "card Card.GetColumnGroup(card pcard)"
     },
     {
-      "trigger": "Card.GetColumnGroupCount",
-      "contents": "Card.GetColumnGroupCount(${1:pcard})",
+      "trigger": "GetColumnGroupCount",
+      "contents": "GetColumnGroupCount()",
       "description": "int Card.GetColumnGroupCount(card pcard)",
       "details": "int Card.GetColumnGroupCount(card pcard)"
     },
     {
-      "trigger": "Card.GetColumnZone",
-      "contents": "Card.GetColumnZone(${1:pcard}, ${2:loc}, ${3:cp})",
+      "trigger": "GetColumnZone",
+      "contents": "GetColumnZone(${1:loc})",
       "description": "int Card.GetColumnZone(card pcard, int loc/*, nil|int cp*/)",
       "details": "int Card.GetColumnZone(card pcard, int loc/*, nil|int cp*/)"
     },
     {
-      "trigger": "Card.IsAllColumn",
-      "contents": "Card.IsAllColumn(${1:pcard})",
+      "trigger": "IsAllColumn",
+      "contents": "IsAllColumn()",
       "description": "bool Card.IsAllColumn(card pcard)",
       "details": "bool Card.IsAllColumn(card pcard)"
     },
     {
-      "trigger": "Card.GetAttribute",
-      "contents": "Card.GetAttribute(${1:pcard})",
+      "trigger": "GetAttribute",
+      "contents": "GetAttribute()",
       "description": "int Card.GetAttribute(card pcard)",
       "details": "int Card.GetAttribute(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginAttribute",
-      "contents": "Card.GetOriginAttribute(${1:pcard})",
+      "trigger": "GetOriginAttribute",
+      "contents": "GetOriginAttribute()",
       "description": "int Card.GetOriginAttribute(card pcard)",
       "details": "int Card.GetOriginAttribute(card pcard)"
     },
     {
-      "trigger": "Card.GetFusionAttribute",
-      "contents": "Card.GetFusionAttribute(${1:pcard}, ${2:playerid})",
+      "trigger": "GetFusionAttribute",
+      "contents": "GetFusionAttribute()",
       "description": "int Card.GetFusionAttribute(card pcard/*, nil|int playerid*/)",
       "details": "int Card.GetFusionAttribute(card pcard/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.GetLinkAttribute",
-      "contents": "Card.GetLinkAttribute(${1:pcard}, ${2:playerid})",
+      "trigger": "GetLinkAttribute",
+      "contents": "GetLinkAttribute()",
       "description": "int Card.GetLinkAttribute(card pcard/*, nil|int playerid*/)",
       "details": "int Card.GetLinkAttribute(card pcard/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.GetAttributeInGrave",
-      "contents": "Card.GetAttributeInGrave(${1:pcard}, ${2:playerid})",
+      "trigger": "GetAttributeInGrave",
+      "contents": "GetAttributeInGrave()",
       "description": "int Card.GetAttributeInGrave(card pcard/*, nil|int playerid*/)",
       "details": "int Card.GetAttributeInGrave(card pcard/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.GetRace",
-      "contents": "Card.GetRace(${1:pcard})",
+      "trigger": "GetRace",
+      "contents": "GetRace()",
       "description": "int Card.GetRace(card pcard)",
       "details": "int Card.GetRace(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginRace",
-      "contents": "Card.GetOriginRace(${1:pcard})",
+      "trigger": "GetOriginRace",
+      "contents": "GetOriginRace()",
       "description": "int Card.GetOriginRace(card pcard)",
       "details": "int Card.GetOriginRace(card pcard)"
     },
     {
-      "trigger": "Card.GetLinkRace",
-      "contents": "Card.GetLinkRace(${1:pcard}, ${2:playerid})",
+      "trigger": "GetLinkRace",
+      "contents": "GetLinkRace()",
       "description": "int Card.GetLinkRace(card pcard/*, nil|int playerid*/)",
       "details": "int Card.GetLinkRace(card pcard/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.GetRaceInGrave",
-      "contents": "Card.GetRaceInGrave(${1:pcard}, ${2:playerid})",
+      "trigger": "GetRaceInGrave",
+      "contents": "GetRaceInGrave()",
       "description": "int Card.GetRaceInGrave(card pcard/*, nil|int playerid*/)",
       "details": "int Card.GetRaceInGrave(card pcard/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.GetAttack",
-      "contents": "Card.GetAttack(${1:pcard})",
+      "trigger": "GetAttack",
+      "contents": "GetAttack()",
       "description": "int Card.GetAttack(card pcard)",
       "details": "int Card.GetAttack(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginAttack",
-      "contents": "Card.GetOriginAttack(${1:pcard})",
+      "trigger": "GetOriginAttack",
+      "contents": "GetOriginAttack()",
       "description": "int Card.GetOriginAttack(card pcard)",
       "details": "int Card.GetOriginAttack(card pcard)"
     },
     {
-      "trigger": "Card.GetTextAttack",
-      "contents": "Card.GetTextAttack(${1:pcard})",
+      "trigger": "GetTextAttack",
+      "contents": "GetTextAttack()",
       "description": "int Card.GetTextAttack(card pcard)",
       "details": "int Card.GetTextAttack(card pcard)"
     },
     {
-      "trigger": "Card.GetDefense",
-      "contents": "Card.GetDefense(${1:pcard})",
+      "trigger": "GetDefense",
+      "contents": "GetDefense()",
       "description": "int Card.GetDefense(card pcard)",
       "details": "int Card.GetDefense(card pcard)"
     },
     {
-      "trigger": "Card.GetOriginDefense",
-      "contents": "Card.GetOriginDefense(${1:pcard})",
+      "trigger": "GetOriginDefense",
+      "contents": "GetOriginDefense()",
       "description": "int Card.GetOriginDefense(card pcard)",
       "details": "int Card.GetOriginDefense(card pcard)"
     },
     {
-      "trigger": "Card.GetTextDefense",
-      "contents": "Card.GetTextDefense(${1:pcard})",
+      "trigger": "GetTextDefense",
+      "contents": "GetTextDefense()",
       "description": "int Card.GetTextDefense(card pcard)",
       "details": "int Card.GetTextDefense(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousCodeOnfield",
-      "contents": "Card.GetPreviousCodeOnfield(${1:pcard})",
+      "trigger": "GetPreviousCodeOnfield",
+      "contents": "GetPreviousCodeOnfield()",
       "description": "int Card.GetPreviousCodeOnfield(card pcard)",
       "details": "int Card.GetPreviousCodeOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousTypeOnfield",
-      "contents": "Card.GetPreviousTypeOnfield(${1:pcard})",
+      "trigger": "GetPreviousTypeOnfield",
+      "contents": "GetPreviousTypeOnfield()",
       "description": "int Card.GetPreviousTypeOnfield(card pcard)",
       "details": "int Card.GetPreviousTypeOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousLevelOnfield",
-      "contents": "Card.GetPreviousLevelOnfield(${1:pcard})",
+      "trigger": "GetPreviousLevelOnfield",
+      "contents": "GetPreviousLevelOnfield()",
       "description": "int Card.GetPreviousLevelOnfield(card pcard)",
       "details": "int Card.GetPreviousLevelOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousRankOnfield",
-      "contents": "Card.GetPreviousRankOnfield(${1:pcard})",
+      "trigger": "GetPreviousRankOnfield",
+      "contents": "GetPreviousRankOnfield()",
       "description": "int Card.GetPreviousRankOnfield(card pcard)",
       "details": "int Card.GetPreviousRankOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousAttributeOnfield",
-      "contents": "Card.GetPreviousAttributeOnfield(${1:pcard})",
+      "trigger": "GetPreviousAttributeOnfield",
+      "contents": "GetPreviousAttributeOnfield()",
       "description": "int Card.GetPreviousAttributeOnfield(card pcard)",
       "details": "int Card.GetPreviousAttributeOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousRaceOnfield",
-      "contents": "Card.GetPreviousRaceOnfield(${1:pcard})",
+      "trigger": "GetPreviousRaceOnfield",
+      "contents": "GetPreviousRaceOnfield()",
       "description": "int Card.GetPreviousRaceOnfield(card pcard)",
       "details": "int Card.GetPreviousRaceOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousAttackOnfield",
-      "contents": "Card.GetPreviousAttackOnfield(${1:pcard})",
+      "trigger": "GetPreviousAttackOnfield",
+      "contents": "GetPreviousAttackOnfield()",
       "description": "int Card.GetPreviousAttackOnfield(card pcard)",
       "details": "int Card.GetPreviousAttackOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousDefenseOnfield",
-      "contents": "Card.GetPreviousDefenseOnfield(${1:pcard})",
+      "trigger": "GetPreviousDefenseOnfield",
+      "contents": "GetPreviousDefenseOnfield()",
       "description": "int Card.GetPreviousDefenseOnfield(card pcard)",
       "details": "int Card.GetPreviousDefenseOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousOverlayCountOnfield",
-      "contents": "Card.GetPreviousOverlayCountOnfield(${1:pcard})",
+      "trigger": "GetPreviousOverlayCountOnfield",
+      "contents": "GetPreviousOverlayCountOnfield()",
       "description": "int Card.GetPreviousOverlayCountOnfield(card pcard)",
       "details": "int Card.GetPreviousOverlayCountOnfield(card pcard)"
     },
     {
-      "trigger": "Card.GetOwner",
-      "contents": "Card.GetOwner(${1:pcard})",
+      "trigger": "GetOwner",
+      "contents": "GetOwner()",
       "description": "int Card.GetOwner(card pcard)",
       "details": "int Card.GetOwner(card pcard)"
     },
     {
-      "trigger": "Card.GetControler",
-      "contents": "Card.GetControler(${1:pcard})",
+      "trigger": "GetControler",
+      "contents": "GetControler()",
       "description": "int Card.GetControler(card pcard)",
       "details": "int Card.GetControler(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousControler",
-      "contents": "Card.GetPreviousControler(${1:pcard})",
+      "trigger": "GetPreviousControler",
+      "contents": "GetPreviousControler()",
       "description": "int Card.GetPreviousControler(card pcard)",
       "details": "int Card.GetPreviousControler(card pcard)"
     },
     {
-      "trigger": "Card.SetReason",
-      "contents": "Card.SetReason(${1:pcard}, ${2:reason})",
+      "trigger": "SetReason",
+      "contents": "SetReason(${1:reason})",
       "description": "nil Card.SetReason(card pcard, int reason)",
       "details": "nil Card.SetReason(card pcard, int reason)"
     },
     {
-      "trigger": "Card.GetReason",
-      "contents": "Card.GetReason(${1:pcard})",
+      "trigger": "GetReason",
+      "contents": "GetReason()",
       "description": "int Card.GetReason(card pcard)",
       "details": "int Card.GetReason(card pcard)"
     },
     {
-      "trigger": "Card.GetReasonCard",
-      "contents": "Card.GetReasonCard(${1:pcard})",
+      "trigger": "GetReasonCard",
+      "contents": "GetReasonCard()",
       "description": "group Card.GetReasonCard(card pcard)",
       "details": "group Card.GetReasonCard(card pcard)"
     },
     {
-      "trigger": "Card.GetReasonPlayer",
-      "contents": "Card.GetReasonPlayer(${1:pcard})",
+      "trigger": "GetReasonPlayer",
+      "contents": "GetReasonPlayer()",
       "description": "int Card.GetReasonPlayer(card pcard)",
       "details": "int Card.GetReasonPlayer(card pcard)"
     },
     {
-      "trigger": "Card.GetReasonEffect",
-      "contents": "Card.GetReasonEffect(${1:pcard})",
+      "trigger": "GetReasonEffect",
+      "contents": "GetReasonEffect()",
       "description": "effect Card.GetReasonEffect(card pcard)",
       "details": "effect Card.GetReasonEffect(card pcard)"
     },
     {
-      "trigger": "Card.GetPosition",
-      "contents": "Card.GetPosition(${1:pcard})",
+      "trigger": "GetPosition",
+      "contents": "GetPosition()",
       "description": "int Card.GetPosition(card pcard)",
       "details": "int Card.GetPosition(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousPosition",
-      "contents": "Card.GetPreviousPosition(${1:pcard})",
+      "trigger": "GetPreviousPosition",
+      "contents": "GetPreviousPosition()",
       "description": "int Card.GetPreviousPosition(card pcard)",
       "details": "int Card.GetPreviousPosition(card pcard)"
     },
     {
-      "trigger": "Card.GetBattlePosition",
-      "contents": "Card.GetBattlePosition(${1:pcard})",
+      "trigger": "GetBattlePosition",
+      "contents": "GetBattlePosition()",
       "description": "int Card.GetBattlePosition(card pcard)",
       "details": "int Card.GetBattlePosition(card pcard)"
     },
     {
-      "trigger": "Card.GetLocation",
-      "contents": "Card.GetLocation(${1:pcard})",
+      "trigger": "GetLocation",
+      "contents": "GetLocation()",
       "description": "int Card.GetLocation(card pcard)",
       "details": "int Card.GetLocation(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousLocation",
-      "contents": "Card.GetPreviousLocation(${1:pcard})",
+      "trigger": "GetPreviousLocation",
+      "contents": "GetPreviousLocation()",
       "description": "int Card.GetPreviousLocation(card pcard)",
       "details": "int Card.GetPreviousLocation(card pcard)"
     },
     {
-      "trigger": "Card.GetSequence",
-      "contents": "Card.GetSequence(${1:pcard})",
+      "trigger": "GetSequence",
+      "contents": "GetSequence()",
       "description": "int Card.GetSequence(card pcard)",
       "details": "int Card.GetSequence(card pcard)"
     },
     {
-      "trigger": "Card.GetPreviousSequence",
-      "contents": "Card.GetPreviousSequence(${1:pcard})",
+      "trigger": "GetPreviousSequence",
+      "contents": "GetPreviousSequence()",
       "description": "int Card.GetPreviousSequence(card pcard)",
       "details": "int Card.GetPreviousSequence(card pcard)"
     },
     {
-      "trigger": "Card.GetSummonType",
-      "contents": "Card.GetSummonType(${1:pcard})",
+      "trigger": "GetSummonType",
+      "contents": "GetSummonType()",
       "description": "int Card.GetSummonType(card pcard)",
       "details": "int Card.GetSummonType(card pcard)"
     },
     {
-      "trigger": "Card.GetSummonLocation",
-      "contents": "Card.GetSummonLocation(${1:pcard})",
+      "trigger": "GetSummonLocation",
+      "contents": "GetSummonLocation()",
       "description": "int Card.GetSummonLocation(card pcard)",
       "details": "int Card.GetSummonLocation(card pcard)"
     },
     {
-      "trigger": "Card.GetSummonPlayer",
-      "contents": "Card.GetSummonPlayer(${1:pcard})",
+      "trigger": "GetSummonPlayer",
+      "contents": "GetSummonPlayer()",
       "description": "int Card.GetSummonPlayer(card pcard)",
       "details": "int Card.GetSummonPlayer(card pcard)"
     },
     {
-      "trigger": "Card.GetSpecialSummonInfo",
-      "contents": "Card.GetSpecialSummonInfo(${1:pcard}, ${2:flag})",
+      "trigger": "GetSpecialSummonInfo",
+      "contents": "GetSpecialSummonInfo()",
       "description": "effect|int Card.GetSpecialSummonInfo(card pcard/*, int flag*/)",
       "details": "effect|int Card.GetSpecialSummonInfo(card pcard/*, int flag*/)"
     },
     {
-      "trigger": "Card.GetDestination",
-      "contents": "Card.GetDestination(${1:pcard})",
+      "trigger": "GetDestination",
+      "contents": "GetDestination()",
       "description": "int Card.GetDestination(card pcard)",
       "details": "int Card.GetDestination(card pcard)"
     },
     {
-      "trigger": "Card.GetLeaveFieldDest",
-      "contents": "Card.GetLeaveFieldDest(${1:pcard})",
+      "trigger": "GetLeaveFieldDest",
+      "contents": "GetLeaveFieldDest()",
       "description": "int Card.GetLeaveFieldDest(card pcard)",
       "details": "int Card.GetLeaveFieldDest(card pcard)"
     },
     {
-      "trigger": "Card.GetTurnid",
-      "contents": "Card.GetTurnid(${1:pcard})",
+      "trigger": "GetTurnid",
+      "contents": "GetTurnid()",
       "description": "int Card.GetTurnid(card pcard)",
       "details": "int Card.GetTurnid(card pcard)"
     },
     {
-      "trigger": "Card.GetFieldid",
-      "contents": "Card.GetFieldid(${1:pcard})",
+      "trigger": "GetFieldid",
+      "contents": "GetFieldid()",
       "description": "int Card.GetFieldid(card pcard)",
       "details": "int Card.GetFieldid(card pcard)"
     },
     {
-      "trigger": "Card.GetFieldidr",
-      "contents": "Card.GetFieldidr(${1:pcard})",
+      "trigger": "GetFieldidr",
+      "contents": "GetFieldidr()",
       "description": "int Card.GetFieldidr(card pcard)",
       "details": "int Card.GetFieldidr(card pcard)"
     },
     {
-      "trigger": "Card.IsOriginCodeRule",
-      "contents": "Card.IsOriginCodeRule(${1:pcard}, ${2:tcode})",
+      "trigger": "IsOriginCodeRule",
+      "contents": "IsOriginCodeRule(${1:tcode})",
       "description": "bool Card.IsOriginCodeRule(card pcard, nil|int tcode)",
       "details": "bool Card.IsOriginCodeRule(card pcard, nil|int tcode)"
     },
     {
-      "trigger": "Card.IsCode",
-      "contents": "Card.IsCode(${1:pcard}, ${2:tcode})",
+      "trigger": "IsCode",
+      "contents": "IsCode(${1:tcode})",
       "description": "bool Card.IsCode(card pcard, nil|int tcode)",
       "details": "bool Card.IsCode(card pcard, nil|int tcode)"
     },
     {
-      "trigger": "Card.IsType",
-      "contents": "Card.IsType(${1:pcard}, ${2:ttype})",
+      "trigger": "IsType",
+      "contents": "IsType(${1:ttype})",
       "description": "bool Card.IsType(card pcard, int ttype)",
       "details": "bool Card.IsType(card pcard, int ttype)"
     },
     {
-      "trigger": "Card.IsAllTypes",
-      "contents": "Card.IsAllTypes(${1:pcard}, ${2:ttype})",
+      "trigger": "IsAllTypes",
+      "contents": "IsAllTypes(${1:ttype})",
       "description": "bool Card.IsAllTypes(card pcard, int ttype)",
       "details": "bool Card.IsAllTypes(card pcard, int ttype)"
     },
     {
-      "trigger": "Card.IsFusionType",
-      "contents": "Card.IsFusionType(${1:pcard}, ${2:ttype})",
+      "trigger": "IsFusionType",
+      "contents": "IsFusionType(${1:ttype})",
       "description": "bool Card.IsFusionType(card pcard, int ttype)",
       "details": "bool Card.IsFusionType(card pcard, int ttype)"
     },
     {
-      "trigger": "Card.IsSynchroType",
-      "contents": "Card.IsSynchroType(${1:pcard}, ${2:ttype})",
+      "trigger": "IsSynchroType",
+      "contents": "IsSynchroType(${1:ttype})",
       "description": "bool Card.IsSynchroType(card pcard, int ttype)",
       "details": "bool Card.IsSynchroType(card pcard, int ttype)"
     },
     {
-      "trigger": "Card.IsXyzType",
-      "contents": "Card.IsXyzType(${1:pcard}, ${2:ttype})",
+      "trigger": "IsXyzType",
+      "contents": "IsXyzType(${1:ttype})",
       "description": "bool Card.IsXyzType(card pcard, int ttype)",
       "details": "bool Card.IsXyzType(card pcard, int ttype)"
     },
     {
-      "trigger": "Card.IsLinkType",
-      "contents": "Card.IsLinkType(${1:pcard}, ${2:ttype})",
+      "trigger": "IsLinkType",
+      "contents": "IsLinkType(${1:ttype})",
       "description": "bool Card.IsLinkType(card pcard, int ttype)",
       "details": "bool Card.IsLinkType(card pcard, int ttype)"
     },
     {
-      "trigger": "Card.IsLevel",
-      "contents": "Card.IsLevel(${1:pcard}, ${2:tlevel})",
+      "trigger": "IsLevel",
+      "contents": "IsLevel(${1:tlevel})",
       "description": "bool Card.IsLevel(card pcard, nil|int tlevel)",
       "details": "bool Card.IsLevel(card pcard, nil|int tlevel)"
     },
     {
-      "trigger": "Card.IsRank",
-      "contents": "Card.IsRank(${1:pcard}, ${2:trank})",
+      "trigger": "IsRank",
+      "contents": "IsRank(${1:trank})",
       "description": "bool Card.IsRank(card pcard, nil|int trank)",
       "details": "bool Card.IsRank(card pcard, nil|int trank)"
     },
     {
-      "trigger": "Card.IsLink",
-      "contents": "Card.IsLink(${1:pcard}, ${2:tlink})",
+      "trigger": "IsLink",
+      "contents": "IsLink(${1:tlink})",
       "description": "bool Card.IsLink(card pcard, nil|int tlink)",
       "details": "bool Card.IsLink(card pcard, nil|int tlink)"
     },
     {
-      "trigger": "Card.IsAttack",
-      "contents": "Card.IsAttack(${1:pcard}, ${2:tatk})",
+      "trigger": "IsAttack",
+      "contents": "IsAttack(${1:tatk})",
       "description": "bool Card.IsAttack(card pcard, nil|int tatk)",
       "details": "bool Card.IsAttack(card pcard, nil|int tatk)"
     },
     {
-      "trigger": "Card.IsDefense",
-      "contents": "Card.IsDefense(${1:pcard}, ${2:tdef})",
+      "trigger": "IsDefense",
+      "contents": "IsDefense(${1:tdef})",
       "description": "bool Card.IsDefense(card pcard, nil|int tdef)",
       "details": "bool Card.IsDefense(card pcard, nil|int tdef)"
     },
     {
-      "trigger": "Card.IsRace",
-      "contents": "Card.IsRace(${1:pcard}, ${2:trace})",
+      "trigger": "IsRace",
+      "contents": "IsRace(${1:trace})",
       "description": "bool Card.IsRace(card pcard, int trace)",
       "details": "bool Card.IsRace(card pcard, int trace)"
     },
     {
-      "trigger": "Card.IsLinkRace",
-      "contents": "Card.IsLinkRace(${1:pcard}, ${2:trace}, ${3:playerid})",
+      "trigger": "IsLinkRace",
+      "contents": "IsLinkRace(${1:trace})",
       "description": "bool Card.IsLinkRace(card pcard, int trace/*, nil|int playerid*/)",
       "details": "bool Card.IsLinkRace(card pcard, int trace/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.IsAttribute",
-      "contents": "Card.IsAttribute(${1:pcard}, ${2:tattrib})",
+      "trigger": "IsAttribute",
+      "contents": "IsAttribute(${1:tattrib})",
       "description": "bool Card.IsAttribute(card pcard, int tattrib)",
       "details": "bool Card.IsAttribute(card pcard, int tattrib)"
     },
     {
-      "trigger": "Card.IsFusionAttribute",
-      "contents": "Card.IsFusionAttribute(${1:pcard}, ${2:tattrib}, ${3:playerid})",
+      "trigger": "IsFusionAttribute",
+      "contents": "IsFusionAttribute(${1:tattrib})",
       "description": "bool Card.IsFusionAttribute(card pcard, int tattrib/*, nil|int playerid*/)",
       "details": "bool Card.IsFusionAttribute(card pcard, int tattrib/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.IsLinkAttribute",
-      "contents": "Card.IsLinkAttribute(${1:pcard}, ${2:tattrib}, ${3:playerid})",
+      "trigger": "IsLinkAttribute",
+      "contents": "IsLinkAttribute(${1:tattrib})",
       "description": "bool Card.IsLinkAttribute(card pcard, int tattrib/*, nil|int playerid*/)",
       "details": "bool Card.IsLinkAttribute(card pcard, int tattrib/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.IsNonAttribute",
-      "contents": "Card.IsNonAttribute(${1:pcard}, ${2:tattrib})",
+      "trigger": "IsNonAttribute",
+      "contents": "IsNonAttribute(${1:tattrib})",
       "description": "bool Card.IsNonAttribute(card pcard, int tattrib)",
       "details": "bool Card.IsNonAttribute(card pcard, int tattrib)"
     },
     {
-      "trigger": "Card.IsExtraDeckMonster",
-      "contents": "Card.IsExtraDeckMonster(${1:pcard})",
+      "trigger": "IsExtraDeckMonster",
+      "contents": "IsExtraDeckMonster()",
       "description": "bool Card.IsExtraDeckMonster(card pcard)",
       "details": "bool Card.IsExtraDeckMonster(card pcard)"
     },
     {
-      "trigger": "Card.IsReason",
-      "contents": "Card.IsReason(${1:pcard}, ${2:treason})",
+      "trigger": "IsReason",
+      "contents": "IsReason(${1:treason})",
       "description": "bool Card.IsReason(card pcard, int treason)",
       "details": "bool Card.IsReason(card pcard, int treason)"
     },
     {
-      "trigger": "Card.IsAllReasons",
-      "contents": "Card.IsAllReasons(${1:pcard}, ${2:treason})",
+      "trigger": "IsAllReasons",
+      "contents": "IsAllReasons(${1:treason})",
       "description": "bool Card.IsAllReasons(card pcard, int treason)",
       "details": "bool Card.IsAllReasons(card pcard, int treason)"
     },
     {
-      "trigger": "Card.IsSummonType",
-      "contents": "Card.IsSummonType(${1:pcard}, ${2:ttype})",
+      "trigger": "IsSummonType",
+      "contents": "IsSummonType(${1:ttype})",
       "description": "bool Card.IsSummonType(card pcard, int ttype)",
       "details": "bool Card.IsSummonType(card pcard, int ttype)"
     },
     {
-      "trigger": "Card.IsSummonLocation",
-      "contents": "Card.IsSummonLocation(${1:pcard}, ${2:tloc})",
+      "trigger": "IsSummonLocation",
+      "contents": "IsSummonLocation(${1:tloc})",
       "description": "bool Card.IsSummonLocation(card pcard, int tloc)",
       "details": "bool Card.IsSummonLocation(card pcard, int tloc)"
     },
     {
-      "trigger": "Card.IsSummonPlayer",
-      "contents": "Card.IsSummonPlayer(${1:pcard}, ${2:con})",
+      "trigger": "IsSummonPlayer",
+      "contents": "IsSummonPlayer(${1:con})",
       "description": "bool Card.IsSummonPlayer(card pcard, int con)",
       "details": "bool Card.IsSummonPlayer(card pcard, int con)"
     },
     {
-      "trigger": "Card.IsStatus",
-      "contents": "Card.IsStatus(${1:pcard}, ${2:tstatus})",
+      "trigger": "IsStatus",
+      "contents": "IsStatus(${1:tstatus})",
       "description": "bool Card.IsStatus(card pcard, int tstatus)",
       "details": "bool Card.IsStatus(card pcard, int tstatus)"
     },
     {
-      "trigger": "Card.IsNotTuner",
-      "contents": "Card.IsNotTuner(${1:pcard}, ${2:scard})",
+      "trigger": "IsNotTuner",
+      "contents": "IsNotTuner(${1:scard})",
       "description": "bool Card.IsNotTuner(card pcard, card scard)",
       "details": "bool Card.IsNotTuner(card pcard, card scard)"
     },
     {
-      "trigger": "Card.IsTuner",
-      "contents": "Card.IsTuner(${1:pcard}, ${2:scard})",
+      "trigger": "IsTuner",
+      "contents": "IsTuner(${1:scard})",
       "description": "bool Card.IsTuner(card pcard, card scard)",
       "details": "bool Card.IsTuner(card pcard, card scard)"
     },
     {
-      "trigger": "Card.IsOriginalEffectProperty",
-      "contents": "Card.IsOriginalEffectProperty(${1:pcard}, ${2:filter})",
+      "trigger": "IsOriginalEffectProperty",
+      "contents": "IsOriginalEffectProperty(${1:filter})",
       "description": "bool Card.IsOriginalEffectProperty(card pcard, fn filter)",
       "details": "bool Card.IsOriginalEffectProperty(card pcard, fn filter)"
     },
     {
-      "trigger": "Card.IsEffectProperty",
-      "contents": "Card.IsEffectProperty(${1:pcard}, ${2:filter})",
+      "trigger": "IsEffectProperty",
+      "contents": "IsEffectProperty(${1:filter})",
       "description": "bool Card.IsEffectProperty(card pcard, fn filter)",
       "details": "bool Card.IsEffectProperty(card pcard, fn filter)"
     },
     {
-      "trigger": "Card.SetStatus",
-      "contents": "Card.SetStatus(${1:pcard}, ${2:tstatus}, ${3:enable})",
+      "trigger": "SetStatus",
+      "contents": "SetStatus(${1:tstatus}, ${2:enable})",
       "description": "nil Card.SetStatus(card pcard, int tstatus, bool enable)",
       "details": "nil Card.SetStatus(card pcard, int tstatus, bool enable)"
     },
     {
-      "trigger": "Card.IsDualState",
-      "contents": "Card.IsDualState(${1:pcard})",
+      "trigger": "IsDualState",
+      "contents": "IsDualState()",
       "description": "bool Card.IsDualState(card pcard)",
       "details": "bool Card.IsDualState(card pcard)"
     },
     {
-      "trigger": "Card.EnableDualState",
-      "contents": "Card.EnableDualState(${1:pcard})",
+      "trigger": "EnableDualState",
+      "contents": "EnableDualState()",
       "description": "nil Card.EnableDualState(card pcard)",
       "details": "nil Card.EnableDualState(card pcard)"
     },
     {
-      "trigger": "Card.SetTurnCounter",
-      "contents": "Card.SetTurnCounter(${1:pcard}, ${2:ct})",
+      "trigger": "SetTurnCounter",
+      "contents": "SetTurnCounter(${1:ct})",
       "description": "nil Card.SetTurnCounter(card pcard, int ct)",
       "details": "nil Card.SetTurnCounter(card pcard, int ct)"
     },
     {
-      "trigger": "Card.GetTurnCounter",
-      "contents": "Card.GetTurnCounter(${1:pcard})",
+      "trigger": "GetTurnCounter",
+      "contents": "GetTurnCounter()",
       "description": "int Card.GetTurnCounter(card pcard)",
       "details": "int Card.GetTurnCounter(card pcard)"
     },
     {
-      "trigger": "Card.SetMaterial",
-      "contents": "Card.SetMaterial(${1:pcard}, ${2:pgroup})",
-      "description": "nil Card.SetMaterial(card pcard, group|nil pgroup)",
-      "details": "nil Card.SetMaterial(card pcard, group|nil pgroup)"
+      "trigger": "SetMaterial",
+      "contents": "SetMaterial(${1:pgroup})",
+      "description": "nil Card.SetMaterial(card pcard, nil|group pgroup)",
+      "details": "nil Card.SetMaterial(card pcard, nil|group pgroup)"
     },
     {
-      "trigger": "Card.GetMaterial",
-      "contents": "Card.GetMaterial(${1:pcard})",
+      "trigger": "GetMaterial",
+      "contents": "GetMaterial()",
       "description": "card Card.GetMaterial(card pcard)",
       "details": "card Card.GetMaterial(card pcard)"
     },
     {
-      "trigger": "Card.GetMaterialCount",
-      "contents": "Card.GetMaterialCount(${1:pcard})",
+      "trigger": "GetMaterialCount",
+      "contents": "GetMaterialCount()",
       "description": "int Card.GetMaterialCount(card pcard)",
       "details": "int Card.GetMaterialCount(card pcard)"
     },
     {
-      "trigger": "Card.GetEquipGroup",
-      "contents": "Card.GetEquipGroup(${1:pcard})",
+      "trigger": "GetEquipGroup",
+      "contents": "GetEquipGroup()",
       "description": "card Card.GetEquipGroup(card pcard)",
       "details": "card Card.GetEquipGroup(card pcard)"
     },
     {
-      "trigger": "Card.GetEquipCount",
-      "contents": "Card.GetEquipCount(${1:pcard})",
+      "trigger": "GetEquipCount",
+      "contents": "GetEquipCount()",
       "description": "int Card.GetEquipCount(card pcard)",
       "details": "int Card.GetEquipCount(card pcard)"
     },
     {
-      "trigger": "Card.GetEquipTarget",
-      "contents": "Card.GetEquipTarget(${1:pcard})",
+      "trigger": "GetEquipTarget",
+      "contents": "GetEquipTarget()",
       "description": "group Card.GetEquipTarget(card pcard)",
       "details": "group Card.GetEquipTarget(card pcard)"
     },
     {
-      "trigger": "Card.GetPreEquipTarget",
-      "contents": "Card.GetPreEquipTarget(${1:pcard})",
+      "trigger": "GetPreEquipTarget",
+      "contents": "GetPreEquipTarget()",
       "description": "group Card.GetPreEquipTarget(card pcard)",
       "details": "group Card.GetPreEquipTarget(card pcard)"
     },
     {
-      "trigger": "Card.CheckEquipTarget",
-      "contents": "Card.CheckEquipTarget(${1:pcard}, ${2:target})",
+      "trigger": "CheckEquipTarget",
+      "contents": "CheckEquipTarget()",
       "description": "bool Card.CheckEquipTarget(card pcard/*, card target*/)",
       "details": "bool Card.CheckEquipTarget(card pcard/*, card target*/)"
     },
     {
-      "trigger": "Card.CheckUnionTarget",
-      "contents": "Card.CheckUnionTarget(${1:pcard}, ${2:target})",
+      "trigger": "CheckUnionTarget",
+      "contents": "CheckUnionTarget()",
       "description": "bool Card.CheckUnionTarget(card pcard/*, card target*/)",
       "details": "bool Card.CheckUnionTarget(card pcard/*, card target*/)"
     },
     {
-      "trigger": "Card.GetUnionCount",
-      "contents": "Card.GetUnionCount(${1:pcard})",
+      "trigger": "GetUnionCount",
+      "contents": "GetUnionCount()",
       "description": "int Card.GetUnionCount(card pcard)",
       "details": "int Card.GetUnionCount(card pcard)"
     },
     {
-      "trigger": "Card.GetOverlayGroup",
-      "contents": "Card.GetOverlayGroup(${1:pcard})",
+      "trigger": "GetOverlayGroup",
+      "contents": "GetOverlayGroup()",
       "description": "card Card.GetOverlayGroup(card pcard)",
       "details": "card Card.GetOverlayGroup(card pcard)"
     },
     {
-      "trigger": "Card.GetOverlayCount",
-      "contents": "Card.GetOverlayCount(${1:pcard})",
+      "trigger": "GetOverlayCount",
+      "contents": "GetOverlayCount()",
       "description": "int Card.GetOverlayCount(card pcard)",
       "details": "int Card.GetOverlayCount(card pcard)"
     },
     {
-      "trigger": "Card.GetOverlayTarget",
-      "contents": "Card.GetOverlayTarget(${1:pcard})",
+      "trigger": "GetOverlayTarget",
+      "contents": "GetOverlayTarget()",
       "description": "group Card.GetOverlayTarget(card pcard)",
       "details": "group Card.GetOverlayTarget(card pcard)"
     },
     {
-      "trigger": "Card.CheckRemoveOverlayCard",
-      "contents": "Card.CheckRemoveOverlayCard(${1:pcard}, ${2:playerid}, ${3:count}, ${4:reason})",
+      "trigger": "CheckRemoveOverlayCard",
+      "contents": "CheckRemoveOverlayCard(${1:playerid}, ${2:count}, ${3:reason})",
       "description": "bool Card.CheckRemoveOverlayCard(card pcard, int playerid, int count, int reason)",
       "details": "bool Card.CheckRemoveOverlayCard(card pcard, int playerid, int count, int reason)"
     },
     {
-      "trigger": "Card.RemoveOverlayCard",
-      "contents": "Card.RemoveOverlayCard(${1:pcard}, ${2:playerid}, ${3:min}, ${4:max}, ${5:reason})",
+      "trigger": "RemoveOverlayCard",
+      "contents": "RemoveOverlayCard(${1:playerid}, ${2:min}, ${3:max}, ${4:reason})",
       "description": "int Card.RemoveOverlayCard(card pcard, int playerid, int min, int max, int reason)",
       "details": "int Card.RemoveOverlayCard(card pcard, int playerid, int min, int max, int reason)"
     },
     {
-      "trigger": "Card.GetAttackedGroup",
-      "contents": "Card.GetAttackedGroup(${1:pcard})",
+      "trigger": "GetAttackedGroup",
+      "contents": "GetAttackedGroup()",
       "description": "card Card.GetAttackedGroup(card pcard)",
       "details": "card Card.GetAttackedGroup(card pcard)"
     },
     {
-      "trigger": "Card.GetAttackedGroupCount",
-      "contents": "Card.GetAttackedGroupCount(${1:pcard})",
+      "trigger": "GetAttackedGroupCount",
+      "contents": "GetAttackedGroupCount()",
       "description": "int Card.GetAttackedGroupCount(card pcard)",
       "details": "int Card.GetAttackedGroupCount(card pcard)"
     },
     {
-      "trigger": "Card.GetAttackedCount",
-      "contents": "Card.GetAttackedCount(${1:pcard})",
+      "trigger": "GetAttackedCount",
+      "contents": "GetAttackedCount()",
       "description": "int Card.GetAttackedCount(card pcard)",
       "details": "int Card.GetAttackedCount(card pcard)"
     },
     {
-      "trigger": "Card.GetBattledGroup",
-      "contents": "Card.GetBattledGroup(${1:pcard})",
+      "trigger": "GetBattledGroup",
+      "contents": "GetBattledGroup()",
       "description": "card Card.GetBattledGroup(card pcard)",
       "details": "card Card.GetBattledGroup(card pcard)"
     },
     {
-      "trigger": "Card.GetBattledGroupCount",
-      "contents": "Card.GetBattledGroupCount(${1:pcard})",
+      "trigger": "GetBattledGroupCount",
+      "contents": "GetBattledGroupCount()",
       "description": "int Card.GetBattledGroupCount(card pcard)",
       "details": "int Card.GetBattledGroupCount(card pcard)"
     },
     {
-      "trigger": "Card.GetAttackAnnouncedCount",
-      "contents": "Card.GetAttackAnnouncedCount(${1:pcard})",
+      "trigger": "GetAttackAnnouncedCount",
+      "contents": "GetAttackAnnouncedCount()",
       "description": "int Card.GetAttackAnnouncedCount(card pcard)",
       "details": "int Card.GetAttackAnnouncedCount(card pcard)"
     },
     {
-      "trigger": "Card.IsDirectAttacked",
-      "contents": "Card.IsDirectAttacked(${1:pcard})",
+      "trigger": "IsDirectAttacked",
+      "contents": "IsDirectAttacked()",
       "description": "bool Card.IsDirectAttacked(card pcard)",
       "details": "bool Card.IsDirectAttacked(card pcard)"
     },
     {
-      "trigger": "Card.SetCardTarget",
-      "contents": "Card.SetCardTarget(${1:pcard}, ${2:ocard})",
+      "trigger": "SetCardTarget",
+      "contents": "SetCardTarget(${1:ocard})",
       "description": "nil Card.SetCardTarget(card pcard, card ocard)",
       "details": "nil Card.SetCardTarget(card pcard, card ocard)"
     },
     {
-      "trigger": "Card.GetCardTarget",
-      "contents": "Card.GetCardTarget(${1:pcard})",
+      "trigger": "GetCardTarget",
+      "contents": "GetCardTarget()",
       "description": "card Card.GetCardTarget(card pcard)",
       "details": "card Card.GetCardTarget(card pcard)"
     },
     {
-      "trigger": "Card.GetFirstCardTarget",
-      "contents": "Card.GetFirstCardTarget(${1:pcard})",
+      "trigger": "GetFirstCardTarget",
+      "contents": "GetFirstCardTarget()",
       "description": "group Card.GetFirstCardTarget(card pcard)",
       "details": "group Card.GetFirstCardTarget(card pcard)"
     },
     {
-      "trigger": "Card.GetCardTargetCount",
-      "contents": "Card.GetCardTargetCount(${1:pcard})",
+      "trigger": "GetCardTargetCount",
+      "contents": "GetCardTargetCount()",
       "description": "int Card.GetCardTargetCount(card pcard)",
       "details": "int Card.GetCardTargetCount(card pcard)"
     },
     {
-      "trigger": "Card.IsHasCardTarget",
-      "contents": "Card.IsHasCardTarget(${1:pcard}, ${2:rcard})",
+      "trigger": "IsHasCardTarget",
+      "contents": "IsHasCardTarget(${1:rcard})",
       "description": "bool Card.IsHasCardTarget(card pcard, card rcard)",
       "details": "bool Card.IsHasCardTarget(card pcard, card rcard)"
     },
     {
-      "trigger": "Card.CancelCardTarget",
-      "contents": "Card.CancelCardTarget(${1:pcard}, ${2:rcard})",
+      "trigger": "CancelCardTarget",
+      "contents": "CancelCardTarget(${1:rcard})",
       "description": "nil Card.CancelCardTarget(card pcard, card rcard)",
       "details": "nil Card.CancelCardTarget(card pcard, card rcard)"
     },
     {
-      "trigger": "Card.GetOwnerTarget",
-      "contents": "Card.GetOwnerTarget(${1:pcard})",
+      "trigger": "GetOwnerTarget",
+      "contents": "GetOwnerTarget()",
       "description": "card Card.GetOwnerTarget(card pcard)",
       "details": "card Card.GetOwnerTarget(card pcard)"
     },
     {
-      "trigger": "Card.GetOwnerTargetCount",
-      "contents": "Card.GetOwnerTargetCount(${1:pcard})",
+      "trigger": "GetOwnerTargetCount",
+      "contents": "GetOwnerTargetCount()",
       "description": "int Card.GetOwnerTargetCount(card pcard)",
       "details": "int Card.GetOwnerTargetCount(card pcard)"
     },
     {
-      "trigger": "Card.GetActivateEffect",
-      "contents": "Card.GetActivateEffect(${1:pcard})",
+      "trigger": "GetActivateEffect",
+      "contents": "GetActivateEffect()",
       "description": "effect Card.GetActivateEffect(card pcard)",
       "details": "effect Card.GetActivateEffect(card pcard)"
     },
     {
-      "trigger": "Card.CheckActivateEffect",
-      "contents": "Card.CheckActivateEffect(${1:pcard}, ${2:neglect_con}, ${3:neglect_cost}, ${4:copy_info})",
-      "description": "card|effect|int Card.CheckActivateEffect(card pcard, bool neglect_con, bool neglect_cost, bool copy_info)",
-      "details": "card|effect|int Card.CheckActivateEffect(card pcard, bool neglect_con, bool neglect_cost, bool copy_info)"
+      "trigger": "CheckActivateEffect",
+      "contents": "CheckActivateEffect(${1:neglect_con}, ${2:neglect_cost}, ${3:copy_info})",
+      "description": "effect|int|card Card.CheckActivateEffect(card pcard, bool neglect_con, bool neglect_cost, bool copy_info)",
+      "details": "effect|int|card Card.CheckActivateEffect(card pcard, bool neglect_con, bool neglect_cost, bool copy_info)"
     },
     {
-      "trigger": "Card.GetTunerLimit",
-      "contents": "Card.GetTunerLimit(${1:pcard})",
+      "trigger": "GetTunerLimit",
+      "contents": "GetTunerLimit()",
       "description": "effect|fn|int Card.GetTunerLimit(card pcard)",
       "details": "effect|fn|int Card.GetTunerLimit(card pcard)"
     },
     {
-      "trigger": "Card.GetHandSynchro",
-      "contents": "Card.GetHandSynchro(${1:pcard})",
+      "trigger": "GetHandSynchro",
+      "contents": "GetHandSynchro()",
       "description": "effect|fn|int Card.GetHandSynchro(card pcard)",
       "details": "effect|fn|int Card.GetHandSynchro(card pcard)"
     },
     {
-      "trigger": "Card.RegisterEffect",
-      "contents": "Card.RegisterEffect(${1:pcard}, ${2:peffect}, ${3:forced})",
+      "trigger": "RegisterEffect",
+      "contents": "RegisterEffect(${1:peffect})",
       "description": "int Card.RegisterEffect(card pcard, effect peffect/*, bool forced*/)",
       "details": "int Card.RegisterEffect(card pcard, effect peffect/*, bool forced*/)"
     },
     {
-      "trigger": "Card.IsHasEffect",
-      "contents": "Card.IsHasEffect(${1:pcard}, ${2:code}, ${3:check_player})",
+      "trigger": "IsHasEffect",
+      "contents": "IsHasEffect(${1:code})",
       "description": "effect Card.IsHasEffect(card pcard, int code/*, int check_player*/)",
       "details": "effect Card.IsHasEffect(card pcard, int code/*, int check_player*/)"
     },
     {
-      "trigger": "Card.ResetEffect",
-      "contents": "Card.ResetEffect(${1:pcard}, ${2:code}, ${3:type})",
+      "trigger": "ResetEffect",
+      "contents": "ResetEffect(${1:code}, ${2:type})",
       "description": "nil Card.ResetEffect(card pcard, int code, int type)",
       "details": "nil Card.ResetEffect(card pcard, int code, int type)"
     },
     {
-      "trigger": "Card.GetEffectCount",
-      "contents": "Card.GetEffectCount(${1:pcard}, ${2:code})",
+      "trigger": "GetEffectCount",
+      "contents": "GetEffectCount(${1:code})",
       "description": "int Card.GetEffectCount(card pcard, int code)",
       "details": "int Card.GetEffectCount(card pcard, int code)"
     },
     {
-      "trigger": "Card.RegisterFlagEffect",
-      "contents": "Card.RegisterFlagEffect(${1:pcard}, ${2:code}, ${3:reset}, ${4:flag}, ${5:count}, ${6:lab}, ${7:desc})",
+      "trigger": "RegisterFlagEffect",
+      "contents": "RegisterFlagEffect(${1:code}, ${2:reset}, ${3:flag}, ${4:count})",
       "description": "effect Card.RegisterFlagEffect(card pcard, int code, int reset, int flag, int count/*, int lab, int desc*/)",
       "details": "effect Card.RegisterFlagEffect(card pcard, int code, int reset, int flag, int count/*, int lab, int desc*/)"
     },
     {
-      "trigger": "Card.GetFlagEffect",
-      "contents": "Card.GetFlagEffect(${1:pcard}, ${2:code})",
+      "trigger": "GetFlagEffect",
+      "contents": "GetFlagEffect(${1:code})",
       "description": "int Card.GetFlagEffect(card pcard, int code)",
       "details": "int Card.GetFlagEffect(card pcard, int code)"
     },
     {
-      "trigger": "Card.ResetFlagEffect",
-      "contents": "Card.ResetFlagEffect(${1:pcard}, ${2:code})",
+      "trigger": "ResetFlagEffect",
+      "contents": "ResetFlagEffect(${1:code})",
       "description": "nil Card.ResetFlagEffect(card pcard, int code)",
       "details": "nil Card.ResetFlagEffect(card pcard, int code)"
     },
     {
-      "trigger": "Card.SetFlagEffectLabel",
-      "contents": "Card.SetFlagEffectLabel(${1:pcard}, ${2:code}, ${3:lab})",
+      "trigger": "SetFlagEffectLabel",
+      "contents": "SetFlagEffectLabel(${1:code}, ${2:lab})",
       "description": "bool Card.SetFlagEffectLabel(card pcard, int code, int lab)",
       "details": "bool Card.SetFlagEffectLabel(card pcard, int code, int lab)"
     },
     {
-      "trigger": "Card.GetFlagEffectLabel",
-      "contents": "Card.GetFlagEffectLabel(${1:pcard}, ${2:code})",
+      "trigger": "GetFlagEffectLabel",
+      "contents": "GetFlagEffectLabel(${1:code})",
       "description": "int Card.GetFlagEffectLabel(card pcard, int code)",
       "details": "int Card.GetFlagEffectLabel(card pcard, int code)"
     },
     {
-      "trigger": "Card.CreateRelation",
-      "contents": "Card.CreateRelation(${1:pcard}, ${2:rcard}, ${3:reset})",
+      "trigger": "CreateRelation",
+      "contents": "CreateRelation(${1:rcard}, ${2:reset})",
       "description": "nil Card.CreateRelation(card pcard, card rcard, int reset)",
       "details": "nil Card.CreateRelation(card pcard, card rcard, int reset)"
     },
     {
-      "trigger": "Card.ReleaseRelation",
-      "contents": "Card.ReleaseRelation(${1:pcard}, ${2:rcard})",
+      "trigger": "ReleaseRelation",
+      "contents": "ReleaseRelation(${1:rcard})",
       "description": "nil Card.ReleaseRelation(card pcard, card rcard)",
       "details": "nil Card.ReleaseRelation(card pcard, card rcard)"
     },
     {
-      "trigger": "Card.CreateEffectRelation",
-      "contents": "Card.CreateEffectRelation(${1:pcard}, ${2:peffect})",
+      "trigger": "CreateEffectRelation",
+      "contents": "CreateEffectRelation(${1:peffect})",
       "description": "nil Card.CreateEffectRelation(card pcard, effect peffect)",
       "details": "nil Card.CreateEffectRelation(card pcard, effect peffect)"
     },
     {
-      "trigger": "Card.ReleaseEffectRelation",
-      "contents": "Card.ReleaseEffectRelation(${1:pcard}, ${2:peffect})",
+      "trigger": "ReleaseEffectRelation",
+      "contents": "ReleaseEffectRelation(${1:peffect})",
       "description": "nil Card.ReleaseEffectRelation(card pcard, effect peffect)",
       "details": "nil Card.ReleaseEffectRelation(card pcard, effect peffect)"
     },
     {
-      "trigger": "Card.ClearEffectRelation",
-      "contents": "Card.ClearEffectRelation(${1:pcard})",
+      "trigger": "ClearEffectRelation",
+      "contents": "ClearEffectRelation()",
       "description": "nil Card.ClearEffectRelation(card pcard)",
       "details": "nil Card.ClearEffectRelation(card pcard)"
     },
     {
-      "trigger": "Card.IsRelateToEffect",
-      "contents": "Card.IsRelateToEffect(${1:pcard}, ${2:peffect})",
+      "trigger": "IsRelateToEffect",
+      "contents": "IsRelateToEffect(${1:peffect})",
       "description": "bool Card.IsRelateToEffect(card pcard, effect peffect)",
       "details": "bool Card.IsRelateToEffect(card pcard, effect peffect)"
     },
     {
-      "trigger": "Card.IsRelateToChain",
-      "contents": "Card.IsRelateToChain(${1:pcard}, ${2:chain_count})",
+      "trigger": "IsRelateToChain",
+      "contents": "IsRelateToChain()",
       "description": "bool Card.IsRelateToChain(card pcard/*, int chain_count*/)",
       "details": "bool Card.IsRelateToChain(card pcard/*, int chain_count*/)"
     },
     {
-      "trigger": "Card.IsRelateToCard",
-      "contents": "Card.IsRelateToCard(${1:pcard}, ${2:rcard})",
+      "trigger": "IsRelateToCard",
+      "contents": "IsRelateToCard(${1:rcard})",
       "description": "bool Card.IsRelateToCard(card pcard, card rcard)",
       "details": "bool Card.IsRelateToCard(card pcard, card rcard)"
     },
     {
-      "trigger": "Card.IsRelateToBattle",
-      "contents": "Card.IsRelateToBattle(${1:pcard})",
+      "trigger": "IsRelateToBattle",
+      "contents": "IsRelateToBattle()",
       "description": "bool Card.IsRelateToBattle(card pcard)",
       "details": "bool Card.IsRelateToBattle(card pcard)"
     },
     {
-      "trigger": "Card.CopyEffect",
-      "contents": "Card.CopyEffect(${1:pcard}, ${2:code}, ${3:reset}, ${4:count})",
+      "trigger": "CopyEffect",
+      "contents": "CopyEffect(${1:code}, ${2:reset})",
       "description": "int Card.CopyEffect(card pcard, int code, int reset/*, int count*/)",
       "details": "int Card.CopyEffect(card pcard, int code, int reset/*, int count*/)"
     },
     {
-      "trigger": "Card.ReplaceEffect",
-      "contents": "Card.ReplaceEffect(${1:pcard}, ${2:code}, ${3:reset}, ${4:count})",
+      "trigger": "ReplaceEffect",
+      "contents": "ReplaceEffect(${1:code}, ${2:reset})",
       "description": "int Card.ReplaceEffect(card pcard, int code, int reset/*, int count*/)",
       "details": "int Card.ReplaceEffect(card pcard, int code, int reset/*, int count*/)"
     },
     {
-      "trigger": "Card.EnableReviveLimit",
-      "contents": "Card.EnableReviveLimit(${1:pcard})",
+      "trigger": "EnableReviveLimit",
+      "contents": "EnableReviveLimit()",
       "description": "nil Card.EnableReviveLimit(card pcard)",
       "details": "nil Card.EnableReviveLimit(card pcard)"
     },
     {
-      "trigger": "Card.CompleteProcedure",
-      "contents": "Card.CompleteProcedure(${1:pcard})",
+      "trigger": "CompleteProcedure",
+      "contents": "CompleteProcedure()",
       "description": "nil Card.CompleteProcedure(card pcard)",
       "details": "nil Card.CompleteProcedure(card pcard)"
     },
     {
-      "trigger": "Card.IsDisabled",
-      "contents": "Card.IsDisabled(${1:pcard})",
+      "trigger": "IsDisabled",
+      "contents": "IsDisabled()",
       "description": "bool Card.IsDisabled(card pcard)",
       "details": "bool Card.IsDisabled(card pcard)"
     },
     {
-      "trigger": "Card.IsDestructable",
-      "contents": "Card.IsDestructable(${1:pcard}, ${2:peffect})",
+      "trigger": "IsDestructable",
+      "contents": "IsDestructable()",
       "description": "bool Card.IsDestructable(card pcard/*, effect peffect*/)",
       "details": "bool Card.IsDestructable(card pcard/*, effect peffect*/)"
     },
     {
-      "trigger": "Card.IsSummonable",
-      "contents": "Card.IsSummonable(${1:pcard})",
+      "trigger": "IsSummonable",
+      "contents": "IsSummonable()",
       "description": "bool Card.IsSummonable(card pcard)",
       "details": "bool Card.IsSummonable(card pcard)"
     },
     {
-      "trigger": "Card.IsSpecialSummonableCard",
-      "contents": "Card.IsSpecialSummonableCard(${1:pcard})",
+      "trigger": "IsSpecialSummonableCard",
+      "contents": "IsSpecialSummonableCard()",
       "description": "bool Card.IsSpecialSummonableCard(card pcard)",
       "details": "bool Card.IsSpecialSummonableCard(card pcard)"
     },
     {
-      "trigger": "Card.IsFusionSummonableCard",
-      "contents": "Card.IsFusionSummonableCard(${1:pcard}, ${2:summon_type})",
+      "trigger": "IsFusionSummonableCard",
+      "contents": "IsFusionSummonableCard()",
       "description": "bool Card.IsFusionSummonableCard(card pcard/*, int summon_type*/)",
       "details": "bool Card.IsFusionSummonableCard(card pcard/*, int summon_type*/)"
     },
     {
-      "trigger": "Card.IsMsetable",
-      "contents": "Card.IsMsetable(${1:pcard}, ${2:ign}, ${3:peffect}, ${4:minc}, ${5:zone})",
+      "trigger": "IsMsetable",
+      "contents": "IsMsetable(${1:ign}, ${2:peffect})",
       "description": "bool Card.IsMsetable(card pcard, bool ign, effect|nil peffect/*, int minc, int zone*/)",
       "details": "bool Card.IsMsetable(card pcard, bool ign, effect|nil peffect/*, int minc, int zone*/)"
     },
     {
-      "trigger": "Card.IsSsetable",
-      "contents": "Card.IsSsetable(${1:pcard}, ${2:ign})",
+      "trigger": "IsSsetable",
+      "contents": "IsSsetable()",
       "description": "bool Card.IsSsetable(card pcard/*, bool ign*/)",
       "details": "bool Card.IsSsetable(card pcard/*, bool ign*/)"
     },
     {
-      "trigger": "Card.IsSpecialSummonable",
-      "contents": "Card.IsSpecialSummonable(${1:pcard}, ${2:sumtype})",
+      "trigger": "IsSpecialSummonable",
+      "contents": "IsSpecialSummonable()",
       "description": "bool Card.IsSpecialSummonable(card pcard/*, int sumtype*/)",
       "details": "bool Card.IsSpecialSummonable(card pcard/*, int sumtype*/)"
     },
     {
-      "trigger": "Card.IsSynchroSummonable",
-      "contents": "Card.IsSynchroSummonable(${1:pcard}, ${2:tuner}, ${3:mg}, ${4:minc}, ${5:maxc})",
-      "description": "bool Card.IsSynchroSummonable(card pcard, card|nil tuner/*, group|nil mg, int minc, int maxc*/)",
-      "details": "bool Card.IsSynchroSummonable(card pcard, card|nil tuner/*, group|nil mg, int minc, int maxc*/)"
+      "trigger": "IsSynchroSummonable",
+      "contents": "IsSynchroSummonable(${1:tuner})",
+      "description": "bool Card.IsSynchroSummonable(card pcard, nil|card tuner/*, nil|group mg, int minc, int maxc*/)",
+      "details": "bool Card.IsSynchroSummonable(card pcard, nil|card tuner/*, nil|group mg, int minc, int maxc*/)"
     },
     {
-      "trigger": "Card.IsXyzSummonable",
-      "contents": "Card.IsXyzSummonable(${1:pcard}, ${2:materials}, ${3:minc}, ${4:maxc})",
-      "description": "bool Card.IsXyzSummonable(card pcard, group|nil materials/*, int minc, int maxc*/)",
-      "details": "bool Card.IsXyzSummonable(card pcard, group|nil materials/*, int minc, int maxc*/)"
+      "trigger": "IsXyzSummonable",
+      "contents": "IsXyzSummonable(${1:materials})",
+      "description": "bool Card.IsXyzSummonable(card pcard, nil|group materials/*, int minc, int maxc*/)",
+      "details": "bool Card.IsXyzSummonable(card pcard, nil|group materials/*, int minc, int maxc*/)"
     },
     {
-      "trigger": "Card.IsLinkSummonable",
-      "contents": "Card.IsLinkSummonable(${1:pcard}, ${2:materials}, ${3:lcard}, ${4:minc}, ${5:maxc})",
-      "description": "bool Card.IsLinkSummonable(card pcard, group|nil materials/*, card|nil lcard, int minc, int maxc*/)",
-      "details": "bool Card.IsLinkSummonable(card pcard, group|nil materials/*, card|nil lcard, int minc, int maxc*/)"
+      "trigger": "IsLinkSummonable",
+      "contents": "IsLinkSummonable(${1:materials})",
+      "description": "bool Card.IsLinkSummonable(card pcard, nil|group materials/*, nil|card lcard, int minc, int maxc*/)",
+      "details": "bool Card.IsLinkSummonable(card pcard, nil|group materials/*, nil|card lcard, int minc, int maxc*/)"
     },
     {
-      "trigger": "Card.IsCanBeSummoned",
-      "contents": "Card.IsCanBeSummoned(${1:pcard}, ${2:ign}, ${3:peffect}, ${4:minc}, ${5:zone})",
+      "trigger": "IsCanBeSummoned",
+      "contents": "IsCanBeSummoned(${1:ign}, ${2:peffect})",
       "description": "bool Card.IsCanBeSummoned(card pcard, bool ign, effect|nil peffect/*, int minc, int zone*/)",
       "details": "bool Card.IsCanBeSummoned(card pcard, bool ign, effect|nil peffect/*, int minc, int zone*/)"
     },
     {
-      "trigger": "Card.IsCanBeSpecialSummoned",
-      "contents": "Card.IsCanBeSpecialSummoned(${1:pcard}, ${2:peffect}, ${3:sumtype}, ${4:sumplayer}, ${5:nocheck}, ${6:nolimit}, ${7:sumpos}, ${8:toplayer}, ${9:zone})",
+      "trigger": "IsCanBeSpecialSummoned",
+      "contents": "IsCanBeSpecialSummoned(${1:peffect}, ${2:sumtype}, ${3:sumplayer}, ${4:nocheck}, ${5:nolimit})",
       "description": "bool Card.IsCanBeSpecialSummoned(card pcard, effect peffect, int sumtype, int sumplayer, bool nocheck, bool nolimit/*, int sumpos, int toplayer, int zone*/)",
       "details": "bool Card.IsCanBeSpecialSummoned(card pcard, effect peffect, int sumtype, int sumplayer, bool nocheck, bool nolimit/*, int sumpos, int toplayer, int zone*/)"
     },
     {
-      "trigger": "Card.IsCanBePlacedOnField",
-      "contents": "Card.IsCanBePlacedOnField(${1:pcard}, ${2:toplayer}, ${3:tolocation})",
+      "trigger": "IsCanBePlacedOnField",
+      "contents": "IsCanBePlacedOnField()",
       "description": "bool Card.IsCanBePlacedOnField(card pcard/*, int toplayer, int tolocation*/)",
       "details": "bool Card.IsCanBePlacedOnField(card pcard/*, int toplayer, int tolocation*/)"
     },
     {
-      "trigger": "Card.IsAbleToHand",
-      "contents": "Card.IsAbleToHand(${1:pcard}, ${2:p})",
+      "trigger": "IsAbleToHand",
+      "contents": "IsAbleToHand()",
       "description": "bool Card.IsAbleToHand(card pcard/*, int p*/)",
       "details": "bool Card.IsAbleToHand(card pcard/*, int p*/)"
     },
     {
-      "trigger": "Card.IsAbleToGrave",
-      "contents": "Card.IsAbleToGrave(${1:pcard})",
+      "trigger": "IsAbleToGrave",
+      "contents": "IsAbleToGrave()",
       "description": "bool Card.IsAbleToGrave(card pcard)",
       "details": "bool Card.IsAbleToGrave(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToDeck",
-      "contents": "Card.IsAbleToDeck(${1:pcard})",
+      "trigger": "IsAbleToDeck",
+      "contents": "IsAbleToDeck()",
       "description": "bool Card.IsAbleToDeck(card pcard)",
       "details": "bool Card.IsAbleToDeck(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToExtra",
-      "contents": "Card.IsAbleToExtra(${1:pcard})",
+      "trigger": "IsAbleToExtra",
+      "contents": "IsAbleToExtra()",
       "description": "bool Card.IsAbleToExtra(card pcard)",
       "details": "bool Card.IsAbleToExtra(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToRemove",
-      "contents": "Card.IsAbleToRemove(${1:pcard}, ${2:p}, ${3:pos}, ${4:reason})",
+      "trigger": "IsAbleToRemove",
+      "contents": "IsAbleToRemove()",
       "description": "bool Card.IsAbleToRemove(card pcard/*, int p, int pos, int reason*/)",
       "details": "bool Card.IsAbleToRemove(card pcard/*, int p, int pos, int reason*/)"
     },
     {
-      "trigger": "Card.IsAbleToHandAsCost",
-      "contents": "Card.IsAbleToHandAsCost(${1:pcard})",
+      "trigger": "IsAbleToHandAsCost",
+      "contents": "IsAbleToHandAsCost()",
       "description": "bool Card.IsAbleToHandAsCost(card pcard)",
       "details": "bool Card.IsAbleToHandAsCost(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToGraveAsCost",
-      "contents": "Card.IsAbleToGraveAsCost(${1:pcard})",
+      "trigger": "IsAbleToGraveAsCost",
+      "contents": "IsAbleToGraveAsCost()",
       "description": "bool Card.IsAbleToGraveAsCost(card pcard)",
       "details": "bool Card.IsAbleToGraveAsCost(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToDeckAsCost",
-      "contents": "Card.IsAbleToDeckAsCost(${1:pcard})",
+      "trigger": "IsAbleToDeckAsCost",
+      "contents": "IsAbleToDeckAsCost()",
       "description": "bool Card.IsAbleToDeckAsCost(card pcard)",
       "details": "bool Card.IsAbleToDeckAsCost(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToExtraAsCost",
-      "contents": "Card.IsAbleToExtraAsCost(${1:pcard})",
+      "trigger": "IsAbleToExtraAsCost",
+      "contents": "IsAbleToExtraAsCost()",
       "description": "bool Card.IsAbleToExtraAsCost(card pcard)",
       "details": "bool Card.IsAbleToExtraAsCost(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToDeckOrExtraAsCost",
-      "contents": "Card.IsAbleToDeckOrExtraAsCost(${1:pcard})",
+      "trigger": "IsAbleToDeckOrExtraAsCost",
+      "contents": "IsAbleToDeckOrExtraAsCost()",
       "description": "bool Card.IsAbleToDeckOrExtraAsCost(card pcard)",
       "details": "bool Card.IsAbleToDeckOrExtraAsCost(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToRemoveAsCost",
-      "contents": "Card.IsAbleToRemoveAsCost(${1:pcard}, ${2:pos})",
+      "trigger": "IsAbleToRemoveAsCost",
+      "contents": "IsAbleToRemoveAsCost()",
       "description": "bool Card.IsAbleToRemoveAsCost(card pcard/*, int pos*/)",
       "details": "bool Card.IsAbleToRemoveAsCost(card pcard/*, int pos*/)"
     },
     {
-      "trigger": "Card.IsReleasable",
-      "contents": "Card.IsReleasable(${1:pcard}, ${2:reason})",
+      "trigger": "IsReleasable",
+      "contents": "IsReleasable()",
       "description": "bool Card.IsReleasable(card pcard/*, int reason*/)",
       "details": "bool Card.IsReleasable(card pcard/*, int reason*/)"
     },
     {
-      "trigger": "Card.IsReleasableByEffect",
-      "contents": "Card.IsReleasableByEffect(${1:pcard})",
+      "trigger": "IsReleasableByEffect",
+      "contents": "IsReleasableByEffect()",
       "description": "bool Card.IsReleasableByEffect(card pcard)",
       "details": "bool Card.IsReleasableByEffect(card pcard)"
     },
     {
-      "trigger": "Card.IsDiscardable",
-      "contents": "Card.IsDiscardable(${1:pcard}, ${2:reason})",
+      "trigger": "IsDiscardable",
+      "contents": "IsDiscardable()",
       "description": "bool Card.IsDiscardable(card pcard/*, int reason*/)",
       "details": "bool Card.IsDiscardable(card pcard/*, int reason*/)"
     },
     {
-      "trigger": "Card.IsAttackable",
-      "contents": "Card.IsAttackable(${1:pcard})",
+      "trigger": "IsAttackable",
+      "contents": "IsAttackable()",
       "description": "bool Card.IsAttackable(card pcard)",
       "details": "bool Card.IsAttackable(card pcard)"
     },
     {
-      "trigger": "Card.IsChainAttackable",
-      "contents": "Card.IsChainAttackable(${1:pcard}, ${2:ac}, ${3:monsteronly})",
+      "trigger": "IsChainAttackable",
+      "contents": "IsChainAttackable()",
       "description": "bool Card.IsChainAttackable(card pcard/*, int ac, bool monsteronly*/)",
       "details": "bool Card.IsChainAttackable(card pcard/*, int ac, bool monsteronly*/)"
     },
     {
-      "trigger": "Card.IsFaceup",
-      "contents": "Card.IsFaceup(${1:pcard})",
+      "trigger": "IsFaceup",
+      "contents": "IsFaceup()",
       "description": "bool Card.IsFaceup(card pcard)",
       "details": "bool Card.IsFaceup(card pcard)"
     },
     {
-      "trigger": "Card.IsFaceupEx",
-      "contents": "Card.IsFaceupEx(${1:pcard})",
+      "trigger": "IsFaceupEx",
+      "contents": "IsFaceupEx()",
       "description": "bool Card.IsFaceupEx(card pcard)",
       "details": "bool Card.IsFaceupEx(card pcard)"
     },
     {
-      "trigger": "Card.IsAttackPos",
-      "contents": "Card.IsAttackPos(${1:pcard})",
+      "trigger": "IsAttackPos",
+      "contents": "IsAttackPos()",
       "description": "bool Card.IsAttackPos(card pcard)",
       "details": "bool Card.IsAttackPos(card pcard)"
     },
     {
-      "trigger": "Card.IsFacedown",
-      "contents": "Card.IsFacedown(${1:pcard})",
+      "trigger": "IsFacedown",
+      "contents": "IsFacedown()",
       "description": "bool Card.IsFacedown(card pcard)",
       "details": "bool Card.IsFacedown(card pcard)"
     },
     {
-      "trigger": "Card.IsDefensePos",
-      "contents": "Card.IsDefensePos(${1:pcard})",
+      "trigger": "IsDefensePos",
+      "contents": "IsDefensePos()",
       "description": "bool Card.IsDefensePos(card pcard)",
       "details": "bool Card.IsDefensePos(card pcard)"
     },
     {
-      "trigger": "Card.IsPosition",
-      "contents": "Card.IsPosition(${1:pcard}, ${2:pos})",
+      "trigger": "IsPosition",
+      "contents": "IsPosition(${1:pos})",
       "description": "bool Card.IsPosition(card pcard, int pos)",
       "details": "bool Card.IsPosition(card pcard, int pos)"
     },
     {
-      "trigger": "Card.IsPrePosition",
-      "contents": "Card.IsPrePosition(${1:pcard}, ${2:pos})",
+      "trigger": "IsPrePosition",
+      "contents": "IsPrePosition(${1:pos})",
       "description": "bool Card.IsPrePosition(card pcard, int pos)",
       "details": "bool Card.IsPrePosition(card pcard, int pos)"
     },
     {
-      "trigger": "Card.IsControler",
-      "contents": "Card.IsControler(${1:pcard}, ${2:con})",
+      "trigger": "IsControler",
+      "contents": "IsControler(${1:con})",
       "description": "bool Card.IsControler(card pcard, int con)",
       "details": "bool Card.IsControler(card pcard, int con)"
     },
     {
-      "trigger": "Card.IsPreControler",
-      "contents": "Card.IsPreControler(${1:pcard}, ${2:con})",
+      "trigger": "IsPreControler",
+      "contents": "IsPreControler(${1:con})",
       "description": "bool Card.IsPreControler(card pcard, int con)",
       "details": "bool Card.IsPreControler(card pcard, int con)"
     },
     {
-      "trigger": "Card.IsOnfield",
-      "contents": "Card.IsOnfield(${1:pcard})",
+      "trigger": "IsOnfield",
+      "contents": "IsOnfield()",
       "description": "bool Card.IsOnfield(card pcard)",
       "details": "bool Card.IsOnfield(card pcard)"
     },
     {
-      "trigger": "Card.IsLocation",
-      "contents": "Card.IsLocation(${1:pcard}, ${2:loc})",
+      "trigger": "IsLocation",
+      "contents": "IsLocation(${1:loc})",
       "description": "bool Card.IsLocation(card pcard, int loc)",
       "details": "bool Card.IsLocation(card pcard, int loc)"
     },
     {
-      "trigger": "Card.IsPreLocation",
-      "contents": "Card.IsPreLocation(${1:pcard}, ${2:loc})",
+      "trigger": "IsPreLocation",
+      "contents": "IsPreLocation(${1:loc})",
       "description": "bool Card.IsPreLocation(card pcard, int loc)",
       "details": "bool Card.IsPreLocation(card pcard, int loc)"
     },
     {
-      "trigger": "Card.IsLevelBelow",
-      "contents": "Card.IsLevelBelow(${1:pcard}, ${2:lvl})",
+      "trigger": "IsLevelBelow",
+      "contents": "IsLevelBelow(${1:lvl})",
       "description": "bool Card.IsLevelBelow(card pcard, int lvl)",
       "details": "bool Card.IsLevelBelow(card pcard, int lvl)"
     },
     {
-      "trigger": "Card.IsLevelAbove",
-      "contents": "Card.IsLevelAbove(${1:pcard}, ${2:lvl})",
+      "trigger": "IsLevelAbove",
+      "contents": "IsLevelAbove(${1:lvl})",
       "description": "bool Card.IsLevelAbove(card pcard, int lvl)",
       "details": "bool Card.IsLevelAbove(card pcard, int lvl)"
     },
     {
-      "trigger": "Card.IsRankBelow",
-      "contents": "Card.IsRankBelow(${1:pcard}, ${2:rnk})",
+      "trigger": "IsRankBelow",
+      "contents": "IsRankBelow(${1:rnk})",
       "description": "bool Card.IsRankBelow(card pcard, int rnk)",
       "details": "bool Card.IsRankBelow(card pcard, int rnk)"
     },
     {
-      "trigger": "Card.IsRankAbove",
-      "contents": "Card.IsRankAbove(${1:pcard}, ${2:rnk})",
+      "trigger": "IsRankAbove",
+      "contents": "IsRankAbove(${1:rnk})",
       "description": "bool Card.IsRankAbove(card pcard, int rnk)",
       "details": "bool Card.IsRankAbove(card pcard, int rnk)"
     },
     {
-      "trigger": "Card.IsLinkBelow",
-      "contents": "Card.IsLinkBelow(${1:pcard}, ${2:lnk})",
+      "trigger": "IsLinkBelow",
+      "contents": "IsLinkBelow(${1:lnk})",
       "description": "bool Card.IsLinkBelow(card pcard, int lnk)",
       "details": "bool Card.IsLinkBelow(card pcard, int lnk)"
     },
     {
-      "trigger": "Card.IsLinkAbove",
-      "contents": "Card.IsLinkAbove(${1:pcard}, ${2:lnk})",
+      "trigger": "IsLinkAbove",
+      "contents": "IsLinkAbove(${1:lnk})",
       "description": "bool Card.IsLinkAbove(card pcard, int lnk)",
       "details": "bool Card.IsLinkAbove(card pcard, int lnk)"
     },
     {
-      "trigger": "Card.IsAttackBelow",
-      "contents": "Card.IsAttackBelow(${1:pcard}, ${2:atk})",
+      "trigger": "IsAttackBelow",
+      "contents": "IsAttackBelow(${1:atk})",
       "description": "bool Card.IsAttackBelow(card pcard, int atk)",
       "details": "bool Card.IsAttackBelow(card pcard, int atk)"
     },
     {
-      "trigger": "Card.IsAttackAbove",
-      "contents": "Card.IsAttackAbove(${1:pcard}, ${2:atk})",
+      "trigger": "IsAttackAbove",
+      "contents": "IsAttackAbove(${1:atk})",
       "description": "bool Card.IsAttackAbove(card pcard, int atk)",
       "details": "bool Card.IsAttackAbove(card pcard, int atk)"
     },
     {
-      "trigger": "Card.IsDefenseBelow",
-      "contents": "Card.IsDefenseBelow(${1:pcard}, ${2:def})",
+      "trigger": "IsDefenseBelow",
+      "contents": "IsDefenseBelow(${1:def})",
       "description": "bool Card.IsDefenseBelow(card pcard, int def)",
       "details": "bool Card.IsDefenseBelow(card pcard, int def)"
     },
     {
-      "trigger": "Card.IsDefenseAbove",
-      "contents": "Card.IsDefenseAbove(${1:pcard}, ${2:def})",
+      "trigger": "IsDefenseAbove",
+      "contents": "IsDefenseAbove(${1:def})",
       "description": "bool Card.IsDefenseAbove(card pcard, int def)",
       "details": "bool Card.IsDefenseAbove(card pcard, int def)"
     },
     {
-      "trigger": "Card.IsHasLevel",
-      "contents": "Card.IsHasLevel(${1:pcard})",
+      "trigger": "IsHasLevel",
+      "contents": "IsHasLevel()",
       "description": "bool Card.IsHasLevel(card pcard)",
       "details": "bool Card.IsHasLevel(card pcard)"
     },
     {
-      "trigger": "Card.IsHasDefense",
-      "contents": "Card.IsHasDefense(${1:pcard})",
+      "trigger": "IsHasDefense",
+      "contents": "IsHasDefense()",
       "description": "bool Card.IsHasDefense(card pcard)",
       "details": "bool Card.IsHasDefense(card pcard)"
     },
     {
-      "trigger": "Card.IsPublic",
-      "contents": "Card.IsPublic(${1:pcard})",
+      "trigger": "IsPublic",
+      "contents": "IsPublic()",
       "description": "bool Card.IsPublic(card pcard)",
       "details": "bool Card.IsPublic(card pcard)"
     },
     {
-      "trigger": "Card.IsForbidden",
-      "contents": "Card.IsForbidden(${1:pcard})",
+      "trigger": "IsForbidden",
+      "contents": "IsForbidden()",
       "description": "bool Card.IsForbidden(card pcard)",
       "details": "bool Card.IsForbidden(card pcard)"
     },
     {
-      "trigger": "Card.IsAbleToChangeControler",
-      "contents": "Card.IsAbleToChangeControler(${1:pcard})",
+      "trigger": "IsAbleToChangeControler",
+      "contents": "IsAbleToChangeControler()",
       "description": "bool Card.IsAbleToChangeControler(card pcard)",
       "details": "bool Card.IsAbleToChangeControler(card pcard)"
     },
     {
-      "trigger": "Card.IsControlerCanBeChanged",
-      "contents": "Card.IsControlerCanBeChanged(${1:pcard}, ${2:ign}, ${3:zone})",
+      "trigger": "IsControlerCanBeChanged",
+      "contents": "IsControlerCanBeChanged()",
       "description": "bool Card.IsControlerCanBeChanged(card pcard/*, bool ign, int zone*/)",
       "details": "bool Card.IsControlerCanBeChanged(card pcard/*, bool ign, int zone*/)"
     },
     {
-      "trigger": "Card.AddCounter",
-      "contents": "Card.AddCounter(${1:pcard}, ${2:countertype}, ${3:count}, ${4:singly})",
+      "trigger": "AddCounter",
+      "contents": "AddCounter(${1:countertype}, ${2:count})",
       "description": "bool Card.AddCounter(card pcard, int countertype, int count/*, bool singly*/)",
       "details": "bool Card.AddCounter(card pcard, int countertype, int count/*, bool singly*/)"
     },
     {
-      "trigger": "Card.RemoveCounter",
-      "contents": "Card.RemoveCounter(${1:pcard}, ${2:rplayer}, ${3:countertype}, ${4:count}, ${5:reason})",
+      "trigger": "RemoveCounter",
+      "contents": "RemoveCounter(${1:rplayer}, ${2:countertype}, ${3:count}, ${4:reason})",
       "description": "bool Card.RemoveCounter(card pcard, int rplayer, int countertype, int count, int reason)",
       "details": "bool Card.RemoveCounter(card pcard, int rplayer, int countertype, int count, int reason)"
     },
     {
-      "trigger": "Card.GetCounter",
-      "contents": "Card.GetCounter(${1:pcard}, ${2:countertype})",
+      "trigger": "GetCounter",
+      "contents": "GetCounter(${1:countertype})",
       "description": "int Card.GetCounter(card pcard, int countertype)",
       "details": "int Card.GetCounter(card pcard, int countertype)"
     },
     {
-      "trigger": "Card.EnableCounterPermit",
-      "contents": "Card.EnableCounterPermit(${1:pcard}, ${2:countertype}, ${3:prange}, ${4:condition})",
+      "trigger": "EnableCounterPermit",
+      "contents": "EnableCounterPermit(${1:countertype})",
       "description": "nil Card.EnableCounterPermit(card pcard, int countertype/*, int prange, fn condition*/)",
       "details": "nil Card.EnableCounterPermit(card pcard, int countertype/*, int prange, fn condition*/)"
     },
     {
-      "trigger": "Card.SetCounterLimit",
-      "contents": "Card.SetCounterLimit(${1:pcard}, ${2:countertype}, ${3:limit})",
+      "trigger": "SetCounterLimit",
+      "contents": "SetCounterLimit(${1:countertype}, ${2:limit})",
       "description": "nil Card.SetCounterLimit(card pcard, int countertype, int limit)",
       "details": "nil Card.SetCounterLimit(card pcard, int countertype, int limit)"
     },
     {
-      "trigger": "Card.IsCanChangePosition",
-      "contents": "Card.IsCanChangePosition(${1:pcard})",
+      "trigger": "IsCanChangePosition",
+      "contents": "IsCanChangePosition()",
       "description": "bool Card.IsCanChangePosition(card pcard)",
       "details": "bool Card.IsCanChangePosition(card pcard)"
     },
     {
-      "trigger": "Card.IsCanTurnSet",
-      "contents": "Card.IsCanTurnSet(${1:pcard})",
+      "trigger": "IsCanTurnSet",
+      "contents": "IsCanTurnSet()",
       "description": "bool Card.IsCanTurnSet(card pcard)",
       "details": "bool Card.IsCanTurnSet(card pcard)"
     },
     {
-      "trigger": "Card.IsCanAddCounter",
-      "contents": "Card.IsCanAddCounter(${1:pcard}, ${2:countertype}, ${3:count}, ${4:singly}, ${5:loc})",
+      "trigger": "IsCanAddCounter",
+      "contents": "IsCanAddCounter(${1:countertype}, ${2:count})",
       "description": "bool Card.IsCanAddCounter(card pcard, int countertype, int count/*, bool singly, int loc*/)",
       "details": "bool Card.IsCanAddCounter(card pcard, int countertype, int count/*, bool singly, int loc*/)"
     },
     {
-      "trigger": "Card.IsCanRemoveCounter",
-      "contents": "Card.IsCanRemoveCounter(${1:pcard}, ${2:playerid}, ${3:countertype}, ${4:count}, ${5:reason})",
+      "trigger": "IsCanRemoveCounter",
+      "contents": "IsCanRemoveCounter(${1:playerid}, ${2:countertype}, ${3:count}, ${4:reason})",
       "description": "bool Card.IsCanRemoveCounter(card pcard, int playerid, int countertype, int count, int reason)",
       "details": "bool Card.IsCanRemoveCounter(card pcard, int playerid, int countertype, int count, int reason)"
     },
     {
-      "trigger": "Card.IsCanHaveCounter",
-      "contents": "Card.IsCanHaveCounter(${1:pcard}, ${2:countertype})",
+      "trigger": "IsCanHaveCounter",
+      "contents": "IsCanHaveCounter(${1:countertype})",
       "description": "bool Card.IsCanHaveCounter(card pcard, int countertype)",
       "details": "bool Card.IsCanHaveCounter(card pcard, int countertype)"
     },
     {
-      "trigger": "Card.IsCanOverlay",
-      "contents": "Card.IsCanOverlay(${1:pcard}, ${2:playerid})",
+      "trigger": "IsCanOverlay",
+      "contents": "IsCanOverlay()",
       "description": "bool Card.IsCanOverlay(card pcard/*, nil|int playerid*/)",
       "details": "bool Card.IsCanOverlay(card pcard/*, nil|int playerid*/)"
     },
     {
-      "trigger": "Card.IsCanBeFusionMaterial",
-      "contents": "Card.IsCanBeFusionMaterial(${1:pcard}, ${2:fcard}, ${3:summon_type})",
-      "description": "bool Card.IsCanBeFusionMaterial(card pcard/*, card|nil fcard, int summon_type*/)",
-      "details": "bool Card.IsCanBeFusionMaterial(card pcard/*, card|nil fcard, int summon_type*/)"
+      "trigger": "IsCanBeFusionMaterial",
+      "contents": "IsCanBeFusionMaterial()",
+      "description": "bool Card.IsCanBeFusionMaterial(card pcard/*, nil|card fcard, int summon_type*/)",
+      "details": "bool Card.IsCanBeFusionMaterial(card pcard/*, nil|card fcard, int summon_type*/)"
     },
     {
-      "trigger": "Card.IsCanBeSynchroMaterial",
-      "contents": "Card.IsCanBeSynchroMaterial(${1:pcard}, ${2:scard}, ${3:tuner})",
+      "trigger": "IsCanBeSynchroMaterial",
+      "contents": "IsCanBeSynchroMaterial()",
       "description": "bool Card.IsCanBeSynchroMaterial(card pcard/*, card scard, card tuner*/)",
       "details": "bool Card.IsCanBeSynchroMaterial(card pcard/*, card scard, card tuner*/)"
     },
     {
-      "trigger": "Card.IsCanBeRitualMaterial",
-      "contents": "Card.IsCanBeRitualMaterial(${1:pcard}, ${2:scard})",
-      "description": "bool Card.IsCanBeRitualMaterial(card pcard, card|nil scard)",
-      "details": "bool Card.IsCanBeRitualMaterial(card pcard, card|nil scard)"
+      "trigger": "IsCanBeRitualMaterial",
+      "contents": "IsCanBeRitualMaterial(${1:scard})",
+      "description": "bool Card.IsCanBeRitualMaterial(card pcard, nil|card scard)",
+      "details": "bool Card.IsCanBeRitualMaterial(card pcard, nil|card scard)"
     },
     {
-      "trigger": "Card.IsCanBeXyzMaterial",
-      "contents": "Card.IsCanBeXyzMaterial(${1:pcard}, ${2:scard})",
-      "description": "bool Card.IsCanBeXyzMaterial(card pcard, card|nil scard)",
-      "details": "bool Card.IsCanBeXyzMaterial(card pcard, card|nil scard)"
+      "trigger": "IsCanBeXyzMaterial",
+      "contents": "IsCanBeXyzMaterial(${1:scard})",
+      "description": "bool Card.IsCanBeXyzMaterial(card pcard, nil|card scard)",
+      "details": "bool Card.IsCanBeXyzMaterial(card pcard, nil|card scard)"
     },
     {
-      "trigger": "Card.IsCanBeLinkMaterial",
-      "contents": "Card.IsCanBeLinkMaterial(${1:pcard}, ${2:scard})",
-      "description": "bool Card.IsCanBeLinkMaterial(card pcard, card|nil scard)",
-      "details": "bool Card.IsCanBeLinkMaterial(card pcard, card|nil scard)"
+      "trigger": "IsCanBeLinkMaterial",
+      "contents": "IsCanBeLinkMaterial(${1:scard})",
+      "description": "bool Card.IsCanBeLinkMaterial(card pcard, nil|card scard)",
+      "details": "bool Card.IsCanBeLinkMaterial(card pcard, nil|card scard)"
     },
     {
-      "trigger": "Card.CheckFusionMaterial",
-      "contents": "Card.CheckFusionMaterial(${1:pcard}, ${2:pgroup}, ${3:cg}, ${4:chkf}, ${5:not_material})",
-      "description": "bool Card.CheckFusionMaterial(card pcard/*, group|nil pgroup, card|nil cg, int chkf, bool not_material*/)",
-      "details": "bool Card.CheckFusionMaterial(card pcard/*, group|nil pgroup, card|nil cg, int chkf, bool not_material*/)"
+      "trigger": "CheckFusionMaterial",
+      "contents": "CheckFusionMaterial()",
+      "description": "bool Card.CheckFusionMaterial(card pcard/*, nil|group pgroup, nil|card cg, int chkf, bool not_material*/)",
+      "details": "bool Card.CheckFusionMaterial(card pcard/*, nil|group pgroup, nil|card cg, int chkf, bool not_material*/)"
     },
     {
-      "trigger": "Card.CheckFusionSubstitute",
-      "contents": "Card.CheckFusionSubstitute(${1:pcard}, ${2:fcard})",
+      "trigger": "CheckFusionSubstitute",
+      "contents": "CheckFusionSubstitute(${1:fcard})",
       "description": "bool Card.CheckFusionSubstitute(card pcard, card fcard)",
       "details": "bool Card.CheckFusionSubstitute(card pcard, card fcard)"
     },
     {
-      "trigger": "Card.IsImmuneToEffect",
-      "contents": "Card.IsImmuneToEffect(${1:pcard}, ${2:peffect})",
+      "trigger": "IsImmuneToEffect",
+      "contents": "IsImmuneToEffect(${1:peffect})",
       "description": "bool Card.IsImmuneToEffect(card pcard, effect peffect)",
       "details": "bool Card.IsImmuneToEffect(card pcard, effect peffect)"
     },
     {
-      "trigger": "Card.IsCanBeDisabledByEffect",
-      "contents": "Card.IsCanBeDisabledByEffect(${1:pcard}, ${2:peffect}, ${3:is_monster_effect})",
+      "trigger": "IsCanBeDisabledByEffect",
+      "contents": "IsCanBeDisabledByEffect(${1:peffect})",
       "description": "bool Card.IsCanBeDisabledByEffect(card pcard, effect peffect/*, bool is_monster_effect*/)",
       "details": "bool Card.IsCanBeDisabledByEffect(card pcard, effect peffect/*, bool is_monster_effect*/)"
     },
     {
-      "trigger": "Card.IsCanBeEffectTarget",
-      "contents": "Card.IsCanBeEffectTarget(${1:pcard}, ${2:peffect})",
+      "trigger": "IsCanBeEffectTarget",
+      "contents": "IsCanBeEffectTarget()",
       "description": "bool Card.IsCanBeEffectTarget(card pcard/*, effect peffect*/)",
       "details": "bool Card.IsCanBeEffectTarget(card pcard/*, effect peffect*/)"
     },
     {
-      "trigger": "Card.IsCanBeBattleTarget",
-      "contents": "Card.IsCanBeBattleTarget(${1:pcard}, ${2:bcard})",
+      "trigger": "IsCanBeBattleTarget",
+      "contents": "IsCanBeBattleTarget(${1:bcard})",
       "description": "bool Card.IsCanBeBattleTarget(card pcard, card bcard)",
       "details": "bool Card.IsCanBeBattleTarget(card pcard, card bcard)"
     },
     {
-      "trigger": "Card.AddMonsterAttribute",
-      "contents": "Card.AddMonsterAttribute(${1:pcard}, ${2:type}, ${3:attribute}, ${4:race}, ${5:level}, ${6:atk}, ${7:def})",
+      "trigger": "AddMonsterAttribute",
+      "contents": "AddMonsterAttribute(${1:type})",
       "description": "nil Card.AddMonsterAttribute(card pcard, int type/*, int attribute, int race, int level, int atk, int def*/)",
       "details": "nil Card.AddMonsterAttribute(card pcard, int type/*, int attribute, int race, int level, int atk, int def*/)"
     },
     {
-      "trigger": "Card.CancelToGrave",
-      "contents": "Card.CancelToGrave(${1:pcard}, ${2:cancel})",
+      "trigger": "CancelToGrave",
+      "contents": "CancelToGrave()",
       "description": "nil Card.CancelToGrave(card pcard/*, bool cancel*/)",
       "details": "nil Card.CancelToGrave(card pcard/*, bool cancel*/)"
     },
     {
-      "trigger": "Card.GetTributeRequirement",
-      "contents": "Card.GetTributeRequirement(${1:pcard})",
+      "trigger": "GetTributeRequirement",
+      "contents": "GetTributeRequirement()",
       "description": "int Card.GetTributeRequirement(card pcard)",
       "details": "int Card.GetTributeRequirement(card pcard)"
     },
     {
-      "trigger": "Card.GetBattleTarget",
-      "contents": "Card.GetBattleTarget(${1:pcard})",
+      "trigger": "GetBattleTarget",
+      "contents": "GetBattleTarget()",
       "description": "group Card.GetBattleTarget(card pcard)",
       "details": "group Card.GetBattleTarget(card pcard)"
     },
     {
-      "trigger": "Card.GetAttackableTarget",
-      "contents": "Card.GetAttackableTarget(${1:pcard})",
+      "trigger": "GetAttackableTarget",
+      "contents": "GetAttackableTarget()",
       "description": "bool|card Card.GetAttackableTarget(card pcard)",
       "details": "bool|card Card.GetAttackableTarget(card pcard)"
     },
     {
-      "trigger": "Card.SetHint",
-      "contents": "Card.SetHint(${1:pcard}, ${2:type}, ${3:value})",
+      "trigger": "SetHint",
+      "contents": "SetHint(${1:type}, ${2:value})",
       "description": "nil Card.SetHint(card pcard, int type, int value)",
       "details": "nil Card.SetHint(card pcard, int type, int value)"
     },
     {
-      "trigger": "Card.ReverseInDeck",
-      "contents": "Card.ReverseInDeck(${1:pcard})",
+      "trigger": "ReverseInDeck",
+      "contents": "ReverseInDeck()",
       "description": "nil Card.ReverseInDeck(card pcard)",
       "details": "nil Card.ReverseInDeck(card pcard)"
     },
     {
-      "trigger": "Card.SetUniqueOnfield",
-      "contents": "Card.SetUniqueOnfield(${1:pcard}, ${2:unique_pos}, ${3:unique_pos}, ${4:unique_code}, ${5:location})",
+      "trigger": "SetUniqueOnfield",
+      "contents": "SetUniqueOnfield(${1:unique_pos}, ${2:unique_pos}, ${3:unique_code})",
       "description": "nil Card.SetUniqueOnfield(card pcard, int unique_pos, int unique_pos, fn|int unique_code/*, int location*/)",
       "details": "nil Card.SetUniqueOnfield(card pcard, int unique_pos, int unique_pos, fn|int unique_code/*, int location*/)"
     },
     {
-      "trigger": "Card.CheckUniqueOnfield",
-      "contents": "Card.CheckUniqueOnfield(${1:pcard}, ${2:check_player}, ${3:check_location}, ${4:icard})",
+      "trigger": "CheckUniqueOnfield",
+      "contents": "CheckUniqueOnfield(${1:check_player})",
       "description": "bool Card.CheckUniqueOnfield(card pcard, int check_player/*, int check_location, card icard*/)",
       "details": "bool Card.CheckUniqueOnfield(card pcard, int check_player/*, int check_location, card icard*/)"
     },
     {
-      "trigger": "Card.ResetNegateEffect",
-      "contents": "Card.ResetNegateEffect(${1:pcard}, ${2:o})",
+      "trigger": "ResetNegateEffect",
+      "contents": "ResetNegateEffect()",
       "description": "nil Card.ResetNegateEffect(card pcard/*, int o*/)",
       "details": "nil Card.ResetNegateEffect(card pcard/*, int o*/)"
     },
     {
-      "trigger": "Card.AssumeProp",
-      "contents": "Card.AssumeProp(${1:pcard}, ${2:assume_type}, ${3:assume_value})",
+      "trigger": "AssumeProp",
+      "contents": "AssumeProp(${1:assume_type}, ${2:assume_value})",
       "description": "nil Card.AssumeProp(card pcard, int assume_type, int assume_value)",
       "details": "nil Card.AssumeProp(card pcard, int assume_type, int assume_value)"
     },
     {
-      "trigger": "Card.SetSpsummonOnce",
-      "contents": "Card.SetSpsummonOnce(${1:pcard}, ${2:spsummon_code})",
+      "trigger": "SetSpsummonOnce",
+      "contents": "SetSpsummonOnce(${1:spsummon_code})",
       "description": "str|val Card.SetSpsummonOnce(card pcard, int spsummon_code)",
       "details": "str|val Card.SetSpsummonOnce(card pcard, int spsummon_code)"
     },
     {
-      "trigger": "Group.New",
-      "contents": "Group.New()",
+      "trigger": "New",
+      "contents": "New()",
       "description": "card Group.New()",
       "details": "card Group.New()"
     },
     {
-      "trigger": "Group.Clone",
-      "contents": "Group.Clone(${1:pgroup})",
+      "trigger": "Clone",
+      "contents": "Clone()",
       "description": "card Group.Clone(group pgroup)",
       "details": "card Group.Clone(group pgroup)"
     },
     {
-      "trigger": "Group.FromCards",
-      "contents": "Group.FromCards(${1:pcard})",
-      "description": "card Group.FromCards(/*, card|nil pcard*/)",
-      "details": "card Group.FromCards(/*, card|nil pcard*/)"
+      "trigger": "FromCard",
+      "contents": "FromCard()",
+      "description": "card Group.FromCard(/*, nil|card pcard*/)",
+      "details": "card Group.FromCard(/*, nil|card pcard*/)"
     },
     {
-      "trigger": "Group.Delete",
-      "contents": "Group.Delete(${1:pgroup})",
+      "trigger": "Delete",
+      "contents": "Delete()",
       "description": "nil Group.Delete(group pgroup)",
       "details": "nil Group.Delete(group pgroup)"
     },
     {
-      "trigger": "Group.KeepAlive",
-      "contents": "Group.KeepAlive(${1:pgroup})",
+      "trigger": "KeepAlive",
+      "contents": "KeepAlive()",
       "description": "nil Group.KeepAlive(group pgroup)",
       "details": "nil Group.KeepAlive(group pgroup)"
     },
     {
-      "trigger": "Group.Clear",
-      "contents": "Group.Clear(${1:pgroup})",
+      "trigger": "Clear",
+      "contents": "Clear()",
       "description": "nil Group.Clear(group pgroup)",
       "details": "nil Group.Clear(group pgroup)"
     },
     {
-      "trigger": "Group.AddCard",
-      "contents": "Group.AddCard(${1:pgroup}, ${2:pcard})",
+      "trigger": "AddCard",
+      "contents": "AddCard(${1:pcard})",
       "description": "nil Group.AddCard(group pgroup, card pcard)",
       "details": "nil Group.AddCard(group pgroup, card pcard)"
     },
     {
-      "trigger": "Group.RemoveCard",
-      "contents": "Group.RemoveCard(${1:pgroup}, ${2:pcard})",
+      "trigger": "RemoveCard",
+      "contents": "RemoveCard(${1:pcard})",
       "description": "nil Group.RemoveCard(group pgroup, card pcard)",
       "details": "nil Group.RemoveCard(group pgroup, card pcard)"
     },
     {
-      "trigger": "Group.GetNext",
-      "contents": "Group.GetNext(${1:pgroup})",
+      "trigger": "GetNext",
+      "contents": "GetNext()",
       "description": "group Group.GetNext(group pgroup)",
       "details": "group Group.GetNext(group pgroup)"
     },
     {
-      "trigger": "Group.GetFirst",
-      "contents": "Group.GetFirst(${1:pgroup})",
+      "trigger": "GetFirst",
+      "contents": "GetFirst()",
       "description": "group Group.GetFirst(group pgroup)",
       "details": "group Group.GetFirst(group pgroup)"
     },
     {
-      "trigger": "Group.GetCount",
-      "contents": "Group.GetCount(${1:pgroup})",
+      "trigger": "GetCount",
+      "contents": "GetCount()",
       "description": "int Group.GetCount(group pgroup)",
       "details": "int Group.GetCount(group pgroup)"
     },
     {
-      "trigger": "Group.Filter",
-      "contents": "Group.Filter(${1:pgroup}, ${2:o}, ${3:pexgroup})",
-      "description": "card Group.Filter(group pgroup, fn o, group|card pexgroup)",
-      "details": "card Group.Filter(group pgroup, fn o, group|card pexgroup)"
+      "trigger": "Filter",
+      "contents": "Filter(${1:o}, ${2:pexgroup})",
+      "description": "card Group.Filter(group pgroup, fn o, card|group pexgroup)",
+      "details": "card Group.Filter(group pgroup, fn o, card|group pexgroup)"
     },
     {
-      "trigger": "Group.FilterCount",
-      "contents": "Group.FilterCount(${1:pgroup}, ${2:o}, ${3:pexgroup})",
-      "description": "int Group.FilterCount(group pgroup, fn o, group|card pexgroup)",
-      "details": "int Group.FilterCount(group pgroup, fn o, group|card pexgroup)"
+      "trigger": "FilterCount",
+      "contents": "FilterCount(${1:o}, ${2:pexgroup})",
+      "description": "int Group.FilterCount(group pgroup, fn o, card|group pexgroup)",
+      "details": "int Group.FilterCount(group pgroup, fn o, card|group pexgroup)"
     },
     {
-      "trigger": "Group.FilterSelect",
-      "contents": "Group.FilterSelect(${1:pgroup}, ${2:playerid}, ${3:o}, ${4:min}, ${5:max}, ${6:pexgroup})",
-      "description": "card Group.FilterSelect(group pgroup, int playerid, fn o, int min, int max, group|card pexgroup)",
-      "details": "card Group.FilterSelect(group pgroup, int playerid, fn o, int min, int max, group|card pexgroup)"
+      "trigger": "FilterSelect",
+      "contents": "FilterSelect(${1:playerid}, ${2:o}, ${3:min}, ${4:max}, ${5:pexgroup})",
+      "description": "card Group.FilterSelect(group pgroup, int playerid, fn o, int min, int max, card|group pexgroup)",
+      "details": "card Group.FilterSelect(group pgroup, int playerid, fn o, int min, int max, card|group pexgroup)"
     },
     {
-      "trigger": "Group.Select",
-      "contents": "Group.Select(${1:pgroup}, ${2:playerid}, ${3:min}, ${4:max}, ${5:pexgroup})",
-      "description": "card Group.Select(group pgroup, int playerid, int min, int max, group|card pexgroup)",
-      "details": "card Group.Select(group pgroup, int playerid, int min, int max, group|card pexgroup)"
+      "trigger": "Select",
+      "contents": "Select(${1:playerid}, ${2:min}, ${3:max}, ${4:pexgroup})",
+      "description": "card Group.Select(group pgroup, int playerid, int min, int max, card|group pexgroup)",
+      "details": "card Group.Select(group pgroup, int playerid, int min, int max, card|group pexgroup)"
     },
     {
-      "trigger": "Group.SelectUnselect",
-      "contents": "Group.SelectUnselect(${1:select_group}, ${2:unselect_group}, ${3:playerid}, ${4:finishable}, ${5:cancelable}, ${6:min}, ${7:max})",
+      "trigger": "SelectUnselect",
+      "contents": "SelectUnselect(${1:unselect_group}, ${2:playerid})",
       "description": "group Group.SelectUnselect(group select_group, group unselect_group, int playerid/*, bool finishable, bool cancelable, int min, int max*/)",
       "details": "group Group.SelectUnselect(group select_group, group unselect_group, int playerid/*, bool finishable, bool cancelable, int min, int max*/)"
     },
     {
-      "trigger": "Group.RandomSelect",
-      "contents": "Group.RandomSelect(${1:pgroup}, ${2:playerid}, ${3:count})",
+      "trigger": "RandomSelect",
+      "contents": "RandomSelect(${1:playerid}, ${2:count})",
       "description": "card Group.RandomSelect(group pgroup, int playerid, int count)",
       "details": "card Group.RandomSelect(group pgroup, int playerid, int count)"
     },
     {
-      "trigger": "Group.CancelableSelect",
-      "contents": "Group.CancelableSelect(${1:pgroup}, ${2:playerid}, ${3:min}, ${4:max}, ${5:pexgroup})",
-      "description": "card Group.CancelableSelect(group pgroup, int playerid, int min, int max, group|card pexgroup)",
-      "details": "card Group.CancelableSelect(group pgroup, int playerid, int min, int max, group|card pexgroup)"
+      "trigger": "CancelableSelect",
+      "contents": "CancelableSelect(${1:playerid}, ${2:min}, ${3:max}, ${4:pexgroup})",
+      "description": "card Group.CancelableSelect(group pgroup, int playerid, int min, int max, card|group pexgroup)",
+      "details": "card Group.CancelableSelect(group pgroup, int playerid, int min, int max, card|group pexgroup)"
     },
     {
-      "trigger": "Group.IsExists",
-      "contents": "Group.IsExists(${1:pgroup}, ${2:o}, ${3:count}, ${4:pexgroup})",
-      "description": "bool Group.IsExists(group pgroup, fn o, int count, group|card pexgroup)",
-      "details": "bool Group.IsExists(group pgroup, fn o, int count, group|card pexgroup)"
+      "trigger": "IsExists",
+      "contents": "IsExists(${1:o}, ${2:count}, ${3:pexgroup})",
+      "description": "bool Group.IsExists(group pgroup, fn o, int count, card|group pexgroup)",
+      "details": "bool Group.IsExists(group pgroup, fn o, int count, card|group pexgroup)"
     },
     {
-      "trigger": "Group.CheckWithSumEqual",
-      "contents": "Group.CheckWithSumEqual(${1:pgroup}, ${2:o}, ${3:acc}, ${4:min}, ${5:max})",
+      "trigger": "CheckWithSumEqual",
+      "contents": "CheckWithSumEqual(${1:o}, ${2:acc}, ${3:min}, ${4:max})",
       "description": "bool Group.CheckWithSumEqual(group pgroup, fn o, int acc, int min, int max)",
       "details": "bool Group.CheckWithSumEqual(group pgroup, fn o, int acc, int min, int max)"
     },
     {
-      "trigger": "Group.SelectWithSumEqual",
-      "contents": "Group.SelectWithSumEqual(${1:pgroup}, ${2:playerid}, ${3:o}, ${4:acc}, ${5:min}, ${6:max})",
+      "trigger": "SelectWithSumEqual",
+      "contents": "SelectWithSumEqual(${1:playerid}, ${2:o}, ${3:acc}, ${4:min}, ${5:max})",
       "description": "card Group.SelectWithSumEqual(group pgroup, int playerid, fn o, int acc, int min, int max)",
       "details": "card Group.SelectWithSumEqual(group pgroup, int playerid, fn o, int acc, int min, int max)"
     },
     {
-      "trigger": "Group.CheckWithSumGreater",
-      "contents": "Group.CheckWithSumGreater(${1:pgroup}, ${2:o}, ${3:acc})",
+      "trigger": "CheckWithSumGreater",
+      "contents": "CheckWithSumGreater(${1:o}, ${2:acc})",
       "description": "bool Group.CheckWithSumGreater(group pgroup, fn o, int acc)",
       "details": "bool Group.CheckWithSumGreater(group pgroup, fn o, int acc)"
     },
     {
-      "trigger": "Group.SelectWithSumGreater",
-      "contents": "Group.SelectWithSumGreater(${1:pgroup}, ${2:playerid}, ${3:o}, ${4:acc})",
+      "trigger": "SelectWithSumGreater",
+      "contents": "SelectWithSumGreater(${1:playerid}, ${2:o}, ${3:acc})",
       "description": "card Group.SelectWithSumGreater(group pgroup, int playerid, fn o, int acc)",
       "details": "card Group.SelectWithSumGreater(group pgroup, int playerid, fn o, int acc)"
     },
     {
-      "trigger": "Group.GetMinGroup",
-      "contents": "Group.GetMinGroup(${1:pgroup}, ${2:o})",
-      "description": "card|int Group.GetMinGroup(group pgroup, fn o)",
-      "details": "card|int Group.GetMinGroup(group pgroup, fn o)"
+      "trigger": "GetMinGroup",
+      "contents": "GetMinGroup(${1:o})",
+      "description": "int|card Group.GetMinGroup(group pgroup, fn o)",
+      "details": "int|card Group.GetMinGroup(group pgroup, fn o)"
     },
     {
-      "trigger": "Group.GetMaxGroup",
-      "contents": "Group.GetMaxGroup(${1:pgroup}, ${2:o})",
-      "description": "card|int Group.GetMaxGroup(group pgroup, fn o)",
-      "details": "card|int Group.GetMaxGroup(group pgroup, fn o)"
+      "trigger": "GetMaxGroup",
+      "contents": "GetMaxGroup(${1:o})",
+      "description": "int|card Group.GetMaxGroup(group pgroup, fn o)",
+      "details": "int|card Group.GetMaxGroup(group pgroup, fn o)"
     },
     {
-      "trigger": "Group.GetSum",
-      "contents": "Group.GetSum(${1:pgroup}, ${2:o})",
+      "trigger": "GetSum",
+      "contents": "GetSum(${1:o})",
       "description": "int Group.GetSum(group pgroup, fn o)",
       "details": "int Group.GetSum(group pgroup, fn o)"
     },
     {
-      "trigger": "Group.GetClassCount",
-      "contents": "Group.GetClassCount(${1:pgroup}, ${2:o})",
+      "trigger": "GetClassCount",
+      "contents": "GetClassCount(${1:o})",
       "description": "int Group.GetClassCount(group pgroup, fn o)",
       "details": "int Group.GetClassCount(group pgroup, fn o)"
     },
     {
-      "trigger": "Group.Remove",
-      "contents": "Group.Remove(${1:pgroup}, ${2:o}, ${3:pexception})",
-      "description": "nil Group.Remove(group pgroup, fn o, card|nil pexception)",
-      "details": "nil Group.Remove(group pgroup, fn o, card|nil pexception)"
+      "trigger": "Remove",
+      "contents": "Remove(${1:o}, ${2:pexception})",
+      "description": "nil Group.Remove(group pgroup, fn o, nil|card pexception)",
+      "details": "nil Group.Remove(group pgroup, fn o, nil|card pexception)"
     },
     {
-      "trigger": "Group.Merge",
-      "contents": "Group.Merge(${1:pgroup}, ${2:mgroup})",
+      "trigger": "Merge",
+      "contents": "Merge(${1:mgroup})",
       "description": "nil Group.Merge(group pgroup, group mgroup)",
       "details": "nil Group.Merge(group pgroup, group mgroup)"
     },
     {
-      "trigger": "Group.Sub",
-      "contents": "Group.Sub(${1:pgroup}, ${2:sgroup})",
+      "trigger": "Sub",
+      "contents": "Sub(${1:sgroup})",
       "description": "nil Group.Sub(group pgroup, group sgroup)",
       "details": "nil Group.Sub(group pgroup, group sgroup)"
     },
     {
-      "trigger": "Group.Equal",
-      "contents": "Group.Equal(${1:pgroup}, ${2:sgroup})",
+      "trigger": "Equal",
+      "contents": "Equal(${1:sgroup})",
       "description": "bool Group.Equal(group pgroup, group sgroup)",
       "details": "bool Group.Equal(group pgroup, group sgroup)"
     },
     {
-      "trigger": "Group.IsContains",
-      "contents": "Group.IsContains(${1:pgroup}, ${2:pcard})",
+      "trigger": "IsContains",
+      "contents": "IsContains(${1:pcard})",
       "description": "bool Group.IsContains(group pgroup, card pcard)",
       "details": "bool Group.IsContains(group pgroup, card pcard)"
     },
     {
-      "trigger": "Group.SearchCard",
-      "contents": "Group.SearchCard(${1:pgroup}, ${2:o})",
+      "trigger": "SearchCard",
+      "contents": "SearchCard(${1:o})",
       "description": "group Group.SearchCard(group pgroup, fn o)",
       "details": "group Group.SearchCard(group pgroup, fn o)"
     },
     {
-      "trigger": "Group.GetBinClassCount",
-      "contents": "Group.GetBinClassCount(${1:pgroup}, ${2:o})",
+      "trigger": "GetBinClassCount",
+      "contents": "GetBinClassCount(${1:o})",
       "description": "int Group.GetBinClassCount(group pgroup, fn o)",
       "details": "int Group.GetBinClassCount(group pgroup, fn o)"
     },
     {
-      "trigger": "Group.MetaAdd",
-      "contents": "Group.MetaAdd(${1:cgroup}, ${2:cgroup})",
-      "description": "card Group.MetaAdd(group|card cgroup, group|card cgroup)",
-      "details": "card Group.MetaAdd(group|card cgroup, group|card cgroup)"
+      "trigger": "MetaAdd",
+      "contents": "MetaAdd(${1:cgroup})",
+      "description": "card Group.MetaAdd(card|group cgroup, card|group cgroup)",
+      "details": "card Group.MetaAdd(card|group cgroup, card|group cgroup)"
     },
     {
-      "trigger": "Group.MetaSub",
-      "contents": "Group.MetaSub(${1:cgroup}, ${2:cgroup})",
-      "description": "card Group.MetaSub(group|card cgroup, group|card cgroup)",
-      "details": "card Group.MetaSub(group|card cgroup, group|card cgroup)"
+      "trigger": "MetaSub",
+      "contents": "MetaSub(${1:cgroup})",
+      "description": "card Group.MetaSub(card|group cgroup, card|group cgroup)",
+      "details": "card Group.MetaSub(card|group cgroup, card|group cgroup)"
     },
     {
-      "trigger": "Group.MetaBand",
-      "contents": "Group.MetaBand(${1:cgroup}, ${2:cgroup})",
-      "description": "card Group.MetaBand(group|card cgroup, group|card cgroup)",
-      "details": "card Group.MetaBand(group|card cgroup, group|card cgroup)"
+      "trigger": "MetaBand",
+      "contents": "MetaBand(${1:cgroup})",
+      "description": "card Group.MetaBand(card|group cgroup, card|group cgroup)",
+      "details": "card Group.MetaBand(card|group cgroup, card|group cgroup)"
     },
     {
-      "trigger": "Group.MetaBxor",
-      "contents": "Group.MetaBxor(${1:cgroup}, ${2:cgroup})",
-      "description": "card|str|val Group.MetaBxor(group|card cgroup, group|card cgroup)",
-      "details": "card|str|val Group.MetaBxor(group|card cgroup, group|card cgroup)"
+      "trigger": "MetaBxor",
+      "contents": "MetaBxor(${1:cgroup})",
+      "description": "val|str|card Group.MetaBxor(card|group cgroup, card|group cgroup)",
+      "details": "val|str|card Group.MetaBxor(card|group cgroup, card|group cgroup)"
     },
     {
-      "trigger": "Effect.New",
-      "contents": "Effect.New(${1:pcard})",
+      "trigger": "New",
+      "contents": "New()",
       "description": "effect Effect.New(card pcard)",
       "details": "effect Effect.New(card pcard)"
     },
     {
-      "trigger": "Effect.Newex",
-      "contents": "Effect.Newex()",
+      "trigger": "Newex",
+      "contents": "Newex()",
       "description": "effect Effect.Newex()",
       "details": "effect Effect.Newex()"
     },
     {
-      "trigger": "Effect.Clone",
-      "contents": "Effect.Clone(${1:peffect})",
+      "trigger": "Clone",
+      "contents": "Clone()",
       "description": "effect Effect.Clone(effect peffect)",
       "details": "effect Effect.Clone(effect peffect)"
     },
     {
-      "trigger": "Effect.Reset",
-      "contents": "Effect.Reset(${1:peffect})",
+      "trigger": "Reset",
+      "contents": "Reset()",
       "description": "nil Effect.Reset(effect peffect)",
       "details": "nil Effect.Reset(effect peffect)"
     },
     {
-      "trigger": "Effect.GetFieldId",
-      "contents": "Effect.GetFieldId()",
+      "trigger": "GetFieldId",
+      "contents": "GetFieldId()",
       "description": "nil Effect.GetFieldId()",
       "details": "nil Effect.GetFieldId()"
     },
     {
-      "trigger": "Effect.SetDescription",
-      "contents": "Effect.SetDescription(${1:peffect}, ${2:v})",
+      "trigger": "SetDescription",
+      "contents": "SetDescription(${1:v})",
       "description": "nil Effect.SetDescription(effect peffect, int v)",
       "details": "nil Effect.SetDescription(effect peffect, int v)"
     },
     {
-      "trigger": "Effect.SetCode",
-      "contents": "Effect.SetCode(${1:peffect}, ${2:v})",
+      "trigger": "SetCode",
+      "contents": "SetCode(${1:v})",
       "description": "nil Effect.SetCode(effect peffect, int v)",
       "details": "nil Effect.SetCode(effect peffect, int v)"
     },
     {
-      "trigger": "Effect.SetRange",
-      "contents": "Effect.SetRange(${1:peffect}, ${2:v})",
+      "trigger": "SetRange",
+      "contents": "SetRange(${1:v})",
       "description": "nil Effect.SetRange(effect peffect, int v)",
       "details": "nil Effect.SetRange(effect peffect, int v)"
     },
     {
-      "trigger": "Effect.SetTargetRange",
-      "contents": "Effect.SetTargetRange(${1:peffect}, ${2:s}, ${3:o})",
+      "trigger": "SetTargetRange",
+      "contents": "SetTargetRange(${1:s}, ${2:o})",
       "description": "nil Effect.SetTargetRange(effect peffect, int s, int o)",
       "details": "nil Effect.SetTargetRange(effect peffect, int s, int o)"
     },
     {
-      "trigger": "Effect.SetAbsoluteRange",
-      "contents": "Effect.SetAbsoluteRange(${1:peffect}, ${2:playerid}, ${3:s}, ${4:o})",
+      "trigger": "SetAbsoluteRange",
+      "contents": "SetAbsoluteRange(${1:playerid}, ${2:s}, ${3:o})",
       "description": "nil Effect.SetAbsoluteRange(effect peffect, int playerid, int s, int o)",
       "details": "nil Effect.SetAbsoluteRange(effect peffect, int playerid, int s, int o)"
     },
     {
-      "trigger": "Effect.SetCountLimit",
-      "contents": "Effect.SetCountLimit(${1:peffect}, ${2:v}, ${3:code})",
+      "trigger": "SetCountLimit",
+      "contents": "SetCountLimit(${1:v})",
       "description": "nil Effect.SetCountLimit(effect peffect, int v/*, int code*/)",
       "details": "nil Effect.SetCountLimit(effect peffect, int v/*, int code*/)"
     },
     {
-      "trigger": "Effect.SetReset",
-      "contents": "Effect.SetReset(${1:peffect}, ${2:v}, ${3:c})",
+      "trigger": "SetReset",
+      "contents": "SetReset(${1:v})",
       "description": "nil Effect.SetReset(effect peffect, int v/*, int c*/)",
       "details": "nil Effect.SetReset(effect peffect, int v/*, int c*/)"
     },
     {
-      "trigger": "Effect.SetType",
-      "contents": "Effect.SetType(${1:peffect}, ${2:v})",
+      "trigger": "SetType",
+      "contents": "SetType(${1:v})",
       "description": "nil Effect.SetType(effect peffect, int v)",
       "details": "nil Effect.SetType(effect peffect, int v)"
     },
     {
-      "trigger": "Effect.SetProperty",
-      "contents": "Effect.SetProperty(${1:peffect}, ${2:v1}, ${3:v2})",
+      "trigger": "SetProperty",
+      "contents": "SetProperty(${1:v1})",
       "description": "nil Effect.SetProperty(effect peffect, int v1/*, int v2*/)",
       "details": "nil Effect.SetProperty(effect peffect, int v1/*, int v2*/)"
     },
     {
-      "trigger": "Effect.SetLabel",
-      "contents": "Effect.SetLabel(${1:peffect}, ${2:o})",
+      "trigger": "SetLabel",
+      "contents": "SetLabel(${1:o})",
       "description": "nil Effect.SetLabel(effect peffect, int o)",
       "details": "nil Effect.SetLabel(effect peffect, int o)"
     },
     {
-      "trigger": "Effect.SetLabelObject",
-      "contents": "Effect.SetLabelObject(${1:peffect}, ${2:p})",
-      "description": "nil Effect.SetLabelObject(effect peffect, group|card|effect|nil p)",
-      "details": "nil Effect.SetLabelObject(effect peffect, group|card|effect|nil p)"
+      "trigger": "SetLabelObject",
+      "contents": "SetLabelObject(${1:p})",
+      "description": "nil Effect.SetLabelObject(effect peffect, effect|nil|card|group p)",
+      "details": "nil Effect.SetLabelObject(effect peffect, effect|nil|card|group p)"
     },
     {
-      "trigger": "Effect.SetCategory",
-      "contents": "Effect.SetCategory(${1:peffect}, ${2:v})",
+      "trigger": "SetCategory",
+      "contents": "SetCategory(${1:v})",
       "description": "nil Effect.SetCategory(effect peffect, int v)",
       "details": "nil Effect.SetCategory(effect peffect, int v)"
     },
     {
-      "trigger": "Effect.SetHintTiming",
-      "contents": "Effect.SetHintTiming(${1:peffect}, ${2:vs}, ${3:vo})",
+      "trigger": "SetHintTiming",
+      "contents": "SetHintTiming(${1:vs})",
       "description": "nil Effect.SetHintTiming(effect peffect, int vs/*, int vo*/)",
       "details": "nil Effect.SetHintTiming(effect peffect, int vs/*, int vo*/)"
     },
     {
-      "trigger": "Effect.SetCondition",
-      "contents": "Effect.SetCondition(${1:peffect}, ${2:condition})",
+      "trigger": "SetCondition",
+      "contents": "SetCondition(${1:condition})",
       "description": "nil Effect.SetCondition(effect peffect, fn condition)",
       "details": "nil Effect.SetCondition(effect peffect, fn condition)"
     },
     {
-      "trigger": "Effect.SetTarget",
-      "contents": "Effect.SetTarget(${1:peffect}, ${2:target})",
+      "trigger": "SetTarget",
+      "contents": "SetTarget(${1:target})",
       "description": "nil Effect.SetTarget(effect peffect, fn target)",
       "details": "nil Effect.SetTarget(effect peffect, fn target)"
     },
     {
-      "trigger": "Effect.SetCost",
-      "contents": "Effect.SetCost(${1:peffect}, ${2:cost})",
+      "trigger": "SetCost",
+      "contents": "SetCost(${1:cost})",
       "description": "nil Effect.SetCost(effect peffect, fn cost)",
       "details": "nil Effect.SetCost(effect peffect, fn cost)"
     },
     {
-      "trigger": "Effect.SetValue",
-      "contents": "Effect.SetValue(${1:peffect}, ${2:value})",
-      "description": "nil Effect.SetValue(effect peffect, bool|fn|int value)",
-      "details": "nil Effect.SetValue(effect peffect, bool|fn|int value)"
+      "trigger": "SetValue",
+      "contents": "SetValue(${1:value})",
+      "description": "nil Effect.SetValue(effect peffect, fn|bool|int value)",
+      "details": "nil Effect.SetValue(effect peffect, fn|bool|int value)"
     },
     {
-      "trigger": "Effect.SetOperation",
-      "contents": "Effect.SetOperation(${1:peffect}, ${2:operation})",
-      "description": "nil Effect.SetOperation(effect peffect, nil|fn operation)",
-      "details": "nil Effect.SetOperation(effect peffect, nil|fn operation)"
+      "trigger": "SetOperation",
+      "contents": "SetOperation(${1:operation})",
+      "description": "nil Effect.SetOperation(effect peffect, fn|nil operation)",
+      "details": "nil Effect.SetOperation(effect peffect, fn|nil operation)"
     },
     {
-      "trigger": "Effect.SetOwnerPlayer",
-      "contents": "Effect.SetOwnerPlayer(${1:peffect}, ${2:p})",
+      "trigger": "SetOwnerPlayer",
+      "contents": "SetOwnerPlayer()",
       "description": "nil Effect.SetOwnerPlayer(effect peffect/*, int p*/)",
       "details": "nil Effect.SetOwnerPlayer(effect peffect/*, int p*/)"
     },
     {
-      "trigger": "Effect.GetDescription",
-      "contents": "Effect.GetDescription()",
+      "trigger": "GetDescription",
+      "contents": "GetDescription()",
       "description": "nil Effect.GetDescription()",
       "details": "nil Effect.GetDescription()"
     },
     {
-      "trigger": "Effect.GetCode",
-      "contents": "Effect.GetCode()",
+      "trigger": "GetCode",
+      "contents": "GetCode()",
       "description": "nil Effect.GetCode()",
       "details": "nil Effect.GetCode()"
     },
     {
-      "trigger": "Effect.GetType",
-      "contents": "Effect.GetType()",
+      "trigger": "GetType",
+      "contents": "GetType()",
       "description": "nil Effect.GetType()",
       "details": "nil Effect.GetType()"
     },
     {
-      "trigger": "Effect.GetProperty",
-      "contents": "Effect.GetProperty(${1:peffect})",
+      "trigger": "GetProperty",
+      "contents": "GetProperty()",
       "description": "int Effect.GetProperty(effect peffect)",
       "details": "int Effect.GetProperty(effect peffect)"
     },
     {
-      "trigger": "Effect.GetLabel",
-      "contents": "Effect.GetLabel(${1:peffect})",
+      "trigger": "GetLabel",
+      "contents": "GetLabel()",
       "description": "int Effect.GetLabel(effect peffect)",
       "details": "int Effect.GetLabel(effect peffect)"
     },
     {
-      "trigger": "Effect.GetLabelObject",
-      "contents": "Effect.GetLabelObject(${1:peffect})",
+      "trigger": "GetLabelObject",
+      "contents": "GetLabelObject()",
       "description": "nil Effect.GetLabelObject(effect|obj peffect)",
       "details": "nil Effect.GetLabelObject(effect|obj peffect)"
     },
     {
-      "trigger": "Effect.GetCategory",
-      "contents": "Effect.GetCategory()",
+      "trigger": "GetCategory",
+      "contents": "GetCategory()",
       "description": "nil Effect.GetCategory()",
       "details": "nil Effect.GetCategory()"
     },
     {
-      "trigger": "Effect.GetRange",
-      "contents": "Effect.GetRange()",
+      "trigger": "GetRange",
+      "contents": "GetRange()",
       "description": "nil Effect.GetRange()",
       "details": "nil Effect.GetRange()"
     },
     {
-      "trigger": "Effect.GetOwner",
-      "contents": "Effect.GetOwner(${1:peffect})",
+      "trigger": "GetOwner",
+      "contents": "GetOwner()",
       "description": "group Effect.GetOwner(effect peffect)",
       "details": "group Effect.GetOwner(effect peffect)"
     },
     {
-      "trigger": "Effect.GetHandler",
-      "contents": "Effect.GetHandler(${1:peffect})",
+      "trigger": "GetHandler",
+      "contents": "GetHandler()",
       "description": "group Effect.GetHandler(effect peffect)",
       "details": "group Effect.GetHandler(effect peffect)"
     },
     {
-      "trigger": "Effect.GetOwnerPlayer",
-      "contents": "Effect.GetOwnerPlayer(${1:peffect})",
+      "trigger": "GetOwnerPlayer",
+      "contents": "GetOwnerPlayer()",
       "description": "int Effect.GetOwnerPlayer(effect peffect)",
       "details": "int Effect.GetOwnerPlayer(effect peffect)"
     },
     {
-      "trigger": "Effect.GetHandlerPlayer",
-      "contents": "Effect.GetHandlerPlayer(${1:peffect})",
+      "trigger": "GetHandlerPlayer",
+      "contents": "GetHandlerPlayer()",
       "description": "int Effect.GetHandlerPlayer(effect peffect)",
       "details": "int Effect.GetHandlerPlayer(effect peffect)"
     },
     {
-      "trigger": "Effect.GetCondition",
-      "contents": "Effect.GetCondition(${1:peffect})",
+      "trigger": "GetCondition",
+      "contents": "GetCondition()",
       "description": "fn Effect.GetCondition(effect peffect)",
       "details": "fn Effect.GetCondition(effect peffect)"
     },
     {
-      "trigger": "Effect.GetTarget",
-      "contents": "Effect.GetTarget(${1:peffect})",
+      "trigger": "GetTarget",
+      "contents": "GetTarget()",
       "description": "fn Effect.GetTarget(effect peffect)",
       "details": "fn Effect.GetTarget(effect peffect)"
     },
     {
-      "trigger": "Effect.GetCost",
-      "contents": "Effect.GetCost(${1:peffect})",
+      "trigger": "GetCost",
+      "contents": "GetCost()",
       "description": "fn Effect.GetCost(effect peffect)",
       "details": "fn Effect.GetCost(effect peffect)"
     },
     {
-      "trigger": "Effect.GetValue",
-      "contents": "Effect.GetValue(${1:peffect})",
+      "trigger": "GetValue",
+      "contents": "GetValue()",
       "description": "fn|int Effect.GetValue(effect peffect)",
       "details": "fn|int Effect.GetValue(effect peffect)"
     },
     {
-      "trigger": "Effect.GetOperation",
-      "contents": "Effect.GetOperation(${1:peffect})",
+      "trigger": "GetOperation",
+      "contents": "GetOperation()",
       "description": "fn Effect.GetOperation(effect peffect)",
       "details": "fn Effect.GetOperation(effect peffect)"
     },
     {
-      "trigger": "Effect.GetActiveType",
-      "contents": "Effect.GetActiveType(${1:peffect})",
+      "trigger": "GetActiveType",
+      "contents": "GetActiveType()",
       "description": "int Effect.GetActiveType(effect peffect)",
       "details": "int Effect.GetActiveType(effect peffect)"
     },
     {
-      "trigger": "Effect.IsActiveType",
-      "contents": "Effect.IsActiveType(${1:peffect}, ${2:type})",
+      "trigger": "IsActiveType",
+      "contents": "IsActiveType(${1:type})",
       "description": "bool Effect.IsActiveType(effect peffect, int type)",
       "details": "bool Effect.IsActiveType(effect peffect, int type)"
     },
     {
-      "trigger": "Effect.IsHasProperty",
-      "contents": "Effect.IsHasProperty(${1:peffect}, ${2:tflag1}, ${3:tflag2})",
+      "trigger": "IsHasProperty",
+      "contents": "IsHasProperty(${1:tflag1})",
       "description": "bool Effect.IsHasProperty(effect peffect, int tflag1/*, int tflag2*/)",
       "details": "bool Effect.IsHasProperty(effect peffect, int tflag1/*, int tflag2*/)"
     },
     {
-      "trigger": "Effect.IsHasCategory",
-      "contents": "Effect.IsHasCategory()",
+      "trigger": "IsHasCategory",
+      "contents": "IsHasCategory()",
       "description": "nil Effect.IsHasCategory()",
       "details": "nil Effect.IsHasCategory()"
     },
     {
-      "trigger": "Effect.IsHasType",
-      "contents": "Effect.IsHasType()",
+      "trigger": "IsHasType",
+      "contents": "IsHasType()",
       "description": "nil Effect.IsHasType()",
       "details": "nil Effect.IsHasType()"
     },
     {
-      "trigger": "Effect.IsHasRange",
-      "contents": "Effect.IsHasRange()",
+      "trigger": "IsHasRange",
+      "contents": "IsHasRange()",
       "description": "nil Effect.IsHasRange()",
       "details": "nil Effect.IsHasRange()"
     },
     {
-      "trigger": "Effect.IsActivatable",
-      "contents": "Effect.IsActivatable(${1:peffect}, ${2:playerid}, ${3:neglect_loc}, ${4:neglect_target})",
+      "trigger": "IsActivatable",
+      "contents": "IsActivatable(${1:playerid})",
       "description": "bool Effect.IsActivatable(effect peffect, int playerid/*, bool neglect_loc, bool neglect_target*/)",
       "details": "bool Effect.IsActivatable(effect peffect, int playerid/*, bool neglect_loc, bool neglect_target*/)"
     },
     {
-      "trigger": "Effect.IsActivated",
-      "contents": "Effect.IsActivated(${1:peffect})",
+      "trigger": "IsActivated",
+      "contents": "IsActivated()",
       "description": "bool Effect.IsActivated(effect peffect)",
       "details": "bool Effect.IsActivated(effect peffect)"
     },
     {
-      "trigger": "Effect.IsCostChecked",
-      "contents": "Effect.IsCostChecked(${1:peffect})",
+      "trigger": "IsCostChecked",
+      "contents": "IsCostChecked()",
       "description": "bool Effect.IsCostChecked(effect peffect)",
       "details": "bool Effect.IsCostChecked(effect peffect)"
     },
     {
-      "trigger": "Effect.SetCostCheck",
-      "contents": "Effect.SetCostCheck(${1:peffect}, ${2:cost_check})",
+      "trigger": "SetCostCheck",
+      "contents": "SetCostCheck(${1:cost_check})",
       "description": "nil Effect.SetCostCheck(effect peffect, bool cost_check)",
       "details": "nil Effect.SetCostCheck(effect peffect, bool cost_check)"
     },
     {
-      "trigger": "Effect.GetActivateLocation",
-      "contents": "Effect.GetActivateLocation(${1:peffect})",
+      "trigger": "GetActivateLocation",
+      "contents": "GetActivateLocation()",
       "description": "int Effect.GetActivateLocation(effect peffect)",
       "details": "int Effect.GetActivateLocation(effect peffect)"
     },
     {
-      "trigger": "Effect.GetActivateSequence",
-      "contents": "Effect.GetActivateSequence(${1:peffect})",
+      "trigger": "GetActivateSequence",
+      "contents": "GetActivateSequence()",
       "description": "int Effect.GetActivateSequence(effect peffect)",
       "details": "int Effect.GetActivateSequence(effect peffect)"
     },
     {
-      "trigger": "Effect.CheckCountLimit",
-      "contents": "Effect.CheckCountLimit(${1:peffect}, ${2:p})",
+      "trigger": "CheckCountLimit",
+      "contents": "CheckCountLimit(${1:p})",
       "description": "bool Effect.CheckCountLimit(effect peffect, int p)",
       "details": "bool Effect.CheckCountLimit(effect peffect, int p)"
     },
     {
-      "trigger": "Effect.UseCountLimit",
-      "contents": "Effect.UseCountLimit(${1:peffect}, ${2:p}, ${3:count}, ${4:oath_only})",
+      "trigger": "UseCountLimit",
+      "contents": "UseCountLimit(${1:p})",
       "description": "str|val Effect.UseCountLimit(effect peffect, int p/*, int count, bool oath_only*/)",
       "details": "str|val Effect.UseCountLimit(effect peffect, int p/*, int count, bool oath_only*/)"
     },
@@ -2247,7 +2247,7 @@
     },
     {
       "trigger": "Duel.GetTurnCount",
-      "contents": "Duel.GetTurnCount(${1:playerid})",
+      "contents": "Duel.GetTurnCount()",
       "description": "int Duel.GetTurnCount(/*, int playerid*/)",
       "details": "int Duel.GetTurnCount(/*, int playerid*/)"
     },
@@ -2265,7 +2265,7 @@
     },
     {
       "trigger": "Duel.RegisterFlagEffect",
-      "contents": "Duel.RegisterFlagEffect(${1:playerid}, ${2:code}, ${3:reset}, ${4:flag}, ${5:count}, ${6:lab})",
+      "contents": "Duel.RegisterFlagEffect(${1:playerid}, ${2:code}, ${3:reset}, ${4:flag}, ${5:count})",
       "description": "effect Duel.RegisterFlagEffect(int playerid, int code, int reset, int flag, int count/*, int lab*/)",
       "details": "effect Duel.RegisterFlagEffect(int playerid, int code, int reset, int flag, int count/*, int lab*/)"
     },
@@ -2295,63 +2295,63 @@
     },
     {
       "trigger": "Duel.Destroy",
-      "contents": "Duel.Destroy(${1:pgroup}, ${2:reason}, ${3:dest}, ${4:reason_player})",
-      "description": "int Duel.Destroy(group|card pgroup, int reason/*, int dest, int reason_player*/)",
-      "details": "int Duel.Destroy(group|card pgroup, int reason/*, int dest, int reason_player*/)"
+      "contents": "Duel.Destroy(${1:pgroup}, ${2:reason})",
+      "description": "int Duel.Destroy(card|group pgroup, int reason/*, int dest, int reason_player*/)",
+      "details": "int Duel.Destroy(card|group pgroup, int reason/*, int dest, int reason_player*/)"
     },
     {
       "trigger": "Duel.Remove",
-      "contents": "Duel.Remove(${1:pgroup}, ${2:pos}, ${3:reason}, ${4:reason_player})",
-      "description": "int Duel.Remove(group|card pgroup, int pos, int reason/*, int reason_player*/)",
-      "details": "int Duel.Remove(group|card pgroup, int pos, int reason/*, int reason_player*/)"
+      "contents": "Duel.Remove(${1:pgroup}, ${2:pos}, ${3:reason})",
+      "description": "int Duel.Remove(card|group pgroup, int pos, int reason/*, int reason_player*/)",
+      "details": "int Duel.Remove(card|group pgroup, int pos, int reason/*, int reason_player*/)"
     },
     {
       "trigger": "Duel.SendtoGrave",
-      "contents": "Duel.SendtoGrave(${1:pgroup}, ${2:reason}, ${3:reason_player})",
-      "description": "int Duel.SendtoGrave(group|card pgroup, int reason/*, int reason_player*/)",
-      "details": "int Duel.SendtoGrave(group|card pgroup, int reason/*, int reason_player*/)"
+      "contents": "Duel.SendtoGrave(${1:pgroup}, ${2:reason})",
+      "description": "int Duel.SendtoGrave(card|group pgroup, int reason/*, int reason_player*/)",
+      "details": "int Duel.SendtoGrave(card|group pgroup, int reason/*, int reason_player*/)"
     },
     {
       "trigger": "Duel.Summon",
-      "contents": "Duel.Summon(${1:playerid}, ${2:pcard}, ${3:ignore_count}, ${4:peffect}, ${5:min_tribute}, ${6:zone})",
+      "contents": "Duel.Summon(${1:playerid}, ${2:pcard}, ${3:ignore_count}, ${4:peffect})",
       "description": "nil Duel.Summon(int playerid, card pcard, bool ignore_count, effect|nil peffect/*, int min_tribute, int zone*/)",
       "details": "nil Duel.Summon(int playerid, card pcard, bool ignore_count, effect|nil peffect/*, int min_tribute, int zone*/)"
     },
     {
       "trigger": "Duel.SpecialSummonRule",
-      "contents": "Duel.SpecialSummonRule(${1:playerid}, ${2:pcard}, ${3:sumtype})",
+      "contents": "Duel.SpecialSummonRule(${1:playerid}, ${2:pcard})",
       "description": "nil Duel.SpecialSummonRule(int playerid, card pcard/*, int sumtype*/)",
       "details": "nil Duel.SpecialSummonRule(int playerid, card pcard/*, int sumtype*/)"
     },
     {
       "trigger": "Duel.SynchroSummon",
-      "contents": "Duel.SynchroSummon(${1:playerid}, ${2:pcard}, ${3:tuner}, ${4:pgroup}, ${5:minc}, ${6:maxc})",
-      "description": "nil Duel.SynchroSummon(int playerid, card pcard, card|nil tuner/*, group|nil pgroup, int minc, int maxc*/)",
-      "details": "nil Duel.SynchroSummon(int playerid, card pcard, card|nil tuner/*, group|nil pgroup, int minc, int maxc*/)"
+      "contents": "Duel.SynchroSummon(${1:playerid}, ${2:pcard}, ${3:tuner})",
+      "description": "nil Duel.SynchroSummon(int playerid, card pcard, nil|card tuner/*, nil|group pgroup, int minc, int maxc*/)",
+      "details": "nil Duel.SynchroSummon(int playerid, card pcard, nil|card tuner/*, nil|group pgroup, int minc, int maxc*/)"
     },
     {
       "trigger": "Duel.XyzSummon",
-      "contents": "Duel.XyzSummon(${1:playerid}, ${2:pcard}, ${3:pgroup}, ${4:minc}, ${5:maxc})",
-      "description": "nil Duel.XyzSummon(int playerid, card pcard, group|nil pgroup/*, int minc, int maxc*/)",
-      "details": "nil Duel.XyzSummon(int playerid, card pcard, group|nil pgroup/*, int minc, int maxc*/)"
+      "contents": "Duel.XyzSummon(${1:playerid}, ${2:pcard}, ${3:pgroup})",
+      "description": "nil Duel.XyzSummon(int playerid, card pcard, nil|group pgroup/*, int minc, int maxc*/)",
+      "details": "nil Duel.XyzSummon(int playerid, card pcard, nil|group pgroup/*, int minc, int maxc*/)"
     },
     {
       "trigger": "Duel.LinkSummon",
-      "contents": "Duel.LinkSummon(${1:playerid}, ${2:pcard}, ${3:pgroup}, ${4:lcard}, ${5:minc}, ${6:maxc})",
-      "description": "nil Duel.LinkSummon(int playerid, card pcard, group|nil pgroup/*, card|nil lcard, int minc, int maxc*/)",
-      "details": "nil Duel.LinkSummon(int playerid, card pcard, group|nil pgroup/*, card|nil lcard, int minc, int maxc*/)"
+      "contents": "Duel.LinkSummon(${1:playerid}, ${2:pcard}, ${3:pgroup})",
+      "description": "nil Duel.LinkSummon(int playerid, card pcard, nil|group pgroup/*, nil|card lcard, int minc, int maxc*/)",
+      "details": "nil Duel.LinkSummon(int playerid, card pcard, nil|group pgroup/*, nil|card lcard, int minc, int maxc*/)"
     },
     {
       "trigger": "Duel.Setm",
-      "contents": "Duel.Setm(${1:playerid}, ${2:pcard}, ${3:ignore_count}, ${4:peffect}, ${5:min_tribute}, ${6:zone})",
+      "contents": "Duel.Setm(${1:playerid}, ${2:pcard}, ${3:ignore_count}, ${4:peffect})",
       "description": "nil Duel.Setm(int playerid, card pcard, bool ignore_count, effect|nil peffect/*, int min_tribute, int zone*/)",
       "details": "nil Duel.Setm(int playerid, card pcard, bool ignore_count, effect|nil peffect/*, int min_tribute, int zone*/)"
     },
     {
       "trigger": "Duel.Sets",
-      "contents": "Duel.Sets(${1:playerid}, ${2:pgroup}, ${3:toplayer}, ${4:confirm})",
-      "description": "int Duel.Sets(int playerid, group|card pgroup/*, int toplayer, bool confirm*/)",
-      "details": "int Duel.Sets(int playerid, group|card pgroup/*, int toplayer, bool confirm*/)"
+      "contents": "Duel.Sets(${1:playerid}, ${2:pgroup})",
+      "description": "int Duel.Sets(int playerid, card|group pgroup/*, int toplayer, bool confirm*/)",
+      "details": "int Duel.Sets(int playerid, card|group pgroup/*, int toplayer, bool confirm*/)"
     },
     {
       "trigger": "Duel.CreateToken",
@@ -2361,13 +2361,13 @@
     },
     {
       "trigger": "Duel.SpecialSummon",
-      "contents": "Duel.SpecialSummon(${1:pgroup}, ${2:sumtype}, ${3:sumplayer}, ${4:playerid}, ${5:nocheck}, ${6:nolimit}, ${7:positions}, ${8:zone})",
-      "description": "int Duel.SpecialSummon(group|card pgroup, int sumtype, int sumplayer, int playerid, bool nocheck, bool nolimit, int positions/*, int zone*/)",
-      "details": "int Duel.SpecialSummon(group|card pgroup, int sumtype, int sumplayer, int playerid, bool nocheck, bool nolimit, int positions/*, int zone*/)"
+      "contents": "Duel.SpecialSummon(${1:pgroup}, ${2:sumtype}, ${3:sumplayer}, ${4:playerid}, ${5:nocheck}, ${6:nolimit}, ${7:positions})",
+      "description": "int Duel.SpecialSummon(card|group pgroup, int sumtype, int sumplayer, int playerid, bool nocheck, bool nolimit, int positions/*, int zone*/)",
+      "details": "int Duel.SpecialSummon(card|group pgroup, int sumtype, int sumplayer, int playerid, bool nocheck, bool nolimit, int positions/*, int zone*/)"
     },
     {
       "trigger": "Duel.SpecialSummonStep",
-      "contents": "Duel.SpecialSummonStep(${1:pcard}, ${2:sumtype}, ${3:sumplayer}, ${4:playerid}, ${5:nocheck}, ${6:nolimit}, ${7:positions}, ${8:zone})",
+      "contents": "Duel.SpecialSummonStep(${1:pcard}, ${2:sumtype}, ${3:sumplayer}, ${4:playerid}, ${5:nocheck}, ${6:nolimit}, ${7:positions})",
       "description": "bool Duel.SpecialSummonStep(card pcard, int sumtype, int sumplayer, int playerid, bool nocheck, bool nolimit, int positions/*, int zone*/)",
       "details": "bool Duel.SpecialSummonStep(card pcard, int sumtype, int sumplayer, int playerid, bool nocheck, bool nolimit, int positions/*, int zone*/)"
     },
@@ -2379,21 +2379,21 @@
     },
     {
       "trigger": "Duel.SendtoHand",
-      "contents": "Duel.SendtoHand(${1:pgroup}, ${2:playerid}, ${3:reason}, ${4:reason_player})",
-      "description": "int Duel.SendtoHand(group|card pgroup, nil|int playerid, int reason/*, int reason_player*/)",
-      "details": "int Duel.SendtoHand(group|card pgroup, nil|int playerid, int reason/*, int reason_player*/)"
+      "contents": "Duel.SendtoHand(${1:pgroup}, ${2:playerid}, ${3:reason})",
+      "description": "int Duel.SendtoHand(card|group pgroup, nil|int playerid, int reason/*, int reason_player*/)",
+      "details": "int Duel.SendtoHand(card|group pgroup, nil|int playerid, int reason/*, int reason_player*/)"
     },
     {
       "trigger": "Duel.SendtoDeck",
-      "contents": "Duel.SendtoDeck(${1:pgroup}, ${2:playerid}, ${3:sequence}, ${4:reason}, ${5:reason_player}, ${6:send_activating})",
-      "description": "int Duel.SendtoDeck(group|card pgroup, nil|int playerid, int sequence, int reason/*, int reason_player, bool send_activating*/)",
-      "details": "int Duel.SendtoDeck(group|card pgroup, nil|int playerid, int sequence, int reason/*, int reason_player, bool send_activating*/)"
+      "contents": "Duel.SendtoDeck(${1:pgroup}, ${2:playerid}, ${3:sequence}, ${4:reason})",
+      "description": "int Duel.SendtoDeck(card|group pgroup, nil|int playerid, int sequence, int reason/*, int reason_player, bool send_activating*/)",
+      "details": "int Duel.SendtoDeck(card|group pgroup, nil|int playerid, int sequence, int reason/*, int reason_player, bool send_activating*/)"
     },
     {
       "trigger": "Duel.SendtoExtra",
       "contents": "Duel.SendtoExtra(${1:pgroup}, ${2:playerid}, ${3:reason})",
-      "description": "int Duel.SendtoExtra(group|card pgroup, nil|int playerid, int reason)",
-      "details": "int Duel.SendtoExtra(group|card pgroup, nil|int playerid, int reason)"
+      "description": "int Duel.SendtoExtra(card|group pgroup, nil|int playerid, int reason)",
+      "details": "int Duel.SendtoExtra(card|group pgroup, nil|int playerid, int reason)"
     },
     {
       "trigger": "Duel.GetOperatedGroup",
@@ -2403,7 +2403,7 @@
     },
     {
       "trigger": "Duel.IsCanAddCounter",
-      "contents": "Duel.IsCanAddCounter(${1:playerid}, ${2:countertype}, ${3:count}, ${4:pcard})",
+      "contents": "Duel.IsCanAddCounter(${1:playerid})",
       "description": "bool Duel.IsCanAddCounter(int playerid/*, int countertype, int count, card pcard*/)",
       "details": "bool Duel.IsCanAddCounter(int playerid/*, int countertype, int count, card pcard*/)"
     },
@@ -2427,25 +2427,25 @@
     },
     {
       "trigger": "Duel.ChangeForm",
-      "contents": "Duel.ChangeForm(${1:pgroup}, ${2:au}, ${3:ad}, ${4:du}, ${5:dd}, ${6:o})",
-      "description": "int Duel.ChangeForm(group|card pgroup, int au/*, int ad, int du, int dd, bool o*/)",
-      "details": "int Duel.ChangeForm(group|card pgroup, int au/*, int ad, int du, int dd, bool o*/)"
+      "contents": "Duel.ChangeForm(${1:pgroup}, ${2:au})",
+      "description": "int Duel.ChangeForm(card|group pgroup, int au/*, int ad, int du, int dd, bool o*/)",
+      "details": "int Duel.ChangeForm(card|group pgroup, int au/*, int ad, int du, int dd, bool o*/)"
     },
     {
       "trigger": "Duel.Release",
-      "contents": "Duel.Release(${1:pgroup}, ${2:reason}, ${3:reason_player})",
-      "description": "int Duel.Release(group|card pgroup, int reason/*, int reason_player*/)",
-      "details": "int Duel.Release(group|card pgroup, int reason/*, int reason_player*/)"
+      "contents": "Duel.Release(${1:pgroup}, ${2:reason})",
+      "description": "int Duel.Release(card|group pgroup, int reason/*, int reason_player*/)",
+      "details": "int Duel.Release(card|group pgroup, int reason/*, int reason_player*/)"
     },
     {
       "trigger": "Duel.MoveToField",
-      "contents": "Duel.MoveToField(${1:pcard}, ${2:move_player}, ${3:playerid}, ${4:destination}, ${5:positions}, ${6:enable}, ${7:zone})",
+      "contents": "Duel.MoveToField(${1:pcard}, ${2:move_player}, ${3:playerid}, ${4:destination}, ${5:positions}, ${6:enable})",
       "description": "bool Duel.MoveToField(card pcard, int move_player, int playerid, int destination, int positions, bool enable/*, int zone*/)",
       "details": "bool Duel.MoveToField(card pcard, int move_player, int playerid, int destination, int positions, bool enable/*, int zone*/)"
     },
     {
       "trigger": "Duel.ReturnToField",
-      "contents": "Duel.ReturnToField(${1:pcard}, ${2:pos}, ${3:zone})",
+      "contents": "Duel.ReturnToField(${1:pcard})",
       "description": "bool Duel.ReturnToField(card pcard/*, int pos, int zone*/)",
       "details": "bool Duel.ReturnToField(card pcard/*, int pos, int zone*/)"
     },
@@ -2498,10 +2498,10 @@
       "details": "nil Duel.ConfirmExtratop(int playerid, int count)"
     },
     {
-      "trigger": "Duel.ConfirmCards",
-      "contents": "Duel.ConfirmCards(${1:playerid}, ${2:pgroup}, ${3:skip_panel})",
-      "description": "nil Duel.ConfirmCards(int playerid, group|card pgroup/*, bool skip_panel*/)",
-      "details": "nil Duel.ConfirmCards(int playerid, group|card pgroup/*, bool skip_panel*/)"
+      "trigger": "Duel.ConfirmCard",
+      "contents": "Duel.ConfirmCard(${1:playerid}, ${2:pgroup})",
+      "description": "nil Duel.ConfirmCard(int playerid, card|group pgroup/*, bool skip_panel*/)",
+      "details": "nil Duel.ConfirmCard(int playerid, card|group pgroup/*, bool skip_panel*/)"
     },
     {
       "trigger": "Duel.SortDecktop",
@@ -2511,15 +2511,15 @@
     },
     {
       "trigger": "Duel.CheckEvent",
-      "contents": "Duel.CheckEvent(${1:ev}, ${2:get_info})",
-      "description": "bool|card|effect|int Duel.CheckEvent(int ev/*, bool get_info*/)",
-      "details": "bool|card|effect|int Duel.CheckEvent(int ev/*, bool get_info*/)"
+      "contents": "Duel.CheckEvent(${1:ev})",
+      "description": "effect|int|bool|card Duel.CheckEvent(int ev/*, bool get_info*/)",
+      "details": "effect|int|bool|card Duel.CheckEvent(int ev/*, bool get_info*/)"
     },
     {
       "trigger": "Duel.RaiseEvent",
       "contents": "Duel.RaiseEvent(${1:pgroup}, ${2:code}, ${3:peffect}, ${4:r}, ${5:rp}, ${6:ep}, ${7:ev})",
-      "description": "nil Duel.RaiseEvent(group|card pgroup, int code, effect|nil peffect, int r, int rp, int ep, int ev)",
-      "details": "nil Duel.RaiseEvent(group|card pgroup, int code, effect|nil peffect, int r, int rp, int ep, int ev)"
+      "description": "nil Duel.RaiseEvent(card|group pgroup, int code, effect|nil peffect, int r, int rp, int ep, int ev)",
+      "details": "nil Duel.RaiseEvent(card|group pgroup, int code, effect|nil peffect, int r, int rp, int ep, int ev)"
     },
     {
       "trigger": "Duel.RaiseSingleEvent",
@@ -2535,7 +2535,7 @@
     },
     {
       "trigger": "Duel.IsEnvironment",
-      "contents": "Duel.IsEnvironment(${1:code}, ${2:playerid}, ${3:loc})",
+      "contents": "Duel.IsEnvironment(${1:code})",
       "description": "bool Duel.IsEnvironment(int code/*, int playerid, int loc*/)",
       "details": "bool Duel.IsEnvironment(int code/*, int playerid, int loc*/)"
     },
@@ -2553,13 +2553,13 @@
     },
     {
       "trigger": "Duel.Damage",
-      "contents": "Duel.Damage(${1:playerid}, ${2:amount}, ${3:reason}, ${4:is_step})",
+      "contents": "Duel.Damage(${1:playerid}, ${2:amount}, ${3:reason})",
       "description": "int Duel.Damage(int playerid, int amount, int reason/*, bool is_step*/)",
       "details": "int Duel.Damage(int playerid, int amount, int reason/*, bool is_step*/)"
     },
     {
       "trigger": "Duel.Recover",
-      "contents": "Duel.Recover(${1:playerid}, ${2:amount}, ${3:reason}, ${4:is_step})",
+      "contents": "Duel.Recover(${1:playerid}, ${2:amount}, ${3:reason})",
       "description": "int Duel.Recover(int playerid, int amount, int reason/*, bool is_step*/)",
       "details": "int Duel.Recover(int playerid, int amount, int reason/*, bool is_step*/)"
     },
@@ -2571,7 +2571,7 @@
     },
     {
       "trigger": "Duel.Equip",
-      "contents": "Duel.Equip(${1:playerid}, ${2:equip_card}, ${3:target}, ${4:up}, ${5:step})",
+      "contents": "Duel.Equip(${1:playerid}, ${2:equip_card}, ${3:target})",
       "description": "bool Duel.Equip(int playerid, card equip_card, card target/*, bool up, bool step*/)",
       "details": "bool Duel.Equip(int playerid, card equip_card, card target/*, bool up, bool step*/)"
     },
@@ -2583,25 +2583,25 @@
     },
     {
       "trigger": "Duel.GetControl",
-      "contents": "Duel.GetControl(${1:pgroup}, ${2:playerid}, ${3:reset_phase}, ${4:reset_count}, ${5:zone})",
-      "description": "int Duel.GetControl(group|card pgroup, int playerid/*, int reset_phase, int reset_count, int zone*/)",
-      "details": "int Duel.GetControl(group|card pgroup, int playerid/*, int reset_phase, int reset_count, int zone*/)"
+      "contents": "Duel.GetControl(${1:pgroup}, ${2:playerid})",
+      "description": "int Duel.GetControl(card|group pgroup, int playerid/*, int reset_phase, int reset_count, int zone*/)",
+      "details": "int Duel.GetControl(card|group pgroup, int playerid/*, int reset_phase, int reset_count, int zone*/)"
     },
     {
       "trigger": "Duel.SwapControl",
-      "contents": "Duel.SwapControl(${1:pgroup1}, ${2:pgroup2}, ${3:reset_phase}, ${4:reset_count})",
-      "description": "bool Duel.SwapControl(group|card pgroup1, group|card pgroup2/*, int reset_phase, int reset_count*/)",
-      "details": "bool Duel.SwapControl(group|card pgroup1, group|card pgroup2/*, int reset_phase, int reset_count*/)"
+      "contents": "Duel.SwapControl(${1:pgroup1}, ${2:pgroup2})",
+      "description": "bool Duel.SwapControl(card|group pgroup1, card|group pgroup2/*, int reset_phase, int reset_count*/)",
+      "details": "bool Duel.SwapControl(card|group pgroup1, card|group pgroup2/*, int reset_phase, int reset_count*/)"
     },
     {
       "trigger": "Duel.CheckLpCost",
-      "contents": "Duel.CheckLpCost(${1:playerid}, ${2:cost}, ${3:must_pay})",
+      "contents": "Duel.CheckLpCost(${1:playerid}, ${2:cost})",
       "description": "bool Duel.CheckLpCost(int playerid, int cost/*, bool must_pay*/)",
       "details": "bool Duel.CheckLpCost(int playerid, int cost/*, bool must_pay*/)"
     },
     {
       "trigger": "Duel.PayLpCost",
-      "contents": "Duel.PayLpCost(${1:playerid}, ${2:cost}, ${3:must_pay})",
+      "contents": "Duel.PayLpCost(${1:playerid}, ${2:cost})",
       "description": "nil Duel.PayLpCost(int playerid, int cost/*, bool must_pay*/)",
       "details": "nil Duel.PayLpCost(int playerid, int cost/*, bool must_pay*/)"
     },
@@ -2613,25 +2613,25 @@
     },
     {
       "trigger": "Duel.DiscardHand",
-      "contents": "Duel.DiscardHand(${1:playerid}, ${2:o}, ${3:min}, ${4:max}, ${5:reason}, ${6:pexgroup})",
-      "description": "int Duel.DiscardHand(int playerid, nil|fn o, int min, int max, int reason/*, group|card pexgroup*/)",
-      "details": "int Duel.DiscardHand(int playerid, nil|fn o, int min, int max, int reason/*, group|card pexgroup*/)"
+      "contents": "Duel.DiscardHand(${1:playerid}, ${2:o}, ${3:min}, ${4:max}, ${5:reason})",
+      "description": "int Duel.DiscardHand(int playerid, fn|nil o, int min, int max, int reason/*, card|group pexgroup*/)",
+      "details": "int Duel.DiscardHand(int playerid, fn|nil o, int min, int max, int reason/*, card|group pexgroup*/)"
     },
     {
       "trigger": "Duel.DisableShuffleCheck",
-      "contents": "Duel.DisableShuffleCheck(${1:disable})",
+      "contents": "Duel.DisableShuffleCheck()",
       "description": "nil Duel.DisableShuffleCheck(/*, bool disable*/)",
       "details": "nil Duel.DisableShuffleCheck(/*, bool disable*/)"
     },
     {
       "trigger": "Duel.DisableSelfDestroyCheck",
-      "contents": "Duel.DisableSelfDestroyCheck(${1:disable})",
+      "contents": "Duel.DisableSelfDestroyCheck()",
       "description": "nil Duel.DisableSelfDestroyCheck(/*, bool disable*/)",
       "details": "nil Duel.DisableSelfDestroyCheck(/*, bool disable*/)"
     },
     {
       "trigger": "Duel.RevealSelectDeckSequence",
-      "contents": "Duel.RevealSelectDeckSequence(${1:reveal})",
+      "contents": "Duel.RevealSelectDeckSequence()",
       "description": "nil Duel.RevealSelectDeckSequence(/*, bool reveal*/)",
       "details": "nil Duel.RevealSelectDeckSequence(/*, bool reveal*/)"
     },
@@ -2661,21 +2661,21 @@
     },
     {
       "trigger": "Duel.ChangeAttacker",
-      "contents": "Duel.ChangeAttacker(${1:attacker}, ${2:ignore_count})",
+      "contents": "Duel.ChangeAttacker(${1:attacker})",
       "description": "nil Duel.ChangeAttacker(card attacker/*, bool ignore_count*/)",
       "details": "nil Duel.ChangeAttacker(card attacker/*, bool ignore_count*/)"
     },
     {
       "trigger": "Duel.ChangeAttackTarget",
       "contents": "Duel.ChangeAttackTarget(${1:target})",
-      "description": "bool Duel.ChangeAttackTarget(card|nil target)",
-      "details": "bool Duel.ChangeAttackTarget(card|nil target)"
+      "description": "bool Duel.ChangeAttackTarget(nil|card target)",
+      "details": "bool Duel.ChangeAttackTarget(nil|card target)"
     },
     {
       "trigger": "Duel.CalculateDamage",
-      "contents": "Duel.CalculateDamage(${1:attacker}, ${2:attack_target}, ${3:new_attack})",
-      "description": "nil Duel.CalculateDamage(card attacker, card|nil attack_target/*, bool new_attack*/)",
-      "details": "nil Duel.CalculateDamage(card attacker, card|nil attack_target/*, bool new_attack*/)"
+      "contents": "Duel.CalculateDamage(${1:attacker}, ${2:attack_target})",
+      "description": "nil Duel.CalculateDamage(card attacker, nil|card attack_target/*, bool new_attack*/)",
+      "details": "nil Duel.CalculateDamage(card attacker, nil|card attack_target/*, bool new_attack*/)"
     },
     {
       "trigger": "Duel.GetBattleDamage",
@@ -2685,7 +2685,7 @@
     },
     {
       "trigger": "Duel.ChangeBattleDamage",
-      "contents": "Duel.ChangeBattleDamage(${1:playerid}, ${2:dam}, ${3:check})",
+      "contents": "Duel.ChangeBattleDamage(${1:playerid}, ${2:dam})",
       "description": "nil Duel.ChangeBattleDamage(int playerid, int dam/*, bool check*/)",
       "details": "nil Duel.ChangeBattleDamage(int playerid, int dam/*, bool check*/)"
     },
@@ -2727,7 +2727,7 @@
     },
     {
       "trigger": "Duel.NegateEffect",
-      "contents": "Duel.NegateEffect(${1:c}, ${2:forced})",
+      "contents": "Duel.NegateEffect(${1:c})",
       "description": "bool Duel.NegateEffect(int c/*, bool forced*/)",
       "details": "bool Duel.NegateEffect(int c/*, bool forced*/)"
     },
@@ -2740,48 +2740,48 @@
     {
       "trigger": "Duel.DisableSummon",
       "contents": "Duel.DisableSummon(${1:pgroup})",
-      "description": "nil Duel.DisableSummon(group|card pgroup)",
-      "details": "nil Duel.DisableSummon(group|card pgroup)"
+      "description": "nil Duel.DisableSummon(card|group pgroup)",
+      "details": "nil Duel.DisableSummon(card|group pgroup)"
     },
     {
       "trigger": "Duel.IncreaseSummonCount",
-      "contents": "Duel.IncreaseSummonCount(${1:pcard})",
+      "contents": "Duel.IncreaseSummonCount()",
       "description": "nil Duel.IncreaseSummonCount(/*, card pcard*/)",
       "details": "nil Duel.IncreaseSummonCount(/*, card pcard*/)"
     },
     {
       "trigger": "Duel.CheckSummonCount",
-      "contents": "Duel.CheckSummonCount(${1:pcard})",
+      "contents": "Duel.CheckSummonCount()",
       "description": "bool Duel.CheckSummonCount(/*, card pcard*/)",
       "details": "bool Duel.CheckSummonCount(/*, card pcard*/)"
     },
     {
       "trigger": "Duel.GetLocationCount",
-      "contents": "Duel.GetLocationCount(${1:playerid}, ${2:location}, ${3:uplayer}, ${4:reason}, ${5:zone})",
+      "contents": "Duel.GetLocationCount(${1:playerid}, ${2:location})",
       "description": "int Duel.GetLocationCount(int playerid, int location/*, nil|int uplayer, int reason, int zone*/)",
       "details": "int Duel.GetLocationCount(int playerid, int location/*, nil|int uplayer, int reason, int zone*/)"
     },
     {
       "trigger": "Duel.GetMzoneCount",
-      "contents": "Duel.GetMzoneCount(${1:playerid}, ${2:mgroup}, ${3:uplayer}, ${4:reason}, ${5:zone})",
-      "description": "int Duel.GetMzoneCount(int playerid/*, group|card|nil mgroup, int uplayer, int reason, int zone*/)",
-      "details": "int Duel.GetMzoneCount(int playerid/*, group|card|nil mgroup, int uplayer, int reason, int zone*/)"
+      "contents": "Duel.GetMzoneCount(${1:playerid})",
+      "description": "int Duel.GetMzoneCount(int playerid/*, nil|card|group mgroup, int uplayer, int reason, int zone*/)",
+      "details": "int Duel.GetMzoneCount(int playerid/*, nil|card|group mgroup, int uplayer, int reason, int zone*/)"
     },
     {
       "trigger": "Duel.GetSzoneCount",
-      "contents": "Duel.GetSzoneCount(${1:playerid}, ${2:mgroup}, ${3:uplayer}, ${4:reason}, ${5:zone})",
-      "description": "int Duel.GetSzoneCount(int playerid/*, group|card|nil mgroup, int uplayer, int reason, int zone*/)",
-      "details": "int Duel.GetSzoneCount(int playerid/*, group|card|nil mgroup, int uplayer, int reason, int zone*/)"
+      "contents": "Duel.GetSzoneCount(${1:playerid})",
+      "description": "int Duel.GetSzoneCount(int playerid/*, nil|card|group mgroup, int uplayer, int reason, int zone*/)",
+      "details": "int Duel.GetSzoneCount(int playerid/*, nil|card|group mgroup, int uplayer, int reason, int zone*/)"
     },
     {
       "trigger": "Duel.GetLocationCountFromex",
-      "contents": "Duel.GetLocationCountFromex(${1:playerid}, ${2:uplayer}, ${3:mgroup}, ${4:type}, ${5:zone})",
-      "description": "int Duel.GetLocationCountFromex(int playerid/*, nil|int uplayer, group|card|nil mgroup, card|nil|int type, int zone*/)",
-      "details": "int Duel.GetLocationCountFromex(int playerid/*, nil|int uplayer, group|card|nil mgroup, card|nil|int type, int zone*/)"
+      "contents": "Duel.GetLocationCountFromex(${1:playerid})",
+      "description": "int Duel.GetLocationCountFromex(int playerid/*, nil|int uplayer, nil|card|group mgroup, nil|int|card type, int zone*/)",
+      "details": "int Duel.GetLocationCountFromex(int playerid/*, nil|int uplayer, nil|card|group mgroup, nil|int|card type, int zone*/)"
     },
     {
       "trigger": "Duel.GetUsableMzoneCount",
-      "contents": "Duel.GetUsableMzoneCount(${1:playerid}, ${2:uplayer})",
+      "contents": "Duel.GetUsableMzoneCount(${1:playerid})",
       "description": "int Duel.GetUsableMzoneCount(int playerid/*, int uplayer*/)",
       "details": "int Duel.GetUsableMzoneCount(int playerid/*, int uplayer*/)"
     },
@@ -2829,15 +2829,15 @@
     },
     {
       "trigger": "Duel.GetChainInfo",
-      "contents": "Duel.GetChainInfo(${1:c}, ${2:flag})",
-      "description": "card|effect|int Duel.GetChainInfo(int c/*, int flag*/)",
-      "details": "card|effect|int Duel.GetChainInfo(int c/*, int flag*/)"
+      "contents": "Duel.GetChainInfo(${1:c})",
+      "description": "effect|int|card Duel.GetChainInfo(int c/*, int flag*/)",
+      "details": "effect|int|card Duel.GetChainInfo(int c/*, int flag*/)"
     },
     {
       "trigger": "Duel.GetChainEvent",
       "contents": "Duel.GetChainEvent(${1:count})",
-      "description": "card|effect|int Duel.GetChainEvent(int count)",
-      "details": "card|effect|int Duel.GetChainEvent(int count)"
+      "description": "effect|int|card Duel.GetChainEvent(int count)",
+      "details": "effect|int|card Duel.GetChainEvent(int count)"
     },
     {
       "trigger": "Duel.GetFirstTarget",
@@ -2877,7 +2877,7 @@
     },
     {
       "trigger": "Duel.SkipPhase",
-      "contents": "Duel.SkipPhase(${1:playerid}, ${2:phase}, ${3:reset}, ${4:count}, ${5:value})",
+      "contents": "Duel.SkipPhase(${1:playerid}, ${2:phase}, ${3:reset}, ${4:count})",
       "description": "nil Duel.SkipPhase(int playerid, int phase, int reset, int count/*, int value*/)",
       "details": "nil Duel.SkipPhase(int playerid, int phase, int reset, int count/*, int value*/)"
     },
@@ -2913,7 +2913,7 @@
     },
     {
       "trigger": "Duel.ChainAttack",
-      "contents": "Duel.ChainAttack(${1:chain_attack_target})",
+      "contents": "Duel.ChainAttack()",
       "description": "nil Duel.ChainAttack(/*, card chain_attack_target*/)",
       "details": "nil Duel.ChainAttack(/*, card chain_attack_target*/)"
     },
@@ -2925,7 +2925,7 @@
     },
     {
       "trigger": "Duel.AdjustInstantly",
-      "contents": "Duel.AdjustInstantly(${1:pcard})",
+      "contents": "Duel.AdjustInstantly()",
       "description": "nil Duel.AdjustInstantly(/*, card pcard*/)",
       "details": "nil Duel.AdjustInstantly(/*, card pcard*/)"
     },
@@ -2962,68 +2962,68 @@
     {
       "trigger": "Duel.GetMatchingGroup",
       "contents": "Duel.GetMatchingGroup(${1:o}, ${2:self}, ${3:location1}, ${4:location2}, ${5:pexgroup})",
-      "description": "card Duel.GetMatchingGroup(nil|fn o, int self, int location1, int location2, group|card pexgroup)",
-      "details": "card Duel.GetMatchingGroup(nil|fn o, int self, int location1, int location2, group|card pexgroup)"
+      "description": "card Duel.GetMatchingGroup(fn|nil o, int self, int location1, int location2, card|group pexgroup)",
+      "details": "card Duel.GetMatchingGroup(fn|nil o, int self, int location1, int location2, card|group pexgroup)"
     },
     {
       "trigger": "Duel.GetMatchingCount",
       "contents": "Duel.GetMatchingCount(${1:o}, ${2:self}, ${3:location1}, ${4:location2}, ${5:pexgroup})",
-      "description": "int Duel.GetMatchingCount(nil|fn o, int self, int location1, int location2, group|card pexgroup)",
-      "details": "int Duel.GetMatchingCount(nil|fn o, int self, int location1, int location2, group|card pexgroup)"
+      "description": "int Duel.GetMatchingCount(fn|nil o, int self, int location1, int location2, card|group pexgroup)",
+      "details": "int Duel.GetMatchingCount(fn|nil o, int self, int location1, int location2, card|group pexgroup)"
     },
     {
       "trigger": "Duel.GetFirstMatchingCard",
       "contents": "Duel.GetFirstMatchingCard(${1:o}, ${2:self}, ${3:location1}, ${4:location2}, ${5:pexgroup})",
-      "description": "group Duel.GetFirstMatchingCard(nil|fn o, int self, int location1, int location2, group|card pexgroup)",
-      "details": "group Duel.GetFirstMatchingCard(nil|fn o, int self, int location1, int location2, group|card pexgroup)"
+      "description": "group Duel.GetFirstMatchingCard(fn|nil o, int self, int location1, int location2, card|group pexgroup)",
+      "details": "group Duel.GetFirstMatchingCard(fn|nil o, int self, int location1, int location2, card|group pexgroup)"
     },
     {
       "trigger": "Duel.IsExistingMatchingCard",
       "contents": "Duel.IsExistingMatchingCard(${1:o}, ${2:self}, ${3:location1}, ${4:location2}, ${5:fcount}, ${6:pexgroup})",
-      "description": "bool Duel.IsExistingMatchingCard(nil|fn o, int self, int location1, int location2, int fcount, group|card pexgroup)",
-      "details": "bool Duel.IsExistingMatchingCard(nil|fn o, int self, int location1, int location2, int fcount, group|card pexgroup)"
+      "description": "bool Duel.IsExistingMatchingCard(fn|nil o, int self, int location1, int location2, int fcount, card|group pexgroup)",
+      "details": "bool Duel.IsExistingMatchingCard(fn|nil o, int self, int location1, int location2, int fcount, card|group pexgroup)"
     },
     {
-      "trigger": "Duel.SelectMatchingCards",
-      "contents": "Duel.SelectMatchingCards(${1:playerid}, ${2:o}, ${3:self}, ${4:location1}, ${5:location2}, ${6:min}, ${7:max}, ${8:pexgroup})",
-      "description": "card Duel.SelectMatchingCards(int playerid, nil|fn o, int self, int location1, int location2, int min, int max, group|card pexgroup)",
-      "details": "card Duel.SelectMatchingCards(int playerid, nil|fn o, int self, int location1, int location2, int min, int max, group|card pexgroup)"
+      "trigger": "Duel.SelectMatchingCard",
+      "contents": "Duel.SelectMatchingCard(${1:playerid}, ${2:o}, ${3:self}, ${4:location1}, ${5:location2}, ${6:min}, ${7:max}, ${8:pexgroup})",
+      "description": "card Duel.SelectMatchingCard(int playerid, fn|nil o, int self, int location1, int location2, int min, int max, card|group pexgroup)",
+      "details": "card Duel.SelectMatchingCard(int playerid, fn|nil o, int self, int location1, int location2, int min, int max, card|group pexgroup)"
     },
     {
       "trigger": "Duel.GetReleaseGroup",
-      "contents": "Duel.GetReleaseGroup(${1:playerid}, ${2:hand}, ${3:reason})",
+      "contents": "Duel.GetReleaseGroup(${1:playerid})",
       "description": "card Duel.GetReleaseGroup(int playerid/*, bool hand, int reason*/)",
       "details": "card Duel.GetReleaseGroup(int playerid/*, bool hand, int reason*/)"
     },
     {
       "trigger": "Duel.GetReleaseGroupCount",
-      "contents": "Duel.GetReleaseGroupCount(${1:playerid}, ${2:hand}, ${3:reason})",
+      "contents": "Duel.GetReleaseGroupCount(${1:playerid})",
       "description": "int Duel.GetReleaseGroupCount(int playerid/*, bool hand, int reason*/)",
       "details": "int Duel.GetReleaseGroupCount(int playerid/*, bool hand, int reason*/)"
     },
     {
       "trigger": "Duel.CheckReleaseGroup",
-      "contents": "Duel.CheckReleaseGroup(${1:playerid}, ${2:o}, ${3:fcount}, ${4:pexgroup})",
-      "description": "bool Duel.CheckReleaseGroup(/*, int playerid, nil|fn o, int fcount, group|card pexgroup*/)",
-      "details": "bool Duel.CheckReleaseGroup(/*, int playerid, nil|fn o, int fcount, group|card pexgroup*/)"
+      "contents": "Duel.CheckReleaseGroup()",
+      "description": "bool Duel.CheckReleaseGroup(/*, int playerid, fn|nil o, int fcount, card|group pexgroup*/)",
+      "details": "bool Duel.CheckReleaseGroup(/*, int playerid, fn|nil o, int fcount, card|group pexgroup*/)"
     },
     {
       "trigger": "Duel.SelectReleaseGroup",
-      "contents": "Duel.SelectReleaseGroup(${1:playerid}, ${2:o}, ${3:min}, ${4:max}, ${5:pexgroup})",
-      "description": "card Duel.SelectReleaseGroup(/*, int playerid, nil|fn o, int min, int max, group|card pexgroup*/)",
-      "details": "card Duel.SelectReleaseGroup(/*, int playerid, nil|fn o, int min, int max, group|card pexgroup*/)"
+      "contents": "Duel.SelectReleaseGroup()",
+      "description": "card Duel.SelectReleaseGroup(/*, int playerid, fn|nil o, int min, int max, card|group pexgroup*/)",
+      "details": "card Duel.SelectReleaseGroup(/*, int playerid, fn|nil o, int min, int max, card|group pexgroup*/)"
     },
     {
       "trigger": "Duel.CheckReleaseGroupEx",
-      "contents": "Duel.CheckReleaseGroupEx(${1:playerid}, ${2:o}, ${3:fcount}, ${4:reason}, ${5:use_hand}, ${6:pexgroup})",
-      "description": "bool Duel.CheckReleaseGroupEx(/*, int playerid, nil|fn o, int fcount, int reason, bool use_hand, group|card pexgroup*/)",
-      "details": "bool Duel.CheckReleaseGroupEx(/*, int playerid, nil|fn o, int fcount, int reason, bool use_hand, group|card pexgroup*/)"
+      "contents": "Duel.CheckReleaseGroupEx()",
+      "description": "bool Duel.CheckReleaseGroupEx(/*, int playerid, fn|nil o, int fcount, int reason, bool use_hand, card|group pexgroup*/)",
+      "details": "bool Duel.CheckReleaseGroupEx(/*, int playerid, fn|nil o, int fcount, int reason, bool use_hand, card|group pexgroup*/)"
     },
     {
       "trigger": "Duel.SelectReleaseGroupEx",
-      "contents": "Duel.SelectReleaseGroupEx(${1:playerid}, ${2:o}, ${3:min}, ${4:max}, ${5:reason}, ${6:use_hand}, ${7:pexgroup})",
-      "description": "card Duel.SelectReleaseGroupEx(/*, int playerid, nil|fn o, int min, int max, int reason, bool use_hand, group|card pexgroup*/)",
-      "details": "card Duel.SelectReleaseGroupEx(/*, int playerid, nil|fn o, int min, int max, int reason, bool use_hand, group|card pexgroup*/)"
+      "contents": "Duel.SelectReleaseGroupEx()",
+      "description": "card Duel.SelectReleaseGroupEx(/*, int playerid, fn|nil o, int min, int max, int reason, bool use_hand, card|group pexgroup*/)",
+      "details": "card Duel.SelectReleaseGroupEx(/*, int playerid, fn|nil o, int min, int max, int reason, bool use_hand, card|group pexgroup*/)"
     },
     {
       "trigger": "Duel.GetTributeGroup",
@@ -3033,39 +3033,39 @@
     },
     {
       "trigger": "Duel.GetTributeCount",
-      "contents": "Duel.GetTributeCount(${1:target}, ${2:mg}, ${3:ex})",
-      "description": "int Duel.GetTributeCount(card target/*, group|nil mg, bool ex*/)",
-      "details": "int Duel.GetTributeCount(card target/*, group|nil mg, bool ex*/)"
+      "contents": "Duel.GetTributeCount(${1:target})",
+      "description": "int Duel.GetTributeCount(card target/*, nil|group mg, bool ex*/)",
+      "details": "int Duel.GetTributeCount(card target/*, nil|group mg, bool ex*/)"
     },
     {
       "trigger": "Duel.CheckTribute",
-      "contents": "Duel.CheckTribute(${1:target}, ${2:min}, ${3:max}, ${4:mg}, ${5:toplayer}, ${6:zone})",
-      "description": "bool Duel.CheckTribute(card target, int min/*, nil|int max, group|nil mg, nil|int toplayer, nil|int zone*/)",
-      "details": "bool Duel.CheckTribute(card target, int min/*, nil|int max, group|nil mg, nil|int toplayer, nil|int zone*/)"
+      "contents": "Duel.CheckTribute(${1:target}, ${2:min})",
+      "description": "bool Duel.CheckTribute(card target, int min/*, nil|int max, nil|group mg, nil|int toplayer, nil|int zone*/)",
+      "details": "bool Duel.CheckTribute(card target, int min/*, nil|int max, nil|group mg, nil|int toplayer, nil|int zone*/)"
     },
     {
       "trigger": "Duel.SelectTribute",
-      "contents": "Duel.SelectTribute(${1:playerid}, ${2:target}, ${3:min}, ${4:max}, ${5:mg}, ${6:toplayer})",
-      "description": "card Duel.SelectTribute(int playerid, card target, int min, int max/*, group|nil mg, int toplayer*/)",
-      "details": "card Duel.SelectTribute(int playerid, card target, int min, int max/*, group|nil mg, int toplayer*/)"
+      "contents": "Duel.SelectTribute(${1:playerid}, ${2:target}, ${3:min}, ${4:max})",
+      "description": "card Duel.SelectTribute(int playerid, card target, int min, int max/*, nil|group mg, int toplayer*/)",
+      "details": "card Duel.SelectTribute(int playerid, card target, int min, int max/*, nil|group mg, int toplayer*/)"
     },
     {
       "trigger": "Duel.GetTargetCount",
       "contents": "Duel.GetTargetCount(${1:o}, ${2:self}, ${3:location1}, ${4:location2}, ${5:pexgroup})",
-      "description": "int Duel.GetTargetCount(nil|fn o, int self, int location1, int location2, group|card pexgroup)",
-      "details": "int Duel.GetTargetCount(nil|fn o, int self, int location1, int location2, group|card pexgroup)"
+      "description": "int Duel.GetTargetCount(fn|nil o, int self, int location1, int location2, card|group pexgroup)",
+      "details": "int Duel.GetTargetCount(fn|nil o, int self, int location1, int location2, card|group pexgroup)"
     },
     {
       "trigger": "Duel.IsExistingTarget",
       "contents": "Duel.IsExistingTarget(${1:o}, ${2:self}, ${3:location1}, ${4:location2}, ${5:count}, ${6:pexgroup})",
-      "description": "bool Duel.IsExistingTarget(nil|fn o, int self, int location1, int location2, int count, group|card pexgroup)",
-      "details": "bool Duel.IsExistingTarget(nil|fn o, int self, int location1, int location2, int count, group|card pexgroup)"
+      "description": "bool Duel.IsExistingTarget(fn|nil o, int self, int location1, int location2, int count, card|group pexgroup)",
+      "details": "bool Duel.IsExistingTarget(fn|nil o, int self, int location1, int location2, int count, card|group pexgroup)"
     },
     {
       "trigger": "Duel.SelectTarget",
       "contents": "Duel.SelectTarget(${1:playerid}, ${2:o}, ${3:self}, ${4:location1}, ${5:location2}, ${6:min}, ${7:max}, ${8:pexgroup})",
-      "description": "card Duel.SelectTarget(int playerid, nil|fn o, int self, int location1, int location2, int min, int max, group|card pexgroup)",
-      "details": "card Duel.SelectTarget(int playerid, nil|fn o, int self, int location1, int location2, int min, int max, group|card pexgroup)"
+      "description": "card Duel.SelectTarget(int playerid, fn|nil o, int self, int location1, int location2, int min, int max, card|group pexgroup)",
+      "details": "card Duel.SelectTarget(int playerid, fn|nil o, int self, int location1, int location2, int min, int max, card|group pexgroup)"
     },
     {
       "trigger": "Duel.GetMustMaterial",
@@ -3076,14 +3076,14 @@
     {
       "trigger": "Duel.CheckMustMaterial",
       "contents": "Duel.CheckMustMaterial(${1:playerid}, ${2:mgroup}, ${3:limit})",
-      "description": "bool Duel.CheckMustMaterial(int playerid, group|card mgroup, int limit)",
-      "details": "bool Duel.CheckMustMaterial(int playerid, group|card mgroup, int limit)"
+      "description": "bool Duel.CheckMustMaterial(int playerid, card|group mgroup, int limit)",
+      "details": "bool Duel.CheckMustMaterial(int playerid, card|group mgroup, int limit)"
     },
     {
       "trigger": "Duel.SelectFusionMaterial",
-      "contents": "Duel.SelectFusionMaterial(${1:playerid}, ${2:pcard}, ${3:pgroup}, ${4:cg}, ${5:chkf}, ${6:not_material})",
-      "description": "card Duel.SelectFusionMaterial(int playerid, card pcard, group pgroup/*, card|nil cg, int chkf, bool not_material*/)",
-      "details": "card Duel.SelectFusionMaterial(int playerid, card pcard, group pgroup/*, card|nil cg, int chkf, bool not_material*/)"
+      "contents": "Duel.SelectFusionMaterial(${1:playerid}, ${2:pcard}, ${3:pgroup})",
+      "description": "card Duel.SelectFusionMaterial(int playerid, card pcard, group pgroup/*, nil|card cg, int chkf, bool not_material*/)",
+      "details": "card Duel.SelectFusionMaterial(int playerid, card pcard, group pgroup/*, nil|card cg, int chkf, bool not_material*/)"
     },
     {
       "trigger": "Duel.SetFusionMaterial",
@@ -3099,33 +3099,33 @@
     },
     {
       "trigger": "Duel.GetSynchroMaterial",
-      "contents": "Duel.GetSynchroMaterial(${1:playerid}, ${2:facedown})",
+      "contents": "Duel.GetSynchroMaterial(${1:playerid})",
       "description": "card Duel.GetSynchroMaterial(int playerid/*, bool facedown*/)",
       "details": "card Duel.GetSynchroMaterial(int playerid/*, bool facedown*/)"
     },
     {
       "trigger": "Duel.SelectSynchroMaterial",
-      "contents": "Duel.SelectSynchroMaterial(${1:playerid}, ${2:pcard}, ${3:filter1}, ${4:filter2}, ${5:min}, ${6:max}, ${7:smat}, ${8:mg})",
-      "description": "nil Duel.SelectSynchroMaterial(int playerid, card pcard, nil|fn filter1, nil|fn filter2, int min, int max/*, card|nil smat, group|nil mg*/)",
-      "details": "nil Duel.SelectSynchroMaterial(int playerid, card pcard, nil|fn filter1, nil|fn filter2, int min, int max/*, card|nil smat, group|nil mg*/)"
+      "contents": "Duel.SelectSynchroMaterial(${1:playerid}, ${2:pcard}, ${3:filter1}, ${4:filter2}, ${5:min}, ${6:max})",
+      "description": "nil Duel.SelectSynchroMaterial(int playerid, card pcard, fn|nil filter1, fn|nil filter2, int min, int max/*, nil|card smat, nil|group mg*/)",
+      "details": "nil Duel.SelectSynchroMaterial(int playerid, card pcard, fn|nil filter1, fn|nil filter2, int min, int max/*, nil|card smat, nil|group mg*/)"
     },
     {
       "trigger": "Duel.CheckSynchroMaterial",
-      "contents": "Duel.CheckSynchroMaterial(${1:pcard}, ${2:o}, ${3:o}, ${4:min}, ${5:max}, ${6:smat}, ${7:mg})",
-      "description": "bool Duel.CheckSynchroMaterial(card pcard, nil|fn o, nil|fn o, int min, int max/*, card|nil smat, group|nil mg*/)",
-      "details": "bool Duel.CheckSynchroMaterial(card pcard, nil|fn o, nil|fn o, int min, int max/*, card|nil smat, group|nil mg*/)"
+      "contents": "Duel.CheckSynchroMaterial(${1:pcard}, ${2:o}, ${3:o}, ${4:min}, ${5:max})",
+      "description": "bool Duel.CheckSynchroMaterial(card pcard, fn|nil o, fn|nil o, int min, int max/*, nil|card smat, nil|group mg*/)",
+      "details": "bool Duel.CheckSynchroMaterial(card pcard, fn|nil o, fn|nil o, int min, int max/*, nil|card smat, nil|group mg*/)"
     },
     {
       "trigger": "Duel.SelectTunerMaterial",
-      "contents": "Duel.SelectTunerMaterial(${1:playerid}, ${2:pcard}, ${3:tuner}, ${4:filter1}, ${5:filter2}, ${6:min}, ${7:max}, ${8:mg})",
-      "description": "nil Duel.SelectTunerMaterial(int playerid, card pcard, card tuner, nil|fn filter1, nil|fn filter2, int min, int max/*, group|nil mg*/)",
-      "details": "nil Duel.SelectTunerMaterial(int playerid, card pcard, card tuner, nil|fn filter1, nil|fn filter2, int min, int max/*, group|nil mg*/)"
+      "contents": "Duel.SelectTunerMaterial(${1:playerid}, ${2:pcard}, ${3:tuner}, ${4:filter1}, ${5:filter2}, ${6:min}, ${7:max})",
+      "description": "nil Duel.SelectTunerMaterial(int playerid, card pcard, card tuner, fn|nil filter1, fn|nil filter2, int min, int max/*, nil|group mg*/)",
+      "details": "nil Duel.SelectTunerMaterial(int playerid, card pcard, card tuner, fn|nil filter1, fn|nil filter2, int min, int max/*, nil|group mg*/)"
     },
     {
       "trigger": "Duel.CheckTunerMaterial",
-      "contents": "Duel.CheckTunerMaterial(${1:pcard}, ${2:tuner}, ${3:o}, ${4:o}, ${5:min}, ${6:max}, ${7:mg})",
-      "description": "bool Duel.CheckTunerMaterial(card pcard, card tuner, nil|fn o, nil|fn o, int min, int max/*, group|nil mg*/)",
-      "details": "bool Duel.CheckTunerMaterial(card pcard, card tuner, nil|fn o, nil|fn o, int min, int max/*, group|nil mg*/)"
+      "contents": "Duel.CheckTunerMaterial(${1:pcard}, ${2:tuner}, ${3:o}, ${4:o}, ${5:min}, ${6:max})",
+      "description": "bool Duel.CheckTunerMaterial(card pcard, card tuner, fn|nil o, fn|nil o, int min, int max/*, nil|group mg*/)",
+      "details": "bool Duel.CheckTunerMaterial(card pcard, card tuner, fn|nil o, fn|nil o, int min, int max/*, nil|group mg*/)"
     },
     {
       "trigger": "Duel.GetRitualMaterial",
@@ -3147,7 +3147,7 @@
     },
     {
       "trigger": "Duel.GetFusionMaterial",
-      "contents": "Duel.GetFusionMaterial(${1:playerid}, ${2:location})",
+      "contents": "Duel.GetFusionMaterial(${1:playerid})",
       "description": "card Duel.GetFusionMaterial(int playerid/*, int location*/)",
       "details": "card Duel.GetFusionMaterial(int playerid/*, int location*/)"
     },
@@ -3158,22 +3158,22 @@
       "details": "bool Duel.IsSummonCancelable()"
     },
     {
-      "trigger": "Duel.SetMustSelectCards",
-      "contents": "Duel.SetMustSelectCards(${1:pgroup})",
-      "description": "nil Duel.SetMustSelectCards(group|card pgroup)",
-      "details": "nil Duel.SetMustSelectCards(group|card pgroup)"
+      "trigger": "Duel.SetMustSelectCard",
+      "contents": "Duel.SetMustSelectCard(${1:pgroup})",
+      "description": "nil Duel.SetMustSelectCard(card|group pgroup)",
+      "details": "nil Duel.SetMustSelectCard(card|group pgroup)"
     },
     {
-      "trigger": "Duel.GrabMustSelectCards",
-      "contents": "Duel.GrabMustSelectCards()",
-      "description": "card Duel.GrabMustSelectCards()",
-      "details": "card Duel.GrabMustSelectCards()"
+      "trigger": "Duel.GrabMustSelectCard",
+      "contents": "Duel.GrabMustSelectCard()",
+      "description": "card Duel.GrabMustSelectCard()",
+      "details": "card Duel.GrabMustSelectCard()"
     },
     {
       "trigger": "Duel.SetTargetCard",
       "contents": "Duel.SetTargetCard(${1:pgroup})",
-      "description": "nil Duel.SetTargetCard(group|card pgroup)",
-      "details": "nil Duel.SetTargetCard(group|card pgroup)"
+      "description": "nil Duel.SetTargetCard(card|group pgroup)",
+      "details": "nil Duel.SetTargetCard(card|group pgroup)"
     },
     {
       "trigger": "Duel.ClearTargetCard",
@@ -3196,14 +3196,14 @@
     {
       "trigger": "Duel.SetOperationInfo",
       "contents": "Duel.SetOperationInfo(${1:ct}, ${2:cate}, ${3:pgroup}, ${4:count}, ${5:playerid}, ${6:param})",
-      "description": "nil Duel.SetOperationInfo(int ct, int cate, group|card pgroup, int count, int playerid, int param)",
-      "details": "nil Duel.SetOperationInfo(int ct, int cate, group|card pgroup, int count, int playerid, int param)"
+      "description": "nil Duel.SetOperationInfo(int ct, int cate, card|group pgroup, int count, int playerid, int param)",
+      "details": "nil Duel.SetOperationInfo(int ct, int cate, card|group pgroup, int count, int playerid, int param)"
     },
     {
       "trigger": "Duel.GetOperationInfo",
       "contents": "Duel.GetOperationInfo(${1:ct}, ${2:cate})",
-      "description": "bool|card|int Duel.GetOperationInfo(int ct, int cate)",
-      "details": "bool|card|int Duel.GetOperationInfo(int ct, int cate)"
+      "description": "int|bool|card Duel.GetOperationInfo(int ct, int cate)",
+      "details": "int|bool|card Duel.GetOperationInfo(int ct, int cate)"
     },
     {
       "trigger": "Duel.GetOperationCount",
@@ -3220,20 +3220,20 @@
     {
       "trigger": "Duel.CheckXyzMaterial",
       "contents": "Duel.CheckXyzMaterial(${1:scard}, ${2:o}, ${3:lv}, ${4:minc}, ${5:maxc}, ${6:mg})",
-      "description": "bool Duel.CheckXyzMaterial(card scard, nil|fn o, int lv, int minc, int maxc, group|nil mg)",
-      "details": "bool Duel.CheckXyzMaterial(card scard, nil|fn o, int lv, int minc, int maxc, group|nil mg)"
+      "description": "bool Duel.CheckXyzMaterial(card scard, fn|nil o, int lv, int minc, int maxc, nil|group mg)",
+      "details": "bool Duel.CheckXyzMaterial(card scard, fn|nil o, int lv, int minc, int maxc, nil|group mg)"
     },
     {
       "trigger": "Duel.SelectXyzMaterial",
-      "contents": "Duel.SelectXyzMaterial(${1:playerid}, ${2:scard}, ${3:o}, ${4:lv}, ${5:minc}, ${6:maxc}, ${7:mg})",
-      "description": "nil Duel.SelectXyzMaterial(int playerid, card scard, nil|fn o, int lv, int minc, int maxc/*, group|nil mg*/)",
-      "details": "nil Duel.SelectXyzMaterial(int playerid, card scard, nil|fn o, int lv, int minc, int maxc/*, group|nil mg*/)"
+      "contents": "Duel.SelectXyzMaterial(${1:playerid}, ${2:scard}, ${3:o}, ${4:lv}, ${5:minc}, ${6:maxc})",
+      "description": "nil Duel.SelectXyzMaterial(int playerid, card scard, fn|nil o, int lv, int minc, int maxc/*, nil|group mg*/)",
+      "details": "nil Duel.SelectXyzMaterial(int playerid, card scard, fn|nil o, int lv, int minc, int maxc/*, nil|group mg*/)"
     },
     {
       "trigger": "Duel.Overlay",
-      "contents": "Duel.Overlay(${1:target}, ${2:pgroup}, ${3:adjust})",
-      "description": "nil Duel.Overlay(card target, group|card pgroup/*, bool adjust*/)",
-      "details": "nil Duel.Overlay(card target, group|card pgroup/*, bool adjust*/)"
+      "contents": "Duel.Overlay(${1:target}, ${2:pgroup})",
+      "description": "nil Duel.Overlay(card target, card|group pgroup/*, bool adjust*/)",
+      "details": "nil Duel.Overlay(card target, card|group pgroup/*, bool adjust*/)"
     },
     {
       "trigger": "Duel.GetOverlayGroup",
@@ -3267,7 +3267,7 @@
     },
     {
       "trigger": "Duel.GetLastSelectHint",
-      "contents": "Duel.GetLastSelectHint(${1:playerid})",
+      "contents": "Duel.GetLastSelectHint()",
       "description": "int Duel.GetLastSelectHint(/*, int playerid*/)",
       "details": "int Duel.GetLastSelectHint(/*, int playerid*/)"
     },
@@ -3279,7 +3279,7 @@
     },
     {
       "trigger": "Duel.SelectEffectYesno",
-      "contents": "Duel.SelectEffectYesno(${1:playerid}, ${2:pcard}, ${3:desc})",
+      "contents": "Duel.SelectEffectYesno(${1:playerid}, ${2:pcard})",
       "description": "bool Duel.SelectEffectYesno(int playerid, card pcard/*, int desc*/)",
       "details": "bool Duel.SelectEffectYesno(int playerid, card pcard/*, int desc*/)"
     },
@@ -3291,7 +3291,7 @@
     },
     {
       "trigger": "Duel.SelectOption",
-      "contents": "Duel.SelectOption(${1:playerid}, ${2:o})",
+      "contents": "Duel.SelectOption(${1:playerid})",
       "description": "int Duel.SelectOption(int playerid/*, int o*/)",
       "details": "int Duel.SelectOption(int playerid/*, int o*/)"
     },
@@ -3315,7 +3315,7 @@
     },
     {
       "trigger": "Duel.SelectField",
-      "contents": "Duel.SelectField(${1:playerid}, ${2:count}, ${3:location1}, ${4:location2}, ${5:filter}, ${6:code})",
+      "contents": "Duel.SelectField(${1:playerid}, ${2:count}, ${3:location1}, ${4:location2}, ${5:filter})",
       "description": "int Duel.SelectField(int playerid, int count, int location1, int location2, int filter/*, int code*/)",
       "details": "int Duel.SelectField(int playerid, int count, int location1, int location2, int filter/*, int code*/)"
     },
@@ -3333,7 +3333,7 @@
     },
     {
       "trigger": "Duel.AnnounceLevel",
-      "contents": "Duel.AnnounceLevel(${1:playerid}, ${2:min}, ${3:max})",
+      "contents": "Duel.AnnounceLevel(${1:playerid})",
       "description": "int Duel.AnnounceLevel(nil|int playerid/*, nil|int min, nil|int max*/)",
       "details": "int Duel.AnnounceLevel(nil|int playerid/*, nil|int min, nil|int max*/)"
     },
@@ -3369,13 +3369,13 @@
     },
     {
       "trigger": "Duel.TossDice",
-      "contents": "Duel.TossDice(${1:playerid}, ${2:count1}, ${3:count2})",
+      "contents": "Duel.TossDice(${1:playerid}, ${2:count1})",
       "description": "int Duel.TossDice(int playerid, int count1/*, int count2*/)",
       "details": "int Duel.TossDice(int playerid, int count1/*, int count2*/)"
     },
     {
       "trigger": "Duel.RockPaperScissors",
-      "contents": "Duel.RockPaperScissors(${1:repeat})",
+      "contents": "Duel.RockPaperScissors()",
       "description": "int Duel.RockPaperScissors(/*, bool repeat*/)",
       "details": "int Duel.RockPaperScissors(/*, bool repeat*/)"
     },
@@ -3393,13 +3393,13 @@
     },
     {
       "trigger": "Duel.SetCoinResult",
-      "contents": "Duel.SetCoinResult(${1:res})",
+      "contents": "Duel.SetCoinResult()",
       "description": "nil Duel.SetCoinResult(/*, int res*/)",
       "details": "nil Duel.SetCoinResult(/*, int res*/)"
     },
     {
       "trigger": "Duel.SetDiceResult",
-      "contents": "Duel.SetDiceResult(${1:res})",
+      "contents": "Duel.SetDiceResult()",
       "description": "nil Duel.SetDiceResult(/*, int res*/)",
       "details": "nil Duel.SetDiceResult(/*, int res*/)"
     },
@@ -3411,7 +3411,7 @@
     },
     {
       "trigger": "Duel.IsPlayerCanDraw",
-      "contents": "Duel.IsPlayerCanDraw(${1:playerid}, ${2:count})",
+      "contents": "Duel.IsPlayerCanDraw(${1:playerid})",
       "description": "bool Duel.IsPlayerCanDraw(int playerid/*, int count*/)",
       "details": "bool Duel.IsPlayerCanDraw(int playerid/*, int count*/)"
     },
@@ -3429,37 +3429,37 @@
     },
     {
       "trigger": "Duel.IsPlayerCanSummon",
-      "contents": "Duel.IsPlayerCanSummon(${1:playerid}, ${2:sumtype}, ${3:pcard})",
+      "contents": "Duel.IsPlayerCanSummon(${1:playerid})",
       "description": "bool Duel.IsPlayerCanSummon(int playerid/*, int sumtype, card pcard*/)",
       "details": "bool Duel.IsPlayerCanSummon(int playerid/*, int sumtype, card pcard*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanMset",
-      "contents": "Duel.IsPlayerCanMset(${1:playerid}, ${2:sumtype}, ${3:pcard})",
+      "contents": "Duel.IsPlayerCanMset(${1:playerid})",
       "description": "bool Duel.IsPlayerCanMset(int playerid/*, int sumtype, card pcard*/)",
       "details": "bool Duel.IsPlayerCanMset(int playerid/*, int sumtype, card pcard*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanSset",
-      "contents": "Duel.IsPlayerCanSset(${1:playerid}, ${2:pcard})",
+      "contents": "Duel.IsPlayerCanSset(${1:playerid})",
       "description": "bool Duel.IsPlayerCanSset(int playerid/*, card pcard*/)",
       "details": "bool Duel.IsPlayerCanSset(int playerid/*, card pcard*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanSpsummon",
-      "contents": "Duel.IsPlayerCanSpsummon(${1:playerid}, ${2:sumtype}, ${3:sumpos}, ${4:toplayer}, ${5:pcard})",
+      "contents": "Duel.IsPlayerCanSpsummon(${1:playerid})",
       "description": "bool Duel.IsPlayerCanSpsummon(int playerid/*, int sumtype, int sumpos, int toplayer, card pcard*/)",
       "details": "bool Duel.IsPlayerCanSpsummon(int playerid/*, int sumtype, int sumpos, int toplayer, card pcard*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanFlipsummon",
-      "contents": "Duel.IsPlayerCanFlipsummon(${1:playerid}, ${2:pcard})",
+      "contents": "Duel.IsPlayerCanFlipsummon(${1:playerid})",
       "description": "bool Duel.IsPlayerCanFlipsummon(int playerid/*, card pcard*/)",
       "details": "bool Duel.IsPlayerCanFlipsummon(int playerid/*, card pcard*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanSpsummonMonster",
-      "contents": "Duel.IsPlayerCanSpsummonMonster(${1:playerid}, ${2:code}, ${3:o}, ${4:type}, ${5:attack}, ${6:defense}, ${7:level}, ${8:race}, ${9:attribute}, ${10:pos}, ${11:toplayer}, ${12:sumtype})",
+      "contents": "Duel.IsPlayerCanSpsummonMonster(${1:playerid}, ${2:code})",
       "description": "bool Duel.IsPlayerCanSpsummonMonster(int playerid, int code/*, nil|int o, nil|int type, nil|int attack, nil|int defense, nil|int level, nil|int race, nil|int attribute, int pos, int toplayer, int sumtype*/)",
       "details": "bool Duel.IsPlayerCanSpsummonMonster(int playerid, int code/*, nil|int o, nil|int type, nil|int attack, nil|int defense, nil|int level, nil|int race, nil|int attribute, int pos, int toplayer, int sumtype*/)"
     },
@@ -3471,31 +3471,31 @@
     },
     {
       "trigger": "Duel.IsPlayerCanRelease",
-      "contents": "Duel.IsPlayerCanRelease(${1:playerid}, ${2:pcard}, ${3:reason})",
+      "contents": "Duel.IsPlayerCanRelease(${1:playerid})",
       "description": "bool Duel.IsPlayerCanRelease(int playerid/*, card pcard, int reason*/)",
       "details": "bool Duel.IsPlayerCanRelease(int playerid/*, card pcard, int reason*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanRemove",
-      "contents": "Duel.IsPlayerCanRemove(${1:playerid}, ${2:pcard}, ${3:reason})",
+      "contents": "Duel.IsPlayerCanRemove(${1:playerid})",
       "description": "bool Duel.IsPlayerCanRemove(int playerid/*, card pcard, int reason*/)",
       "details": "bool Duel.IsPlayerCanRemove(int playerid/*, card pcard, int reason*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanSendToHand",
-      "contents": "Duel.IsPlayerCanSendToHand(${1:playerid}, ${2:pcard})",
+      "contents": "Duel.IsPlayerCanSendToHand(${1:playerid})",
       "description": "bool Duel.IsPlayerCanSendToHand(int playerid/*, card pcard*/)",
       "details": "bool Duel.IsPlayerCanSendToHand(int playerid/*, card pcard*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanSendToGrave",
-      "contents": "Duel.IsPlayerCanSendToGrave(${1:playerid}, ${2:pcard})",
+      "contents": "Duel.IsPlayerCanSendToGrave(${1:playerid})",
       "description": "bool Duel.IsPlayerCanSendToGrave(int playerid/*, card pcard*/)",
       "details": "bool Duel.IsPlayerCanSendToGrave(int playerid/*, card pcard*/)"
     },
     {
       "trigger": "Duel.IsPlayerCanSendToDeck",
-      "contents": "Duel.IsPlayerCanSendToDeck(${1:playerid}, ${2:pcard})",
+      "contents": "Duel.IsPlayerCanSendToDeck(${1:playerid})",
       "description": "bool Duel.IsPlayerCanSendToDeck(int playerid/*, card pcard*/)",
       "details": "bool Duel.IsPlayerCanSendToDeck(int playerid/*, card pcard*/)"
     },
@@ -3597,7 +3597,7 @@
     },
     {
       "trigger": "Debug.AddCard",
-      "contents": "Debug.AddCard(${1:code}, ${2:owner}, ${3:playerid}, ${4:location}, ${5:sequence}, ${6:position}, ${7:proc})",
+      "contents": "Debug.AddCard(${1:code}, ${2:owner}, ${3:playerid}, ${4:location}, ${5:sequence}, ${6:position})",
       "description": "group Debug.AddCard(int code, int owner, int playerid, int location, int sequence, int position/*, bool proc*/)",
       "details": "group Debug.AddCard(int code, int owner, int playerid, int location, int sequence, int position/*, bool proc*/)"
     },
@@ -3609,7 +3609,7 @@
     },
     {
       "trigger": "Debug.PreSummon",
-      "contents": "Debug.PreSummon(${1:pcard}, ${2:summon_type}, ${3:summon_location})",
+      "contents": "Debug.PreSummon(${1:pcard}, ${2:summon_type})",
       "description": "nil Debug.PreSummon(card pcard, int summon_type/*, int summon_location*/)",
       "details": "nil Debug.PreSummon(card pcard, int summon_type/*, int summon_location*/)"
     },
@@ -3627,13 +3627,13 @@
     },
     {
       "trigger": "Debug.PreAddCounter",
-      "contents": "Debug.PreAddCounter(${1:pcard}, ${2:countertype}, ${3:count})",
+      "contents": "Debug.PreAddCounter(${1:pcard}, ${2:countertype})",
       "description": "nil Debug.PreAddCounter(card pcard, int countertype/*, int count*/)",
       "details": "nil Debug.PreAddCounter(card pcard, int countertype/*, int count*/)"
     },
     {
       "trigger": "Debug.ReloadFieldBegin",
-      "contents": "Debug.ReloadFieldBegin(${1:flag}, ${2:rule})",
+      "contents": "Debug.ReloadFieldBegin(${1:flag})",
       "description": "nil Debug.ReloadFieldBegin(int flag/*, int rule*/)",
       "details": "nil Debug.ReloadFieldBegin(int flag/*, int rule*/)"
     },
