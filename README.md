@@ -627,5 +627,5 @@ nil Debug.PreAddCounter(card pcard, int countertype/*, int count*/)
 nil Debug.ReloadFieldBegin(int flag/*, int rule*/)
 nil Debug.ReloadFieldEnd()
 nil Debug.SetAiName(str pstr)
-val Debug.ShowHint(str pstr)
+val Debug.ShowHint(str pstr)	
 ```
